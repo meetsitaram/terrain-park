@@ -1,0 +1,32 @@
+{
+ "props": [
+  {
+   "name": "driveway",
+   "kind": "heightfield",
+   "height_m": "h = a*x + b*y + c",
+   "a": -0.007279157655514415,
+   "b": 0.07335773563142628,
+   "c": 0.9458192436437005,
+   "slope_deg": 4.2161040535489995,
+   "extent_xy": [
+    [
+     -1.2302196025848389,
+     -12.131464958190918
+    ],
+    [
+     3.779059648513794,
+     -4.174781799316406
+    ]
+   ],
+   "margin_m": 0.5,
+   "frame": "Pico world, Z-up (x, -z_unity, y_unity); heights above the sidewalk floor (floor_y -3.134, takes 12:10-12:11)",
+   "estimated_from": "planted foot joints of the 6 driveway takes (plane fit, 3 cm outlier cut); extent = all foot positions + margin",
+   "raster": "driveway_20mm.npz",
+   "profile_along_m": [
+    -11.691784304112234,
+    -4.841784304112137
+   ],
+   "rise_m": 0.5451497383267114
+  }
+ ]
+}

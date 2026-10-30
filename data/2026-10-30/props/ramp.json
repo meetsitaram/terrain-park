@@ -1,0 +1,46 @@
+{
+ "takes": [
+  "record_20261030_120126.npz",
+  "record_20261030_120145.npz",
+  "record_20261030_120159.npz",
+  "record_20261030_120212.npz",
+  "record_20261030_120224.npz",
+  "record_20261030_120237.npz",
+  "record_20261030_120248.npz",
+  "record_20261030_120300.npz",
+  "record_20261030_120312.npz",
+  "record_20261030_120330.npz",
+  "record_20261030_120353.npz",
+  "record_20261030_120413.npz",
+  "record_20261030_120426.npz",
+  "record_20261030_120441.npz",
+  "record_20261030_120501.npz",
+  "record_20261030_120515.npz",
+  "record_20261030_120524.npz",
+  "record_20261030_120535.npz",
+  "record_20261030_120545.npz",
+  "record_20261030_120556.npz",
+  "record_20261030_120605.npz",
+  "record_20261030_120616.npz",
+  "record_20261030_120626.npz",
+  "record_20261030_120637.npz"
+ ],
+ "props": [
+  {
+   "kind": "ramp",
+   "origin": [
+    1.463905805612594,
+    1.9347283589518487,
+    -0.04411198008825839
+   ],
+   "yaw": -0.6432135296222419,
+   "width": 2.1962450830996714,
+   "slope_run": 1.1800000000000008,
+   "rise": 0.2166599925321015,
+   "deck_run": 0.569815638923747,
+   "slope_deg": 10.404202466420173,
+   "scale": "x2",
+   "frame": "retargeted X2 world (MuJoCo, z up), metres; origin = foot of the slope, width centre, at the floor"
+  }
+ ]
+}

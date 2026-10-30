@@ -1,0 +1,20 @@
+{
+ "props": [
+  {
+   "name": "4x4 beam",
+   "size_m": [
+    2.438,
+    0.089,
+    0.089
+   ],
+   "centre_xy": [
+    0.521,
+    -3.996
+   ],
+   "yaw_deg": -4.5,
+   "frame": "Pico world, Z-up (x, -z_unity, y_unity), floor = each take's floor_y",
+   "estimated_from": "foot plants (empty band between them) and swing-foot crossings, all takes of 2026-10-29 21:09-21:19",
+   "uncertainty": "position across the beam ~2-3 cm; along the beam ~0.3 m (centred on where you crossed it)"
+  }
+ ]
+}
