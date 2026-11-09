@@ -1,0 +1,20 @@
+{
+ "props": [
+  {
+   "name": "4x4 T stem",
+   "centre_xy": [
+    2.2287921121994474,
+    -0.10382985575464454
+   ],
+   "yaw_deg": -167.01841979022785,
+   "size_m": [
+    2.438,
+    0.089,
+    0.089
+   ],
+   "frame": "Pico world, Z-up (x, -z_unity, y_unity), floor = each take's floor_y",
+   "estimated_from": "2026-10-30 survey takes (beam ends + junction); treated as a 4x4 on the floor (user)",
+   "uncertainty": "survey points are feet midpoints near the ends: ~0.1-0.4 m along, ~0.1 m across"
+  }
+ ]
+}
