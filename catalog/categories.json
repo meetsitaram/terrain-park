@@ -1,0 +1,4653 @@
+{
+ "generated_by": "catalog/make_catalog.py",
+ "thresholds": {
+  "turn_deg": 40.0,
+  "oblique_deg": 25.0,
+  "sideways_deg": 50.0,
+  "across_slope_max_z_gain_m": 0.1
+ },
+ "conventions": "angles in degrees, + = to the left seen from above; *_x = against +x of the prop frame (beams: the crossing direction; stairs / ramp: up; driveway: uphill); body = pelvis heading, path = direction of travel; turn_before / turn_after = body heading change start -> crossing -> end; shares are of the travelled distance",
+ "driveway_plane": {
+  "a": -0.005636346328032679,
+  "b": 0.07910450989902057,
+  "c": 0.732187215706027,
+  "ankle_height": 0.08061616769221178,
+  "slope_deg": 4.534354925323406,
+  "resid_p90_cm": 2.395989545770788,
+  "centre": [
+   1.1224830437457969,
+   -5.777574048088285
+  ],
+  "note": "fitted here to the X2 ankle bodies of the 6 driveway takes; props/driveway.json is at human scale"
+ },
+ "ramp_frame": {
+  "origin": [
+   31.412847353085777,
+   1.7384517082882986,
+   0.0
+  ],
+  "yaw": -0.4420873449844935,
+  "slope_deg": 9.452407584633065,
+  "rise": 0.1849668174982071,
+  "source": "tp_ramp_hmap_x30.npz",
+  "yaw_vs_ramp_json_deg": 11.5,
+  "origin_vs_ramp_json_shifted_m": [
+   -0.05,
+   -0.2
+  ]
+ },
+ "props": {
+  "4x4": {
+   "name": "4x4 beam",
+   "takes": 56,
+   "topview": "topview_4x4.png",
+   "categories": {
+    "straight over": {
+     "count": 14,
+     "takes": [
+      "tp_t4x4_104718_2",
+      "tp_t4x4_104726_0",
+      "tp_t4x4_104736_0",
+      "tp_t4x4_104746_0",
+      "tp_t4x4_104850_0",
+      "tp_t4x4_105103_3",
+      "tp_t4x4_105103_5",
+      "tp_t4x4_112251_0",
+      "tp_t4x4_112302_0",
+      "tp_t4x4_112315_0",
+      "tp_t4x4_112347_0",
+      "tp_t4x4_112444_0",
+      "tp_t4x4_112451_0",
+      "tp_t4x4_112501_0"
+     ],
+     "panel": "panels/4x4_straight_over.png",
+     "gifs": [
+      {
+       "file": "gifs/4x4_straight_over_1_112451_0.gif",
+       "bytes": 909334,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 48,
+       "speed": 1.0,
+       "seconds": 3.8,
+       "take": "tp_t4x4_112451_0",
+       "role": "medoid (typical)"
+      },
+      {
+       "file": "gifs/4x4_straight_over_2_112501_0.gif",
+       "bytes": 1067541,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 67,
+       "speed": 1.0,
+       "seconds": 5.3,
+       "take": "tp_t4x4_112501_0",
+       "role": "farthest from the medoid"
+      }
+     ]
+    },
+    "oblique over": {
+     "count": 1,
+     "takes": [
+      "tp_t4x4_105158_1"
+     ],
+     "panel": "panels/4x4_oblique_over.png",
+     "gifs": [
+      {
+       "file": "gifs/4x4_oblique_over_1_105158_1.gif",
+       "bytes": 477457,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 31,
+       "speed": 1.0,
+       "seconds": 2.4,
+       "take": "tp_t4x4_105158_1",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "turn, then cross": {
+     "count": 7,
+     "takes": [
+      "tp_t4x4_104850_10",
+      "tp_t4x4_104900_0",
+      "tp_t4x4_105031_10",
+      "tp_t4x4_105031_12",
+      "tp_t4x4_105158_6",
+      "tp_t4x4_105158_9",
+      "tp_t4x4_105158_12"
+     ],
+     "panel": "panels/4x4_turn_then_cross.png",
+     "gifs": [
+      {
+       "file": "gifs/4x4_turn_then_cross_1_105031_10.gif",
+       "bytes": 667107,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 41,
+       "speed": 1.0,
+       "seconds": 3.3,
+       "take": "tp_t4x4_105031_10",
+       "role": "medoid (typical)"
+      },
+      {
+       "file": "gifs/4x4_turn_then_cross_2_104850_10.gif",
+       "bytes": 625375,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 38,
+       "speed": 1.0,
+       "seconds": 3.0,
+       "take": "tp_t4x4_104850_10",
+       "role": "farthest from the medoid"
+      }
+     ]
+    },
+    "cross, then turn": {
+     "count": 10,
+     "takes": [
+      "tp_t4x4_104850_1",
+      "tp_t4x4_104850_9",
+      "tp_t4x4_105031_3",
+      "tp_t4x4_105031_5",
+      "tp_t4x4_105031_9",
+      "tp_t4x4_105031_11",
+      "tp_t4x4_105158_8",
+      "tp_t4x4_105158_11",
+      "tp_t4x4_105158_14",
+      "tp_t4x4_112423_0"
+     ],
+     "panel": "panels/4x4_cross_then_turn.png",
+     "gifs": [
+      {
+       "file": "gifs/4x4_cross_then_turn_1_105031_9.gif",
+       "bytes": 600307,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 36,
+       "speed": 1.0,
+       "seconds": 2.9,
+       "take": "tp_t4x4_105031_9",
+       "role": "medoid (typical)"
+      },
+      {
+       "file": "gifs/4x4_cross_then_turn_2_105031_5.gif",
+       "bytes": 872777,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 54,
+       "speed": 1.0,
+       "seconds": 4.3,
+       "take": "tp_t4x4_105031_5",
+       "role": "farthest from the medoid"
+      }
+     ]
+    },
+    "C / U turn": {
+     "count": 6,
+     "takes": [
+      "tp_t4x4_104718_7",
+      "tp_t4x4_104850_4",
+      "tp_t4x4_104913_0",
+      "tp_t4x4_105031_2",
+      "tp_t4x4_105158_10",
+      "tp_t4x4_105158_13"
+     ],
+     "panel": "panels/4x4_c_u_turn.png",
+     "gifs": [
+      {
+       "file": "gifs/4x4_c_u_turn_1_105158_10.gif",
+       "bytes": 744669,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 40,
+       "speed": 1.0,
+       "seconds": 3.2,
+       "take": "tp_t4x4_105158_10",
+       "role": "medoid (typical)"
+      },
+      {
+       "file": "gifs/4x4_c_u_turn_2_104718_7.gif",
+       "bytes": 1093274,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 67,
+       "speed": 1.0,
+       "seconds": 5.4,
+       "take": "tp_t4x4_104718_7",
+       "role": "farthest from the medoid"
+      }
+     ]
+    },
+    "S turn": {
+     "count": 1,
+     "takes": [
+      "tp_t4x4_104850_8"
+     ],
+     "panel": "panels/4x4_s_turn.png",
+     "gifs": [
+      {
+       "file": "gifs/4x4_s_turn_1_104850_8.gif",
+       "bytes": 890357,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 57,
+       "speed": 1.0,
+       "seconds": 4.5,
+       "take": "tp_t4x4_104850_8",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "sidestep over": {
+     "count": 9,
+     "takes": [
+      "tp_t4x4_104924_0",
+      "tp_t4x4_104931_0",
+      "tp_t4x4_104943_0",
+      "tp_t4x4_104943_1",
+      "tp_t4x4_105210_0",
+      "tp_t4x4_105215_0",
+      "tp_t4x4_105219_0",
+      "tp_t4x4_105224_0",
+      "tp_t4x4_105230_0"
+     ],
+     "panel": "panels/4x4_sidestep_over.png",
+     "gifs": [
+      {
+       "file": "gifs/4x4_sidestep_over_1_104943_0.gif",
+       "bytes": 1029858,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 65,
+       "speed": 1.0,
+       "seconds": 5.2,
+       "take": "tp_t4x4_104943_0",
+       "role": "medoid (typical)"
+      },
+      {
+       "file": "gifs/4x4_sidestep_over_2_104931_0.gif",
+       "bytes": 1029042,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 54,
+       "speed": 1.0,
+       "seconds": 4.3,
+       "take": "tp_t4x4_104931_0",
+       "role": "farthest from the medoid"
+      }
+     ]
+    },
+    "backward over": {
+     "count": 3,
+     "takes": [
+      "tp_t4x4_105103_0",
+      "tp_t4x4_105103_2",
+      "tp_t4x4_105103_4"
+     ],
+     "panel": "panels/4x4_backward_over.png",
+     "gifs": [
+      {
+       "file": "gifs/4x4_backward_over_1_105103_2.gif",
+       "bytes": 653308,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 43,
+       "speed": 1.0,
+       "seconds": 3.4,
+       "take": "tp_t4x4_105103_2",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "no crossing (walk-up, stand at the beam or pass alongside)": {
+     "count": 5,
+     "takes": [
+      "tp_t4x4_104610_0",
+      "tp_t4x4_104620_0",
+      "tp_t4x4_104620_1",
+      "tp_t4x4_105031_1",
+      "tp_t4x4_105031_4"
+     ],
+     "panel": "panels/4x4_no_crossing_walk_up_stand_at_the_beam_or_pass_alongside.png",
+     "gifs": [
+      {
+       "file": "gifs/4x4_no_crossing_walk_up_stand_at_the_beam_or_1_104620_0.gif",
+       "bytes": 533611,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 35,
+       "speed": 1.0,
+       "seconds": 2.8,
+       "take": "tp_t4x4_104620_0",
+       "role": "medoid (typical)"
+      },
+      {
+       "file": "gifs/4x4_no_crossing_walk_up_stand_at_the_beam_or_2_104620_1.gif",
+       "bytes": 686126,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 37,
+       "speed": 1.0,
+       "seconds": 2.9,
+       "take": "tp_t4x4_104620_1",
+       "role": "farthest from the medoid"
+      }
+     ]
+    }
+   }
+  },
+  "2x2": {
+   "name": "2x2 log",
+   "takes": 10,
+   "topview": "topview_2x2.png",
+   "categories": {
+    "straight over": {
+     "count": 3,
+     "takes": [
+      "pico_20261029_211130_0_2x2",
+      "pico_20261029_211251_1_2x2",
+      "pico_20261029_211903_0_2x2"
+     ],
+     "panel": "panels/2x2_straight_over.png",
+     "gifs": [
+      {
+       "file": "gifs/2x2_straight_over_1_211251_1.gif",
+       "bytes": 1213766,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.0,
+       "seconds": 6.0,
+       "take": "pico_20261029_211251_1_2x2",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "oblique over": {
+     "count": 3,
+     "takes": [
+      "pico_20261029_211141_0_2x2",
+      "pico_20261029_211326_0_2x2",
+      "pico_20261029_211436_0_2x2"
+     ],
+     "panel": "panels/2x2_oblique_over.png",
+     "gifs": [
+      {
+       "file": "gifs/2x2_oblique_over_1_211436_0.gif",
+       "bytes": 898842,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 48,
+       "speed": 1.0,
+       "seconds": 3.8,
+       "take": "pico_20261029_211436_0_2x2",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "turn, then cross": {
+     "count": 1,
+     "takes": [
+      "pico_20261029_211811_0_2x2"
+     ],
+     "panel": "panels/2x2_turn_then_cross.png",
+     "gifs": [
+      {
+       "file": "gifs/2x2_turn_then_cross_1_211811_0.gif",
+       "bytes": 1424162,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.0,
+       "seconds": 6.0,
+       "take": "pico_20261029_211811_0_2x2",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "C / U turn": {
+     "count": 1,
+     "takes": [
+      "pico_20261029_211630_1_2x2"
+     ],
+     "panel": "panels/2x2_c_u_turn.png",
+     "gifs": [
+      {
+       "file": "gifs/2x2_c_u_turn_1_211630_1.gif",
+       "bytes": 1194252,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.0,
+       "seconds": 6.0,
+       "take": "pico_20261029_211630_1_2x2",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "no crossing (walk-up, stand at the beam or pass alongside)": {
+     "count": 2,
+     "takes": [
+      "pico_20261029_211203_1_2x2",
+      "pico_20261029_211318_0_2x2"
+     ],
+     "panel": "panels/2x2_no_crossing_walk_up_stand_at_the_beam_or_pass_alongside.png",
+     "gifs": [
+      {
+       "file": "gifs/2x2_no_crossing_walk_up_stand_at_the_beam_or_1_211203_1.gif",
+       "bytes": 504810,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 31,
+       "speed": 1.0,
+       "seconds": 2.5,
+       "take": "pico_20261029_211203_1_2x2",
+       "role": "medoid (typical)"
+      }
+     ]
+    }
+   }
+  },
+  "stairs1": {
+   "name": "Stairs, place 1",
+   "takes": 38,
+   "topview": "topview_stairs1.png",
+   "categories": {
+    "straight up": {
+     "count": 10,
+     "takes": [
+      "tp_stairs_113624",
+      "tp_stairs_113730",
+      "tp_stairs_113751",
+      "tp_stairs_113829",
+      "tp_stairs_113853",
+      "tp_stairs_113914",
+      "tp_stairs_114001",
+      "tp_stairs_114515",
+      "tp_stairs_114553",
+      "tp_stairs_114630"
+     ],
+     "panel": "panels/stairs1_straight_up.png",
+     "gifs": [
+      {
+       "file": "gifs/stairs1_straight_up_1_114515.gif",
+       "bytes": 1323288,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 2.38,
+       "seconds": 14.3,
+       "take": "tp_stairs_114515",
+       "role": "medoid (typical)"
+      },
+      {
+       "file": "gifs/stairs1_straight_up_2_113624.gif",
+       "bytes": 1271268,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 73,
+       "speed": 1.0,
+       "seconds": 5.8,
+       "take": "tp_stairs_113624",
+       "role": "farthest from the medoid"
+      }
+     ]
+    },
+    "straight down": {
+     "count": 9,
+     "takes": [
+      "tp_stairs_113633",
+      "tp_stairs_113717",
+      "tp_stairs_113739",
+      "tp_stairs_113817",
+      "tp_stairs_113902",
+      "tp_stairs_113923",
+      "tp_stairs_113950",
+      "tp_stairs_114037",
+      "tp_stairs_114614"
+     ],
+     "panel": "panels/stairs1_straight_down.png",
+     "gifs": [
+      {
+       "file": "gifs/stairs1_straight_down_1_113817.gif",
+       "bytes": 1079607,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 63,
+       "speed": 1.0,
+       "seconds": 5.0,
+       "take": "tp_stairs_113817",
+       "role": "medoid (typical)"
+      },
+      {
+       "file": "gifs/stairs1_straight_down_2_114037.gif",
+       "bytes": 997283,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 59,
+       "speed": 1.0,
+       "seconds": 4.7,
+       "take": "tp_stairs_114037",
+       "role": "farthest from the medoid"
+      }
+     ]
+    },
+    "single step up, straight": {
+     "count": 4,
+     "takes": [
+      "tp_stairs_114356",
+      "tp_stairs_114403",
+      "tp_stairs_114426",
+      "tp_stairs_114432"
+     ],
+     "panel": "panels/stairs1_single_step_up_straight.png",
+     "gifs": [
+      {
+       "file": "gifs/stairs1_single_step_up_straight_1_114356.gif",
+       "bytes": 965719,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 54,
+       "speed": 1.0,
+       "seconds": 4.3,
+       "take": "tp_stairs_114356",
+       "role": "medoid (typical)"
+      },
+      {
+       "file": "gifs/stairs1_single_step_up_straight_2_114432.gif",
+       "bytes": 1180955,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 66,
+       "speed": 1.0,
+       "seconds": 5.2,
+       "take": "tp_stairs_114432",
+       "role": "farthest from the medoid"
+      }
+     ]
+    },
+    "single step down, straight": {
+     "count": 4,
+     "takes": [
+      "tp_stairs_114339",
+      "tp_stairs_114349",
+      "tp_stairs_114410",
+      "tp_stairs_114417"
+     ],
+     "panel": "panels/stairs1_single_step_down_straight.png",
+     "gifs": [
+      {
+       "file": "gifs/stairs1_single_step_down_straight_1_114339.gif",
+       "bytes": 824269,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 45,
+       "speed": 1.0,
+       "seconds": 3.6,
+       "take": "tp_stairs_114339",
+       "role": "medoid (typical)"
+      },
+      {
+       "file": "gifs/stairs1_single_step_down_straight_2_114349.gif",
+       "bytes": 1321887,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.02,
+       "seconds": 6.1,
+       "take": "tp_stairs_114349",
+       "role": "farthest from the medoid"
+      }
+     ]
+    },
+    "side approach then up": {
+     "count": 2,
+     "takes": [
+      "tp_stairs_113941",
+      "tp_stairs_114046"
+     ],
+     "panel": "panels/stairs1_side_approach_then_up.png",
+     "gifs": [
+      {
+       "file": "gifs/stairs1_side_approach_then_up_1_113941.gif",
+       "bytes": 1250981,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.08,
+       "seconds": 6.5,
+       "take": "tp_stairs_113941",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "down then turn": {
+     "count": 2,
+     "takes": [
+      "tp_stairs_113842",
+      "tp_stairs_114159"
+     ],
+     "panel": "panels/stairs1_down_then_turn.png",
+     "gifs": [
+      {
+       "file": "gifs/stairs1_down_then_turn_1_113842.gif",
+       "bytes": 1310448,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.63,
+       "seconds": 9.8,
+       "take": "tp_stairs_113842",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "C (up)": {
+     "count": 2,
+     "takes": [
+      "tp_stairs_114106",
+      "tp_stairs_114128"
+     ],
+     "panel": "panels/stairs1_c_up.png",
+     "gifs": [
+      {
+       "file": "gifs/stairs1_c_up_1_114106.gif",
+       "bytes": 1299403,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.24,
+       "seconds": 7.5,
+       "take": "tp_stairs_114106",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "C (down)": {
+     "count": 2,
+     "takes": [
+      "tp_stairs_114057",
+      "tp_stairs_114116"
+     ],
+     "panel": "panels/stairs1_c_down.png",
+     "gifs": [
+      {
+       "file": "gifs/stairs1_c_down_1_114057.gif",
+       "bytes": 1251966,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.14,
+       "seconds": 6.8,
+       "take": "tp_stairs_114057",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "S (up)": {
+     "count": 2,
+     "takes": [
+      "tp_stairs_114146",
+      "tp_stairs_114210"
+     ],
+     "panel": "panels/stairs1_s_up.png",
+     "gifs": [
+      {
+       "file": "gifs/stairs1_s_up_1_114146.gif",
+       "bytes": 1287013,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.16,
+       "seconds": 7.0,
+       "take": "tp_stairs_114146",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "S (down)": {
+     "count": 1,
+     "takes": [
+      "tp_stairs_114137"
+     ],
+     "panel": "panels/stairs1_s_down.png",
+     "gifs": [
+      {
+       "file": "gifs/stairs1_s_down_1_114137.gif",
+       "bytes": 1255131,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.16,
+       "seconds": 6.9,
+       "take": "tp_stairs_114137",
+       "role": "medoid (typical)"
+      }
+     ]
+    }
+   }
+  },
+  "stairs2": {
+   "name": "Stairs, place 2",
+   "takes": 6,
+   "topview": "topview_stairs2.png",
+   "categories": {
+    "single step up, straight": {
+     "count": 3,
+     "takes": [
+      "tp_stairs_114251",
+      "tp_stairs_114258",
+      "tp_stairs_114324"
+     ],
+     "panel": "panels/stairs2_single_step_up_straight.png",
+     "gifs": [
+      {
+       "file": "gifs/stairs2_single_step_up_straight_1_114324.gif",
+       "bytes": 1087179,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 64,
+       "speed": 1.0,
+       "seconds": 5.1,
+       "take": "tp_stairs_114324",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "single step down, straight": {
+     "count": 1,
+     "takes": [
+      "tp_stairs_114315"
+     ],
+     "panel": "panels/stairs2_single_step_down_straight.png",
+     "gifs": [
+      {
+       "file": "gifs/stairs2_single_step_down_straight_1_114315.gif",
+       "bytes": 1028862,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 59,
+       "speed": 1.0,
+       "seconds": 4.7,
+       "take": "tp_stairs_114315",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "down then turn": {
+     "count": 2,
+     "takes": [
+      "tp_stairs_114221",
+      "tp_stairs_114241"
+     ],
+     "panel": "panels/stairs2_down_then_turn.png",
+     "gifs": [
+      {
+       "file": "gifs/stairs2_down_then_turn_1_114221.gif",
+       "bytes": 1118059,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 68,
+       "speed": 1.0,
+       "seconds": 5.4,
+       "take": "tp_stairs_114221",
+       "role": "medoid (typical)"
+      }
+     ]
+    }
+   }
+  },
+  "ramp": {
+   "name": "Ramp",
+   "takes": 15,
+   "topview": "topview_ramp.png",
+   "categories": {
+    "straight up": {
+     "count": 3,
+     "takes": [
+      "tp_ramp_120145",
+      "tp_ramp_120212",
+      "tp_ramp_120556"
+     ],
+     "panel": "panels/ramp_straight_up.png",
+     "gifs": [
+      {
+       "file": "gifs/ramp_straight_up_1_120556.gif",
+       "bytes": 1382588,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.0,
+       "seconds": 6.0,
+       "take": "tp_ramp_120556",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "oblique up": {
+     "count": 1,
+     "takes": [
+      "tp_ramp_120237"
+     ],
+     "panel": "panels/ramp_oblique_up.png",
+     "gifs": [
+      {
+       "file": "gifs/ramp_oblique_up_1_120237.gif",
+       "bytes": 1400404,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.55,
+       "seconds": 9.3,
+       "take": "tp_ramp_120237",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "straight down": {
+     "count": 2,
+     "takes": [
+      "tp_ramp_120224",
+      "tp_ramp_120605"
+     ],
+     "panel": "panels/ramp_straight_down.png",
+     "gifs": [
+      {
+       "file": "gifs/ramp_straight_down_1_120224.gif",
+       "bytes": 1390094,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.62,
+       "seconds": 9.7,
+       "take": "tp_ramp_120224",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "oblique down": {
+     "count": 1,
+     "takes": [
+      "tp_ramp_120441"
+     ],
+     "panel": "panels/ramp_oblique_down.png",
+     "gifs": [
+      {
+       "file": "gifs/ramp_oblique_down_1_120441.gif",
+       "bytes": 1396478,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 2.22,
+       "seconds": 13.3,
+       "take": "tp_ramp_120441",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "down, then turn": {
+     "count": 1,
+     "takes": [
+      "tp_ramp_120413"
+     ],
+     "panel": "panels/ramp_down_then_turn.png",
+     "gifs": [
+      {
+       "file": "gifs/ramp_down_then_turn_1_120413.gif",
+       "bytes": 1367013,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 2.79,
+       "seconds": 16.7,
+       "take": "tp_ramp_120413",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "over the ramp side to side": {
+     "count": 7,
+     "takes": [
+      "tp_ramp_120312",
+      "tp_ramp_120330",
+      "tp_ramp_120524",
+      "tp_ramp_120535",
+      "tp_ramp_120545",
+      "tp_ramp_120626",
+      "tp_ramp_120637"
+     ],
+     "panel": "panels/ramp_over_the_ramp_side_to_side.png",
+     "gifs": [
+      {
+       "file": "gifs/ramp_over_the_ramp_side_to_side_1_120330.gif",
+       "bytes": 1396067,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 2.42,
+       "seconds": 14.5,
+       "take": "tp_ramp_120330",
+       "role": "medoid (typical)"
+      },
+      {
+       "file": "gifs/ramp_over_the_ramp_side_to_side_2_120312.gif",
+       "bytes": 1407256,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.36,
+       "seconds": 8.2,
+       "take": "tp_ramp_120312",
+       "role": "farthest from the medoid"
+      }
+     ]
+    }
+   }
+  },
+  "driveway": {
+   "name": "Driveway",
+   "takes": 6,
+   "topview": "topview_driveway.png",
+   "categories": {
+    "straight uphill": {
+     "count": 2,
+     "takes": [
+      "tp_driveway_121023",
+      "tp_driveway_121119"
+     ],
+     "panel": "panels/driveway_straight_uphill.png",
+     "gifs": [
+      {
+       "file": "gifs/driveway_straight_uphill_1_121023.gif",
+       "bytes": 1235546,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.56,
+       "seconds": 9.3,
+       "take": "tp_driveway_121023",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "straight downhill": {
+     "count": 1,
+     "takes": [
+      "tp_driveway_121035"
+     ],
+     "panel": "panels/driveway_straight_downhill.png",
+     "gifs": [
+      {
+       "file": "gifs/driveway_straight_downhill_1_121035.gif",
+       "bytes": 1217876,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.58,
+       "seconds": 9.5,
+       "take": "tp_driveway_121035",
+       "role": "medoid (typical)"
+      }
+     ]
+    },
+    "diagonal across the slope": {
+     "count": 3,
+     "takes": [
+      "tp_driveway_121046",
+      "tp_driveway_121056",
+      "tp_driveway_121106"
+     ],
+     "panel": "panels/driveway_diagonal_across_the_slope.png",
+     "gifs": [
+      {
+       "file": "gifs/driveway_diagonal_across_the_slope_1_121106.gif",
+       "bytes": 1267048,
+       "size": [
+        400,
+        300
+       ],
+       "frames": 75,
+       "speed": 1.04,
+       "seconds": 6.2,
+       "take": "tp_driveway_121106",
+       "role": "medoid (typical)"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "takes": {
+  "tp_t4x4_104610_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "no crossing (walk-up, stand at the beam or pass alongside)",
+   "frame": {
+    "origin": [
+     1.911,
+     20.029
+    ],
+    "yaw_deg": 103.0
+   },
+   "numbers": {
+    "crossings": 0,
+    "seconds": 4.2,
+    "path_m": 0.69,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": -176.0,
+    "body_end_x": -170.0,
+    "closest_m": 0.01,
+    "turn_total": 6.0,
+    "start_x_m": 0.28,
+    "end_x_m": -0.31
+   }
+  },
+  "tp_t4x4_104620_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "no crossing (walk-up, stand at the beam or pass alongside)",
+   "frame": {
+    "origin": [
+     1.847,
+     19.933
+    ],
+    "yaw_deg": 103.0
+   },
+   "numbers": {
+    "crossings": 0,
+    "seconds": 2.8,
+    "path_m": 0.38,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 4.0,
+    "body_end_x": 7.0,
+    "closest_m": 0.01,
+    "turn_total": 3.0,
+    "start_x_m": -0.25,
+    "end_x_m": -0.01
+   }
+  },
+  "tp_t4x4_104620_1": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "no crossing (walk-up, stand at the beam or pass alongside)",
+   "frame": {
+    "origin": [
+     1.822,
+     19.968
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 0,
+    "seconds": 2.9,
+    "path_m": 0.38,
+    "sideways_share": 0.17,
+    "backward_share": 0.0,
+    "body_start_x": -175.0,
+    "body_end_x": -183.0,
+    "closest_m": 0.0,
+    "turn_total": -8.0,
+    "start_x_m": 0.04,
+    "end_x_m": -0.23
+   }
+  },
+  "tp_t4x4_104718_2": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     1.274,
+     19.899
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 5.8,
+    "path_m": 0.99,
+    "sideways_share": 0.08,
+    "backward_share": 0.0,
+    "body_start_x": 24.0,
+    "body_end_x": 26.0,
+    "closest_m": 0.0,
+    "path_x": -22.0,
+    "body_x": 11.0,
+    "body_vs_path": 33.0,
+    "turn_before": -13.0,
+    "turn_after": 15.0,
+    "cross_y_m": 0.84
+   }
+  },
+  "tp_t4x4_104718_7": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "C / U turn",
+   "frame": {
+    "origin": [
+     2.472,
+     19.824
+    ],
+    "yaw_deg": 190.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 5.4,
+    "path_m": 1.03,
+    "sideways_share": 0.18,
+    "backward_share": 0.0,
+    "body_start_x": -90.0,
+    "body_end_x": 74.0,
+    "closest_m": 0.0,
+    "path_x": 23.0,
+    "body_x": 2.0,
+    "body_vs_path": -21.0,
+    "turn_before": 92.0,
+    "turn_after": 71.0,
+    "cross_y_m": -1.35
+   }
+  },
+  "tp_t4x4_104726_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     1.274,
+     19.886
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 5.1,
+    "path_m": 1.42,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 3.0,
+    "body_end_x": 7.0,
+    "closest_m": 0.0,
+    "path_x": 14.0,
+    "body_x": -1.0,
+    "body_vs_path": -16.0,
+    "turn_before": -5.0,
+    "turn_after": 9.0,
+    "cross_y_m": 0.8
+   }
+  },
+  "tp_t4x4_104736_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     2.377,
+     20.102
+    ],
+    "yaw_deg": 10.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 4.5,
+    "path_m": 1.56,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 10.0,
+    "body_end_x": 5.0,
+    "closest_m": 0.0,
+    "path_x": 11.0,
+    "body_x": -1.0,
+    "body_vs_path": -13.0,
+    "turn_before": -11.0,
+    "turn_after": 7.0,
+    "cross_y_m": 0.28
+   }
+  },
+  "tp_t4x4_104746_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     2.387,
+     20.081
+    ],
+    "yaw_deg": 190.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 4.6,
+    "path_m": 2.21,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 8.0,
+    "body_end_x": 9.0,
+    "closest_m": 0.0,
+    "path_x": 12.0,
+    "body_x": 1.0,
+    "body_vs_path": -11.0,
+    "turn_before": -7.0,
+    "turn_after": 8.0,
+    "cross_y_m": -0.39
+   }
+  },
+  "tp_t4x4_104850_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     2.47,
+     20.061
+    ],
+    "yaw_deg": 190.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 4.5,
+    "path_m": 1.55,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 35.0,
+    "body_end_x": 26.0,
+    "closest_m": 0.0,
+    "path_x": 29.0,
+    "body_x": 20.0,
+    "body_vs_path": -9.0,
+    "turn_before": -15.0,
+    "turn_after": 6.0,
+    "cross_y_m": -0.59
+   }
+  },
+  "tp_t4x4_104850_1": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "cross, then turn",
+   "frame": {
+    "origin": [
+     1.737,
+     19.89
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 4.0,
+    "path_m": 1.72,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": -64.0,
+    "body_end_x": -116.0,
+    "closest_m": 0.0,
+    "path_x": -37.0,
+    "body_x": -69.0,
+    "body_vs_path": -31.0,
+    "turn_before": -5.0,
+    "turn_after": -47.0,
+    "cross_y_m": -0.76
+   }
+  },
+  "tp_t4x4_104850_4": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "C / U turn",
+   "frame": {
+    "origin": [
+     2.425,
+     19.905
+    ],
+    "yaw_deg": 10.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.6,
+    "path_m": 1.41,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 46.0,
+    "body_end_x": -96.0,
+    "closest_m": 0.0,
+    "path_x": 17.0,
+    "body_x": -12.0,
+    "body_vs_path": -29.0,
+    "turn_before": -58.0,
+    "turn_after": -84.0,
+    "cross_y_m": 0.96
+   }
+  },
+  "tp_t4x4_104850_8": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "S turn",
+   "frame": {
+    "origin": [
+     1.667,
+     19.9
+    ],
+    "yaw_deg": 103.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 4.5,
+    "path_m": 1.62,
+    "sideways_share": 0.04,
+    "backward_share": 0.0,
+    "body_start_x": -137.0,
+    "body_end_x": -80.0,
+    "closest_m": 0.0,
+    "path_x": -5.0,
+    "body_x": -16.0,
+    "body_vs_path": -11.0,
+    "turn_before": 121.0,
+    "turn_after": -64.0,
+    "cross_y_m": 0.51
+   }
+  },
+  "tp_t4x4_104850_9": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "cross, then turn",
+   "frame": {
+    "origin": [
+     2.385,
+     20.082
+    ],
+    "yaw_deg": 10.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.4,
+    "path_m": 1.52,
+    "sideways_share": 0.04,
+    "backward_share": 0.0,
+    "body_start_x": 7.0,
+    "body_end_x": -91.0,
+    "closest_m": 0.0,
+    "path_x": 11.0,
+    "body_x": -8.0,
+    "body_vs_path": -19.0,
+    "turn_before": -15.0,
+    "turn_after": -84.0,
+    "cross_y_m": 0.38
+   }
+  },
+  "tp_t4x4_104850_10": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "turn, then cross",
+   "frame": {
+    "origin": [
+     2.399,
+     20.346
+    ],
+    "yaw_deg": 190.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.0,
+    "path_m": 1.31,
+    "sideways_share": 0.01,
+    "backward_share": 0.0,
+    "body_start_x": 55.0,
+    "body_end_x": -5.0,
+    "closest_m": 0.0,
+    "path_x": 20.0,
+    "body_x": 1.0,
+    "body_vs_path": -18.0,
+    "turn_before": -54.0,
+    "turn_after": -7.0,
+    "cross_y_m": 0.43
+   }
+  },
+  "tp_t4x4_104900_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "turn, then cross",
+   "frame": {
+    "origin": [
+     2.45,
+     20.024
+    ],
+    "yaw_deg": 190.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.8,
+    "path_m": 0.63,
+    "sideways_share": 0.26,
+    "backward_share": 0.0,
+    "body_start_x": 85.0,
+    "body_end_x": 7.0,
+    "closest_m": 0.0,
+    "path_x": -22.0,
+    "body_x": 20.0,
+    "body_vs_path": 42.0,
+    "turn_before": -65.0,
+    "turn_after": -13.0,
+    "cross_y_m": -0.8
+   }
+  },
+  "tp_t4x4_104913_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "C / U turn",
+   "frame": {
+    "origin": [
+     2.369,
+     20.083
+    ],
+    "yaw_deg": 10.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.8,
+    "path_m": 0.64,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": -81.0,
+    "body_end_x": 10.0,
+    "closest_m": 0.0,
+    "path_x": -0.0,
+    "body_x": -37.0,
+    "body_vs_path": -37.0,
+    "turn_before": 44.0,
+    "turn_after": 47.0,
+    "cross_y_m": 0.58
+   }
+  },
+  "tp_t4x4_104924_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "sidestep over",
+   "frame": {
+    "origin": [
+     1.323,
+     19.9
+    ],
+    "yaw_deg": 103.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 4.1,
+    "path_m": 0.98,
+    "sideways_share": 1.0,
+    "backward_share": 0.0,
+    "body_start_x": 86.0,
+    "body_end_x": 88.0,
+    "closest_m": 0.01,
+    "path_x": -4.0,
+    "body_x": 84.0,
+    "body_vs_path": 88.0,
+    "turn_before": -2.0,
+    "turn_after": 4.0,
+    "cross_y_m": -0.83
+   }
+  },
+  "tp_t4x4_104931_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "sidestep over",
+   "frame": {
+    "origin": [
+     1.383,
+     19.893
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 4.3,
+    "path_m": 0.94,
+    "sideways_share": 1.0,
+    "backward_share": 0.0,
+    "body_start_x": -77.0,
+    "body_end_x": -72.0,
+    "closest_m": 0.01,
+    "path_x": 7.0,
+    "body_x": -76.0,
+    "body_vs_path": -82.0,
+    "turn_before": 2.0,
+    "turn_after": 3.0,
+    "cross_y_m": 0.72
+   }
+  },
+  "tp_t4x4_104943_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "sidestep over",
+   "frame": {
+    "origin": [
+     1.487,
+     19.894
+    ],
+    "yaw_deg": 103.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 5.2,
+    "path_m": 1.2,
+    "sideways_share": 0.8,
+    "backward_share": 0.0,
+    "body_start_x": 84.0,
+    "body_end_x": 91.0,
+    "closest_m": 0.0,
+    "path_x": 2.0,
+    "body_x": 84.0,
+    "body_vs_path": 82.0,
+    "turn_before": -1.0,
+    "turn_after": 7.0,
+    "cross_y_m": -0.24
+   }
+  },
+  "tp_t4x4_104943_1": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "sidestep over",
+   "frame": {
+    "origin": [
+     1.52,
+     19.892
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 4.2,
+    "path_m": 0.91,
+    "sideways_share": 1.0,
+    "backward_share": 0.0,
+    "body_start_x": -86.0,
+    "body_end_x": -88.0,
+    "closest_m": 0.01,
+    "path_x": 5.0,
+    "body_x": -78.0,
+    "body_vs_path": -83.0,
+    "turn_before": 8.0,
+    "turn_after": -9.0,
+    "cross_y_m": 0.2
+   }
+  },
+  "tp_t4x4_105031_1": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "no crossing (walk-up, stand at the beam or pass alongside)",
+   "frame": {
+    "origin": [
+     1.088,
+     19.778
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 0,
+    "seconds": 0.9,
+    "path_m": 0.39,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 165.0,
+    "body_end_x": 186.0,
+    "closest_m": 0.0,
+    "turn_total": 21.0,
+    "start_x_m": 0.13,
+    "end_x_m": -0.23
+   }
+  },
+  "tp_t4x4_105031_2": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "C / U turn",
+   "frame": {
+    "origin": [
+     2.426,
+     19.985
+    ],
+    "yaw_deg": 190.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.0,
+    "path_m": 1.24,
+    "sideways_share": 0.06,
+    "backward_share": 0.0,
+    "body_start_x": -63.0,
+    "body_end_x": 45.0,
+    "closest_m": 0.0,
+    "path_x": -12.0,
+    "body_x": -16.0,
+    "body_vs_path": -4.0,
+    "turn_before": 46.0,
+    "turn_after": 62.0,
+    "cross_y_m": -0.79
+   }
+  },
+  "tp_t4x4_105031_3": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "cross, then turn",
+   "frame": {
+    "origin": [
+     1.672,
+     19.934
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.6,
+    "path_m": 1.6,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": -41.0,
+    "body_end_x": -100.0,
+    "closest_m": 0.0,
+    "path_x": -35.0,
+    "body_x": -51.0,
+    "body_vs_path": -16.0,
+    "turn_before": -10.0,
+    "turn_after": -49.0,
+    "cross_y_m": -0.6
+   }
+  },
+  "tp_t4x4_105031_4": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "no crossing (walk-up, stand at the beam or pass alongside)",
+   "frame": {
+    "origin": [
+     1.937,
+     19.985
+    ],
+    "yaw_deg": 103.0
+   },
+   "numbers": {
+    "crossings": 0,
+    "seconds": 4.2,
+    "path_m": 1.47,
+    "sideways_share": 0.05,
+    "backward_share": 0.0,
+    "body_start_x": 41.0,
+    "body_end_x": -72.0,
+    "closest_m": 0.0,
+    "turn_total": -113.0,
+    "start_x_m": -0.3,
+    "end_x_m": 0.39
+   }
+  },
+  "tp_t4x4_105031_5": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "cross, then turn",
+   "frame": {
+    "origin": [
+     2.426,
+     20.002
+    ],
+    "yaw_deg": 10.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 4.3,
+    "path_m": 2.04,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 21.0,
+    "body_end_x": -93.0,
+    "closest_m": 0.0,
+    "path_x": 12.0,
+    "body_x": -6.0,
+    "body_vs_path": -19.0,
+    "turn_before": -28.0,
+    "turn_after": -86.0,
+    "cross_y_m": 0.65
+   }
+  },
+  "tp_t4x4_105031_9": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "cross, then turn",
+   "frame": {
+    "origin": [
+     2.355,
+     20.332
+    ],
+    "yaw_deg": 10.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 2.9,
+    "path_m": 1.38,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 13.0,
+    "body_end_x": 106.0,
+    "closest_m": 0.0,
+    "path_x": 24.0,
+    "body_x": 19.0,
+    "body_vs_path": -5.0,
+    "turn_before": 5.0,
+    "turn_after": 87.0,
+    "cross_y_m": -0.45
+   }
+  },
+  "tp_t4x4_105031_10": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "turn, then cross",
+   "frame": {
+    "origin": [
+     2.401,
+     19.972
+    ],
+    "yaw_deg": 190.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.3,
+    "path_m": 1.45,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": -51.0,
+    "body_end_x": 27.0,
+    "closest_m": 0.0,
+    "path_x": 17.0,
+    "body_x": 8.0,
+    "body_vs_path": -9.0,
+    "turn_before": 59.0,
+    "turn_after": 20.0,
+    "cross_y_m": -0.73
+   }
+  },
+  "tp_t4x4_105031_11": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "cross, then turn",
+   "frame": {
+    "origin": [
+     1.774,
+     19.928
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 4.0,
+    "path_m": 1.75,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": -62.0,
+    "body_end_x": -114.0,
+    "closest_m": 0.0,
+    "path_x": -29.0,
+    "body_x": -57.0,
+    "body_vs_path": -28.0,
+    "turn_before": 4.0,
+    "turn_after": -57.0,
+    "cross_y_m": -0.85
+   }
+  },
+  "tp_t4x4_105031_12": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "turn, then cross",
+   "frame": {
+    "origin": [
+     1.877,
+     20.025
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 5.3,
+    "path_m": 1.55,
+    "sideways_share": 0.08,
+    "backward_share": 0.0,
+    "body_start_x": 167.0,
+    "body_end_x": 23.0,
+    "closest_m": 0.0,
+    "path_x": -3.0,
+    "body_x": 20.0,
+    "body_vs_path": 22.0,
+    "turn_before": -148.0,
+    "turn_after": 4.0,
+    "cross_y_m": -1.32
+   }
+  },
+  "tp_t4x4_105103_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "backward over",
+   "frame": {
+    "origin": [
+     1.804,
+     20.016
+    ],
+    "yaw_deg": 103.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 2.7,
+    "path_m": 0.66,
+    "sideways_share": 0.2,
+    "backward_share": 0.8,
+    "body_start_x": -148.0,
+    "body_end_x": -162.0,
+    "closest_m": 0.0,
+    "path_x": 1.0,
+    "body_x": -148.0,
+    "body_vs_path": -149.0,
+    "turn_before": -1.0,
+    "turn_after": -13.0,
+    "cross_y_m": 1.12
+   }
+  },
+  "tp_t4x4_105103_2": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "backward over",
+   "frame": {
+    "origin": [
+     1.593,
+     19.919
+    ],
+    "yaw_deg": 103.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.4,
+    "path_m": 0.77,
+    "sideways_share": 0.28,
+    "backward_share": 0.72,
+    "body_start_x": -163.0,
+    "body_end_x": -166.0,
+    "closest_m": 0.0,
+    "path_x": -14.0,
+    "body_x": -155.0,
+    "body_vs_path": -141.0,
+    "turn_before": 8.0,
+    "turn_after": -12.0,
+    "cross_y_m": 0.33
+   }
+  },
+  "tp_t4x4_105103_3": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     1.435,
+     19.929
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.3,
+    "path_m": 0.86,
+    "sideways_share": 0.37,
+    "backward_share": 0.0,
+    "body_start_x": 15.0,
+    "body_end_x": 19.0,
+    "closest_m": 0.0,
+    "path_x": -12.0,
+    "body_x": 19.0,
+    "body_vs_path": 31.0,
+    "turn_before": 4.0,
+    "turn_after": -0.0,
+    "cross_y_m": 0.25
+   }
+  },
+  "tp_t4x4_105103_4": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "backward over",
+   "frame": {
+    "origin": [
+     1.341,
+     19.87
+    ],
+    "yaw_deg": 103.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.6,
+    "path_m": 0.85,
+    "sideways_share": 0.25,
+    "backward_share": 0.75,
+    "body_start_x": -163.0,
+    "body_end_x": -173.0,
+    "closest_m": 0.0,
+    "path_x": 16.0,
+    "body_x": 177.0,
+    "body_vs_path": 161.0,
+    "turn_before": -20.0,
+    "turn_after": 10.0,
+    "cross_y_m": -0.68
+   }
+  },
+  "tp_t4x4_105103_5": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     1.424,
+     19.917
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.4,
+    "path_m": 0.91,
+    "sideways_share": 0.41,
+    "backward_share": 0.0,
+    "body_start_x": 5.0,
+    "body_end_x": 6.0,
+    "closest_m": 0.0,
+    "path_x": -20.0,
+    "body_x": 18.0,
+    "body_vs_path": 37.0,
+    "turn_before": 13.0,
+    "turn_after": -11.0,
+    "cross_y_m": 0.3
+   }
+  },
+  "tp_t4x4_105158_1": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "oblique over",
+   "frame": {
+    "origin": [
+     1.469,
+     19.867
+    ],
+    "yaw_deg": 103.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 2.4,
+    "path_m": 0.99,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": -87.0,
+    "body_end_x": -69.0,
+    "closest_m": 0.0,
+    "path_x": -36.0,
+    "body_x": -72.0,
+    "body_vs_path": -36.0,
+    "turn_before": 15.0,
+    "turn_after": 3.0,
+    "cross_y_m": -0.15
+   }
+  },
+  "tp_t4x4_105158_6": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "turn, then cross",
+   "frame": {
+    "origin": [
+     2.388,
+     20.326
+    ],
+    "yaw_deg": 190.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.7,
+    "path_m": 1.6,
+    "sideways_share": 0.04,
+    "backward_share": 0.0,
+    "body_start_x": 70.0,
+    "body_end_x": 4.0,
+    "closest_m": 0.0,
+    "path_x": 24.0,
+    "body_x": 2.0,
+    "body_vs_path": -23.0,
+    "turn_before": -69.0,
+    "turn_after": 2.0,
+    "cross_y_m": 0.42
+   }
+  },
+  "tp_t4x4_105158_8": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "cross, then turn",
+   "frame": {
+    "origin": [
+     2.353,
+     20.106
+    ],
+    "yaw_deg": 10.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.4,
+    "path_m": 1.42,
+    "sideways_share": 0.14,
+    "backward_share": 0.0,
+    "body_start_x": 10.0,
+    "body_end_x": 106.0,
+    "closest_m": 0.0,
+    "path_x": 14.0,
+    "body_x": 5.0,
+    "body_vs_path": -9.0,
+    "turn_before": -5.0,
+    "turn_after": 101.0,
+    "cross_y_m": 0.38
+   }
+  },
+  "tp_t4x4_105158_9": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "turn, then cross",
+   "frame": {
+    "origin": [
+     2.452,
+     19.845
+    ],
+    "yaw_deg": 190.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.3,
+    "path_m": 1.36,
+    "sideways_share": 0.03,
+    "backward_share": 0.0,
+    "body_start_x": -53.0,
+    "body_end_x": 40.0,
+    "closest_m": 0.0,
+    "path_x": 18.0,
+    "body_x": 9.0,
+    "body_vs_path": -9.0,
+    "turn_before": 61.0,
+    "turn_after": 31.0,
+    "cross_y_m": -1.24
+   }
+  },
+  "tp_t4x4_105158_10": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "C / U turn",
+   "frame": {
+    "origin": [
+     1.552,
+     19.972
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.2,
+    "path_m": 1.32,
+    "sideways_share": 0.06,
+    "backward_share": 0.0,
+    "body_start_x": -44.0,
+    "body_end_x": 69.0,
+    "closest_m": 0.0,
+    "path_x": 16.0,
+    "body_x": 11.0,
+    "body_vs_path": -4.0,
+    "turn_before": 55.0,
+    "turn_after": 57.0,
+    "cross_y_m": -0.17
+   }
+  },
+  "tp_t4x4_105158_11": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "cross, then turn",
+   "frame": {
+    "origin": [
+     2.341,
+     20.452
+    ],
+    "yaw_deg": 10.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 4.0,
+    "path_m": 1.32,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": -22.0,
+    "body_end_x": 85.0,
+    "closest_m": 0.0,
+    "path_x": 9.0,
+    "body_x": -17.0,
+    "body_vs_path": -27.0,
+    "turn_before": 5.0,
+    "turn_after": 102.0,
+    "cross_y_m": -0.95
+   }
+  },
+  "tp_t4x4_105158_12": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "turn, then cross",
+   "frame": {
+    "origin": [
+     2.446,
+     19.914
+    ],
+    "yaw_deg": 190.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 4.2,
+    "path_m": 1.63,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": -87.0,
+    "body_end_x": 21.0,
+    "closest_m": 0.0,
+    "path_x": 11.0,
+    "body_x": -17.0,
+    "body_vs_path": -29.0,
+    "turn_before": 70.0,
+    "turn_after": 38.0,
+    "cross_y_m": -0.87
+   }
+  },
+  "tp_t4x4_105158_13": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "C / U turn",
+   "frame": {
+    "origin": [
+     1.509,
+     19.924
+    ],
+    "yaw_deg": -77.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.4,
+    "path_m": 1.22,
+    "sideways_share": 0.05,
+    "backward_share": 0.0,
+    "body_start_x": -64.0,
+    "body_end_x": 71.0,
+    "closest_m": 0.0,
+    "path_x": 23.0,
+    "body_x": -1.0,
+    "body_vs_path": -24.0,
+    "turn_before": 63.0,
+    "turn_after": 72.0,
+    "cross_y_m": 0.01
+   }
+  },
+  "tp_t4x4_105158_14": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "cross, then turn",
+   "frame": {
+    "origin": [
+     2.353,
+     20.361
+    ],
+    "yaw_deg": 10.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.4,
+    "path_m": 1.22,
+    "sideways_share": 0.03,
+    "backward_share": 0.0,
+    "body_start_x": -6.0,
+    "body_end_x": 86.0,
+    "closest_m": 0.0,
+    "path_x": 30.0,
+    "body_x": 16.0,
+    "body_vs_path": -13.0,
+    "turn_before": 22.0,
+    "turn_after": 70.0,
+    "cross_y_m": -0.58
+   }
+  },
+  "tp_t4x4_105210_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "sidestep over",
+   "frame": {
+    "origin": [
+     2.373,
+     20.084
+    ],
+    "yaw_deg": 190.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 2.8,
+    "path_m": 0.57,
+    "sideways_share": 1.0,
+    "backward_share": 0.0,
+    "body_start_x": 97.0,
+    "body_end_x": 97.0,
+    "closest_m": 0.0,
+    "path_x": -3.0,
+    "body_x": 87.0,
+    "body_vs_path": 90.0,
+    "turn_before": -10.0,
+    "turn_after": 11.0,
+    "cross_y_m": -0.57
+   }
+  },
+  "tp_t4x4_105215_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "sidestep over",
+   "frame": {
+    "origin": [
+     2.387,
+     20.082
+    ],
+    "yaw_deg": 10.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.2,
+    "path_m": 0.68,
+    "sideways_share": 1.0,
+    "backward_share": 0.0,
+    "body_start_x": -84.0,
+    "body_end_x": -85.0,
+    "closest_m": 0.01,
+    "path_x": 4.0,
+    "body_x": -79.0,
+    "body_vs_path": -83.0,
+    "turn_before": 5.0,
+    "turn_after": -7.0,
+    "cross_y_m": 0.58
+   }
+  },
+  "tp_t4x4_105219_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "sidestep over",
+   "frame": {
+    "origin": [
+     2.349,
+     20.101
+    ],
+    "yaw_deg": 190.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.0,
+    "path_m": 0.63,
+    "sideways_share": 1.0,
+    "backward_share": 0.0,
+    "body_start_x": 94.0,
+    "body_end_x": 99.0,
+    "closest_m": 0.0,
+    "path_x": -5.0,
+    "body_x": 89.0,
+    "body_vs_path": 93.0,
+    "turn_before": -5.0,
+    "turn_after": 11.0,
+    "cross_y_m": -0.58
+   }
+  },
+  "tp_t4x4_105224_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "sidestep over",
+   "frame": {
+    "origin": [
+     2.439,
+     20.129
+    ],
+    "yaw_deg": 10.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 2.5,
+    "path_m": 0.62,
+    "sideways_share": 1.0,
+    "backward_share": 0.0,
+    "body_start_x": -87.0,
+    "body_end_x": -81.0,
+    "closest_m": 0.0,
+    "path_x": 8.0,
+    "body_x": -77.0,
+    "body_vs_path": -84.0,
+    "turn_before": 10.0,
+    "turn_after": -4.0,
+    "cross_y_m": 0.56
+   }
+  },
+  "tp_t4x4_105230_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "sidestep over",
+   "frame": {
+    "origin": [
+     2.358,
+     20.099
+    ],
+    "yaw_deg": 190.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 2.8,
+    "path_m": 0.63,
+    "sideways_share": 0.99,
+    "backward_share": 0.0,
+    "body_start_x": 88.0,
+    "body_end_x": 97.0,
+    "closest_m": 0.0,
+    "path_x": -2.0,
+    "body_x": 94.0,
+    "body_vs_path": 96.0,
+    "turn_before": 6.0,
+    "turn_after": 4.0,
+    "cross_y_m": -0.59
+   }
+  },
+  "tp_t4x4_112251_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     -0.258,
+     22.377
+    ],
+    "yaw_deg": 281.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 5.5,
+    "path_m": 1.79,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 5.0,
+    "body_end_x": 4.0,
+    "closest_m": 0.0,
+    "path_x": 28.0,
+    "body_x": -0.0,
+    "body_vs_path": -28.0,
+    "turn_before": -5.0,
+    "turn_after": 5.0,
+    "cross_y_m": -0.5
+   }
+  },
+  "tp_t4x4_112302_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     -0.283,
+     22.489
+    ],
+    "yaw_deg": 101.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 5.3,
+    "path_m": 2.03,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 9.0,
+    "body_end_x": 15.0,
+    "closest_m": 0.0,
+    "path_x": 17.0,
+    "body_x": -4.0,
+    "body_vs_path": -21.0,
+    "turn_before": -14.0,
+    "turn_after": 19.0,
+    "cross_y_m": 0.4
+   }
+  },
+  "tp_t4x4_112315_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     -0.004,
+     21.35
+    ],
+    "yaw_deg": 13.7
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 5.3,
+    "path_m": 1.75,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": -3.0,
+    "body_end_x": 4.0,
+    "closest_m": 0.0,
+    "path_x": 18.0,
+    "body_x": 0.0,
+    "body_vs_path": -18.0,
+    "turn_before": 4.0,
+    "turn_after": 3.0,
+    "cross_y_m": 0.78
+   }
+  },
+  "tp_t4x4_112347_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     -0.253,
+     22.373
+    ],
+    "yaw_deg": 281.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 5.2,
+    "path_m": 1.91,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 4.0,
+    "body_end_x": 4.0,
+    "closest_m": 0.0,
+    "path_x": 15.0,
+    "body_x": 0.0,
+    "body_vs_path": -14.0,
+    "turn_before": -4.0,
+    "turn_after": 3.0,
+    "cross_y_m": -0.52
+   }
+  },
+  "tp_t4x4_112423_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "cross, then turn",
+   "frame": {
+    "origin": [
+     -0.28,
+     22.472
+    ],
+    "yaw_deg": 101.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 5.2,
+    "path_m": 2.1,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": -33.0,
+    "body_end_x": 47.0,
+    "closest_m": 0.0,
+    "path_x": -0.0,
+    "body_x": -14.0,
+    "body_vs_path": -14.0,
+    "turn_before": 19.0,
+    "turn_after": 61.0,
+    "cross_y_m": 0.34
+   }
+  },
+  "tp_t4x4_112444_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     -0.292,
+     22.453
+    ],
+    "yaw_deg": 101.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 4.9,
+    "path_m": 1.36,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 7.0,
+    "body_end_x": 6.0,
+    "closest_m": 0.0,
+    "path_x": 16.0,
+    "body_x": -4.0,
+    "body_vs_path": -20.0,
+    "turn_before": -11.0,
+    "turn_after": 10.0,
+    "cross_y_m": 0.32
+   }
+  },
+  "tp_t4x4_112451_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     -0.538,
+     22.366
+    ],
+    "yaw_deg": 281.0
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.8,
+    "path_m": 1.26,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 37.0,
+    "body_end_x": 9.0,
+    "closest_m": 0.0,
+    "path_x": 34.0,
+    "body_x": 9.0,
+    "body_vs_path": -25.0,
+    "turn_before": -29.0,
+    "turn_after": 1.0,
+    "cross_y_m": 0.44
+   }
+  },
+  "tp_t4x4_112501_0": {
+   "prop": "4x4",
+   "source": "tp_t4x4u_y20.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     -0.091,
+     21.376
+    ],
+    "yaw_deg": 193.7
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 5.3,
+    "path_m": 1.2,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 11.0,
+    "body_end_x": 16.0,
+    "closest_m": 0.0,
+    "path_x": 27.0,
+    "body_x": 1.0,
+    "body_vs_path": -26.0,
+    "turn_before": -11.0,
+    "turn_after": 15.0,
+    "cross_y_m": -0.69
+   }
+  },
+  "pico_20261029_211130_0_2x2": {
+   "prop": "2x2",
+   "source": "pico_2026-10-29_2x2_train.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     0.36,
+     -2.716
+    ],
+    "yaw_deg": 85.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 5.9,
+    "path_m": 1.23,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": -1.0,
+    "body_end_x": 18.0,
+    "closest_m": 0.0,
+    "path_x": 22.0,
+    "body_x": -1.0,
+    "body_vs_path": -23.0,
+    "turn_before": 0.0,
+    "turn_after": 19.0,
+    "cross_y_m": 0.01
+   }
+  },
+  "pico_20261029_211141_0_2x2": {
+   "prop": "2x2",
+   "source": "pico_2026-10-29_2x2_train.pkl",
+   "category": "oblique over",
+   "frame": {
+    "origin": [
+     0.174,
+     -2.63
+    ],
+    "yaw_deg": 265.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 6.0,
+    "path_m": 1.92,
+    "sideways_share": 0.05,
+    "backward_share": 0.0,
+    "body_start_x": 45.0,
+    "body_end_x": 30.0,
+    "closest_m": 0.0,
+    "path_x": -1.0,
+    "body_x": 42.0,
+    "body_vs_path": 43.0,
+    "turn_before": -3.0,
+    "turn_after": -11.0,
+    "cross_y_m": 0.39
+   }
+  },
+  "pico_20261029_211203_1_2x2": {
+   "prop": "2x2",
+   "source": "pico_2026-10-29_2x2_train.pkl",
+   "category": "no crossing (walk-up, stand at the beam or pass alongside)",
+   "frame": {
+    "origin": [
+     0.604,
+     -2.6
+    ],
+    "yaw_deg": 85.5
+   },
+   "numbers": {
+    "crossings": 0,
+    "seconds": 2.5,
+    "path_m": 0.51,
+    "sideways_share": 0.13,
+    "backward_share": 0.0,
+    "body_start_x": 119.0,
+    "body_end_x": 192.0,
+    "closest_m": 0.0,
+    "turn_total": 73.0,
+    "start_x_m": 0.09,
+    "end_x_m": -0.29
+   }
+  },
+  "pico_20261029_211251_1_2x2": {
+   "prop": "2x2",
+   "source": "pico_2026-10-29_2x2_train.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     0.453,
+     -2.672
+    ],
+    "yaw_deg": 85.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 6.0,
+    "path_m": 0.91,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 4.0,
+    "body_end_x": 8.0,
+    "closest_m": 0.0,
+    "path_x": 12.0,
+    "body_x": -1.0,
+    "body_vs_path": -13.0,
+    "turn_before": -6.0,
+    "turn_after": 10.0,
+    "cross_y_m": 0.26
+   }
+  },
+  "pico_20261029_211318_0_2x2": {
+   "prop": "2x2",
+   "source": "pico_2026-10-29_2x2_train.pkl",
+   "category": "no crossing (walk-up, stand at the beam or pass alongside)",
+   "frame": {
+    "origin": [
+     0.65,
+     -2.567
+    ],
+    "yaw_deg": 85.5
+   },
+   "numbers": {
+    "crossings": 0,
+    "seconds": 3.8,
+    "path_m": 0.48,
+    "sideways_share": 0.07,
+    "backward_share": 0.0,
+    "body_start_x": 6.0,
+    "body_end_x": 6.0,
+    "closest_m": 0.0,
+    "turn_total": 0.0,
+    "start_x_m": -0.29,
+    "end_x_m": 0.08
+   }
+  },
+  "pico_20261029_211326_0_2x2": {
+   "prop": "2x2",
+   "source": "pico_2026-10-29_2x2_train.pkl",
+   "category": "oblique over",
+   "frame": {
+    "origin": [
+     0.6,
+     -2.673
+    ],
+    "yaw_deg": 265.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.9,
+    "path_m": 0.66,
+    "sideways_share": 0.63,
+    "backward_share": 0.04,
+    "body_start_x": 84.0,
+    "body_end_x": 85.0,
+    "closest_m": 0.0,
+    "path_x": 22.0,
+    "body_x": 61.0,
+    "body_vs_path": 39.0,
+    "turn_before": -22.0,
+    "turn_after": 24.0,
+    "cross_y_m": -0.61
+   }
+  },
+  "pico_20261029_211436_0_2x2": {
+   "prop": "2x2",
+   "source": "pico_2026-10-29_2x2_train.pkl",
+   "category": "oblique over",
+   "frame": {
+    "origin": [
+     0.501,
+     -2.546
+    ],
+    "yaw_deg": 265.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 3.8,
+    "path_m": 0.67,
+    "sideways_share": 0.04,
+    "backward_share": 0.0,
+    "body_start_x": 38.0,
+    "body_end_x": 10.0,
+    "closest_m": 0.0,
+    "path_x": -0.0,
+    "body_x": 36.0,
+    "body_vs_path": 36.0,
+    "turn_before": -2.0,
+    "turn_after": -26.0,
+    "cross_y_m": -0.5
+   }
+  },
+  "pico_20261029_211630_1_2x2": {
+   "prop": "2x2",
+   "source": "pico_2026-10-29_2x2_train.pkl",
+   "category": "C / U turn",
+   "frame": {
+    "origin": [
+     0.053,
+     -2.79
+    ],
+    "yaw_deg": 85.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 6.0,
+    "path_m": 1.59,
+    "sideways_share": 0.14,
+    "backward_share": 0.0,
+    "body_start_x": -58.0,
+    "body_end_x": 92.0,
+    "closest_m": 0.0,
+    "path_x": 17.0,
+    "body_x": 3.0,
+    "body_vs_path": -14.0,
+    "turn_before": 61.0,
+    "turn_after": 89.0,
+    "cross_y_m": -0.93
+   }
+  },
+  "pico_20261029_211811_0_2x2": {
+   "prop": "2x2",
+   "source": "pico_2026-10-29_2x2_train.pkl",
+   "category": "turn, then cross",
+   "frame": {
+    "origin": [
+     0.345,
+     -2.691
+    ],
+    "yaw_deg": 265.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 6.0,
+    "path_m": 1.71,
+    "sideways_share": 0.41,
+    "backward_share": 0.15,
+    "body_start_x": -184.0,
+    "body_end_x": -349.0,
+    "closest_m": 0.0,
+    "path_x": 13.0,
+    "body_x": 6.0,
+    "body_vs_path": -8.0,
+    "turn_before": -171.0,
+    "turn_after": 5.0,
+    "cross_y_m": -0.03
+   }
+  },
+  "pico_20261029_211903_0_2x2": {
+   "prop": "2x2",
+   "source": "pico_2026-10-29_2x2_train.pkl",
+   "category": "straight over",
+   "frame": {
+    "origin": [
+     0.408,
+     -2.65
+    ],
+    "yaw_deg": 85.5
+   },
+   "numbers": {
+    "crossings": 1,
+    "seconds": 5.4,
+    "path_m": 0.61,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "body_start_x": 10.0,
+    "body_end_x": 16.0,
+    "closest_m": 0.0,
+    "path_x": 14.0,
+    "body_x": -15.0,
+    "body_vs_path": -30.0,
+    "turn_before": -25.0,
+    "turn_after": 31.0,
+    "cross_y_m": 0.17
+   }
+  },
+  "tp_stairs_113624": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight up",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 5.8,
+    "path_m": 0.89,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.26,
+    "body_start_x": 3.0,
+    "body_end_x": -1.0,
+    "levels": "012",
+    "turn_low_deg": -8,
+    "turn_high_deg": 4,
+    "facing_off_deg": -1,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113633": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight down",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 6.2,
+    "path_m": 0.95,
+    "sideways_share": 0.23,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.25,
+    "body_start_x": -176.0,
+    "body_end_x": -174.0,
+    "levels": "210",
+    "turn_low_deg": -2,
+    "turn_high_deg": 5,
+    "facing_off_deg": 4,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113717": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight down",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 5.7,
+    "path_m": 0.95,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.26,
+    "body_start_x": -171.0,
+    "body_end_x": -170.0,
+    "levels": "210",
+    "turn_low_deg": -3,
+    "turn_high_deg": 4,
+    "facing_off_deg": 4,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113730": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight up",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 6.2,
+    "path_m": 1.01,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.27,
+    "body_start_x": 5.0,
+    "body_end_x": 2.0,
+    "levels": "012",
+    "turn_low_deg": -11,
+    "turn_high_deg": 7,
+    "facing_off_deg": 2,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113739": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight down",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 6.0,
+    "path_m": 0.95,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.26,
+    "body_start_x": -173.0,
+    "body_end_x": -176.0,
+    "levels": "210",
+    "turn_low_deg": 3,
+    "turn_high_deg": -6,
+    "facing_off_deg": 5,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113751": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight up",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 5.2,
+    "path_m": 1.02,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.27,
+    "body_start_x": 6.0,
+    "body_end_x": 4.0,
+    "levels": "012",
+    "turn_low_deg": 0,
+    "turn_high_deg": -2,
+    "facing_off_deg": 2,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113817": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight down",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 5.0,
+    "path_m": 1.01,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.25,
+    "body_start_x": -174.0,
+    "body_end_x": -167.0,
+    "levels": "210",
+    "turn_low_deg": 0,
+    "turn_high_deg": 6,
+    "facing_off_deg": 6,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113829": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight up",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 7.9,
+    "path_m": 2.72,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.28,
+    "body_start_x": 22.0,
+    "body_end_x": -0.0,
+    "levels": "012",
+    "turn_low_deg": -23,
+    "turn_high_deg": 1,
+    "facing_off_deg": 5,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113842": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "down then turn",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 9.8,
+    "path_m": 3.31,
+    "sideways_share": 0.03,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.27,
+    "body_start_x": -174.0,
+    "body_end_x": -68.0,
+    "levels": "210",
+    "turn_low_deg": 104,
+    "turn_high_deg": 2,
+    "facing_off_deg": 3,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113853": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight up",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 7.3,
+    "path_m": 2.22,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.27,
+    "body_start_x": -1.0,
+    "body_end_x": 7.0,
+    "levels": "012",
+    "turn_low_deg": 0,
+    "turn_high_deg": 8,
+    "facing_off_deg": 1,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113902": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight down",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 6.4,
+    "path_m": 2.32,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.26,
+    "body_start_x": -177.0,
+    "body_end_x": -177.0,
+    "levels": "210",
+    "turn_low_deg": 6,
+    "turn_high_deg": -8,
+    "facing_off_deg": -2,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113914": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight up",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 8.8,
+    "path_m": 2.18,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.28,
+    "body_start_x": 5.0,
+    "body_end_x": 6.0,
+    "levels": "012",
+    "turn_low_deg": -8,
+    "turn_high_deg": 8,
+    "facing_off_deg": -1,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113923": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight down",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 5.3,
+    "path_m": 2.03,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.26,
+    "body_start_x": -179.0,
+    "body_end_x": -173.0,
+    "levels": "210",
+    "turn_low_deg": 3,
+    "turn_high_deg": 4,
+    "facing_off_deg": 4,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113941": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "side approach then up",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 6.5,
+    "path_m": 2.38,
+    "sideways_share": 0.45,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.28,
+    "body_start_x": 104.0,
+    "body_end_x": 2.0,
+    "levels": "012",
+    "turn_low_deg": -76,
+    "turn_high_deg": -23,
+    "facing_off_deg": 27,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_113950": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight down",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 5.6,
+    "path_m": 2.01,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.26,
+    "body_start_x": -179.0,
+    "body_end_x": -173.0,
+    "levels": "210",
+    "turn_low_deg": 2,
+    "turn_high_deg": 2,
+    "facing_off_deg": 3,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114001": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight up",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 6.3,
+    "path_m": 2.12,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.27,
+    "body_start_x": 2.0,
+    "body_end_x": -3.0,
+    "levels": "012",
+    "turn_low_deg": 3,
+    "turn_high_deg": -9,
+    "facing_off_deg": 1,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114037": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight down",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 4.7,
+    "path_m": 2.22,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.26,
+    "body_start_x": -155.0,
+    "body_end_x": -146.0,
+    "levels": "210",
+    "turn_low_deg": 39,
+    "turn_high_deg": -30,
+    "facing_off_deg": 2,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114046": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "side approach then up",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 7.1,
+    "path_m": 2.93,
+    "sideways_share": 0.01,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.28,
+    "body_start_x": 67.0,
+    "body_end_x": -4.0,
+    "levels": "012",
+    "turn_low_deg": -63,
+    "turn_high_deg": -7,
+    "facing_off_deg": 1,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114057": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "C (down)",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 6.8,
+    "path_m": 3.11,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.26,
+    "body_start_x": 106.0,
+    "body_end_x": 278.0,
+    "levels": "210",
+    "turn_low_deg": 81,
+    "turn_high_deg": 89,
+    "facing_off_deg": 4,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114106": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "C (up)",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 7.5,
+    "path_m": 3.5,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.25,
+    "body_start_x": 75.0,
+    "body_end_x": -90.0,
+    "levels": "012",
+    "turn_low_deg": -90,
+    "turn_high_deg": -71,
+    "facing_off_deg": -16,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114116": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "C (down)",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 6.3,
+    "path_m": 2.85,
+    "sideways_share": 0.11,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.27,
+    "body_start_x": -143.0,
+    "body_end_x": -257.0,
+    "levels": "210",
+    "turn_low_deg": -54,
+    "turn_high_deg": -61,
+    "facing_off_deg": -21,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114128": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "C (up)",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 7.7,
+    "path_m": 3.32,
+    "sideways_share": 0.02,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.26,
+    "body_start_x": -83.0,
+    "body_end_x": 108.0,
+    "levels": "012",
+    "turn_low_deg": 102,
+    "turn_high_deg": 92,
+    "facing_off_deg": 16,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114137": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "S (down)",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 6.9,
+    "path_m": 3.44,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.27,
+    "body_start_x": -118.0,
+    "body_end_x": -82.0,
+    "levels": "210",
+    "turn_low_deg": 88,
+    "turn_high_deg": -53,
+    "facing_off_deg": 8,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114146": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "S (up)",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 7.0,
+    "path_m": 3.45,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.24,
+    "body_start_x": 70.0,
+    "body_end_x": 89.0,
+    "levels": "012",
+    "turn_low_deg": -78,
+    "turn_high_deg": 100,
+    "facing_off_deg": -2,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114159": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "down then turn",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 8.0,
+    "path_m": 3.93,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.27,
+    "body_start_x": 115.0,
+    "body_end_x": 92.0,
+    "levels": "210",
+    "turn_low_deg": -63,
+    "turn_high_deg": 42,
+    "facing_off_deg": -24,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114210": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "S (up)",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 9.0,
+    "path_m": 3.61,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.29,
+    "body_start_x": -78.0,
+    "body_end_x": -66.0,
+    "levels": "012",
+    "turn_low_deg": 68,
+    "turn_high_deg": -55,
+    "facing_off_deg": -11,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114221": {
+   "prop": "stairs2",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "down then turn",
+   "frame": {
+    "origin": [
+     13.16,
+     0.667
+    ],
+    "yaw_deg": 38.7
+   },
+   "numbers": {
+    "seconds": 5.4,
+    "path_m": 2.17,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.28,
+    "body_start_x": 173.0,
+    "body_end_x": 256.0,
+    "levels": "210",
+    "turn_low_deg": 57,
+    "turn_high_deg": 26,
+    "facing_off_deg": 20,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114241": {
+   "prop": "stairs2",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "down then turn",
+   "frame": {
+    "origin": [
+     13.16,
+     0.667
+    ],
+    "yaw_deg": 38.7
+   },
+   "numbers": {
+    "seconds": 7.6,
+    "path_m": 3.18,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.28,
+    "body_start_x": 167.0,
+    "body_end_x": 257.0,
+    "levels": "210",
+    "turn_low_deg": 53,
+    "turn_high_deg": 35,
+    "facing_off_deg": 22,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114251": {
+   "prop": "stairs2",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "single step up, straight",
+   "frame": {
+    "origin": [
+     13.16,
+     0.667
+    ],
+    "yaw_deg": 38.7
+   },
+   "numbers": {
+    "seconds": 5.7,
+    "path_m": 0.5,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.16,
+    "body_start_x": -13.0,
+    "body_end_x": -13.0,
+    "levels": "01",
+    "turn_low_deg": 0,
+    "turn_high_deg": 0,
+    "facing_off_deg": -14,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114258": {
+   "prop": "stairs2",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "single step up, straight",
+   "frame": {
+    "origin": [
+     13.16,
+     0.667
+    ],
+    "yaw_deg": 38.7
+   },
+   "numbers": {
+    "seconds": 5.4,
+    "path_m": 0.52,
+    "sideways_share": 0.05,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.14,
+    "body_start_x": -12.0,
+    "body_end_x": -20.0,
+    "levels": "12",
+    "turn_low_deg": -1,
+    "turn_high_deg": -7,
+    "facing_off_deg": -12,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114315": {
+   "prop": "stairs2",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "single step down, straight",
+   "frame": {
+    "origin": [
+     13.16,
+     0.667
+    ],
+    "yaw_deg": 38.7
+   },
+   "numbers": {
+    "seconds": 4.7,
+    "path_m": 0.45,
+    "sideways_share": 0.26,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.16,
+    "body_start_x": 160.0,
+    "body_end_x": 161.0,
+    "levels": "10",
+    "turn_low_deg": 1,
+    "turn_high_deg": 0,
+    "facing_off_deg": -21,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114324": {
+   "prop": "stairs2",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "single step up, straight",
+   "frame": {
+    "origin": [
+     13.16,
+     0.667
+    ],
+    "yaw_deg": 38.7
+   },
+   "numbers": {
+    "seconds": 5.1,
+    "path_m": 0.55,
+    "sideways_share": 0.2,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.15,
+    "body_start_x": 5.0,
+    "body_end_x": -17.0,
+    "levels": "01",
+    "turn_low_deg": -21,
+    "turn_high_deg": 0,
+    "facing_off_deg": -17,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114339": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "single step down, straight",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 3.6,
+    "path_m": 0.48,
+    "sideways_share": 0.14,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.1,
+    "body_start_x": -179.0,
+    "body_end_x": -176.0,
+    "levels": "21",
+    "turn_low_deg": 6,
+    "turn_high_deg": -4,
+    "facing_off_deg": 0,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114349": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "single step down, straight",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 6.1,
+    "path_m": 0.58,
+    "sideways_share": 0.35,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.18,
+    "body_start_x": 178.0,
+    "body_end_x": 179.0,
+    "levels": "10",
+    "turn_low_deg": 1,
+    "turn_high_deg": 0,
+    "facing_off_deg": -8,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114356": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "single step up, straight",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 4.3,
+    "path_m": 0.49,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.16,
+    "body_start_x": -5.0,
+    "body_end_x": -5.0,
+    "levels": "01",
+    "turn_low_deg": -1,
+    "turn_high_deg": 0,
+    "facing_off_deg": -5,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114403": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "single step up, straight",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 4.5,
+    "path_m": 0.53,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.1,
+    "body_start_x": -5.0,
+    "body_end_x": -8.0,
+    "levels": "12",
+    "turn_low_deg": 2,
+    "turn_high_deg": -5,
+    "facing_off_deg": -7,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114410": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "single step down, straight",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 4.1,
+    "path_m": 0.52,
+    "sideways_share": 0.23,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.09,
+    "body_start_x": 177.0,
+    "body_end_x": 177.0,
+    "levels": "21",
+    "turn_low_deg": -1,
+    "turn_high_deg": 0,
+    "facing_off_deg": -3,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114417": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "single step down, straight",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 4.7,
+    "path_m": 0.51,
+    "sideways_share": 0.31,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.16,
+    "body_start_x": 178.0,
+    "body_end_x": 180.0,
+    "levels": "10",
+    "turn_low_deg": 2,
+    "turn_high_deg": 0,
+    "facing_off_deg": -3,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114426": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "single step up, straight",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 4.5,
+    "path_m": 0.54,
+    "sideways_share": 0.0,
+    "backward_share": 0.08,
+    "root_z_gain_m": 0.18,
+    "body_start_x": -4.0,
+    "body_end_x": -7.0,
+    "levels": "01",
+    "turn_low_deg": -3,
+    "turn_high_deg": 0,
+    "facing_off_deg": -7,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114432": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "single step up, straight",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 5.2,
+    "path_m": 0.65,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.1,
+    "body_start_x": -6.0,
+    "body_end_x": -6.0,
+    "levels": "12",
+    "turn_low_deg": 2,
+    "turn_high_deg": -2,
+    "facing_off_deg": -6,
+    "stop_and_go": false
+   }
+  },
+  "tp_stairs_114515": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight up",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 14.3,
+    "path_m": 2.44,
+    "sideways_share": 0.03,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.27,
+    "body_start_x": -3.0,
+    "body_end_x": -2.0,
+    "levels": "012",
+    "turn_low_deg": 0,
+    "turn_high_deg": -1,
+    "facing_off_deg": -5,
+    "stop_and_go": true
+   }
+  },
+  "tp_stairs_114553": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight up",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 17.4,
+    "path_m": 2.85,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.27,
+    "body_start_x": -3.0,
+    "body_end_x": -3.0,
+    "levels": "012",
+    "turn_low_deg": -2,
+    "turn_high_deg": 2,
+    "facing_off_deg": -6,
+    "stop_and_go": true
+   }
+  },
+  "tp_stairs_114614": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight down",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 15.9,
+    "path_m": 2.78,
+    "sideways_share": 0.04,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.26,
+    "body_start_x": 177.0,
+    "body_end_x": 193.0,
+    "levels": "210",
+    "turn_low_deg": 17,
+    "turn_high_deg": -2,
+    "facing_off_deg": -6,
+    "stop_and_go": true
+   }
+  },
+  "tp_stairs_114630": {
+   "prop": "stairs1",
+   "source": "tp_stairs_all_v1.pkl",
+   "category": "straight up",
+   "frame": {
+    "origin": [
+     11.347,
+     2.848
+    ],
+    "yaw_deg": 21.0
+   },
+   "numbers": {
+    "seconds": 13.4,
+    "path_m": 3.16,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.27,
+    "body_start_x": -7.0,
+    "body_end_x": -7.0,
+    "levels": "012",
+    "turn_low_deg": 2,
+    "turn_high_deg": -1,
+    "facing_off_deg": -6,
+    "stop_and_go": true
+   }
+  },
+  "tp_ramp_120145": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "straight up",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 11.4,
+    "path_m": 1.9,
+    "sideways_share": 0.02,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.21,
+    "root_z_range_m": 0.21,
+    "slope_share": 0.65,
+    "deck_share": 0.0,
+    "ground_max_m": 0.15,
+    "start_on_deck": false,
+    "end_on_deck": false,
+    "path_on_slope_x": 3.0,
+    "body_on_slope_x": -1.0,
+    "turn_before": 2.0,
+    "turn_after": 0.0
+   }
+  },
+  "tp_ramp_120212": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "straight up",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 8.5,
+    "path_m": 2.38,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.22,
+    "root_z_range_m": 0.23,
+    "slope_share": 0.45,
+    "deck_share": 0.26,
+    "ground_max_m": 0.18,
+    "start_on_deck": false,
+    "end_on_deck": true,
+    "path_on_slope_x": -1.0,
+    "body_on_slope_x": -16.0,
+    "turn_before": 4.0,
+    "turn_after": 0.0
+   }
+  },
+  "tp_ramp_120224": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "straight down",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 9.7,
+    "path_m": 2.25,
+    "sideways_share": 0.14,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.15,
+    "root_z_range_m": 0.16,
+    "slope_share": 0.59,
+    "deck_share": 0.24,
+    "ground_max_m": 0.18,
+    "start_on_deck": true,
+    "end_on_deck": false,
+    "path_on_slope_x": -175.0,
+    "body_on_slope_x": 177.0,
+    "turn_before": 1.0,
+    "turn_after": 4.0
+   }
+  },
+  "tp_ramp_120237": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "oblique up",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 9.3,
+    "path_m": 2.24,
+    "sideways_share": 0.24,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.19,
+    "root_z_range_m": 0.19,
+    "slope_share": 0.73,
+    "deck_share": 0.0,
+    "ground_max_m": 0.16,
+    "start_on_deck": false,
+    "end_on_deck": false,
+    "path_on_slope_x": -19.0,
+    "body_on_slope_x": -43.0,
+    "turn_before": 7.0,
+    "turn_after": 0.0
+   }
+  },
+  "tp_ramp_120312": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "over the ramp side to side",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 8.2,
+    "path_m": 2.71,
+    "sideways_share": 0.04,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.02,
+    "root_z_range_m": 0.11,
+    "slope_share": 0.32,
+    "deck_share": 0.0,
+    "ground_max_m": 0.13,
+    "start_on_deck": false,
+    "end_on_deck": false,
+    "path_on_slope_x": -61.0,
+    "body_on_slope_x": -73.0,
+    "turn_before": 5.0,
+    "turn_after": -34.0
+   }
+  },
+  "tp_ramp_120330": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "over the ramp side to side",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 14.5,
+    "path_m": 2.58,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.0,
+    "root_z_range_m": 0.09,
+    "slope_share": 0.61,
+    "deck_share": 0.0,
+    "ground_max_m": 0.06,
+    "start_on_deck": false,
+    "end_on_deck": false,
+    "path_on_slope_x": 98.0,
+    "body_on_slope_x": 88.0,
+    "turn_before": -12.0,
+    "turn_after": 5.0
+   }
+  },
+  "tp_ramp_120413": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "down, then turn",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 16.7,
+    "path_m": 3.6,
+    "sideways_share": 0.03,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.21,
+    "root_z_range_m": 0.22,
+    "slope_share": 0.52,
+    "deck_share": 0.16,
+    "ground_max_m": 0.18,
+    "start_on_deck": true,
+    "end_on_deck": false,
+    "path_on_slope_x": -175.0,
+    "body_on_slope_x": -176.0,
+    "turn_before": 2.0,
+    "turn_after": -109.0
+   }
+  },
+  "tp_ramp_120441": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "oblique down",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 13.3,
+    "path_m": 2.92,
+    "sideways_share": 0.46,
+    "backward_share": 0.01,
+    "root_z_gain_m": -0.17,
+    "root_z_range_m": 0.21,
+    "slope_share": 0.63,
+    "deck_share": 0.0,
+    "ground_max_m": 0.16,
+    "start_on_deck": false,
+    "end_on_deck": false,
+    "path_on_slope_x": -149.0,
+    "body_on_slope_x": -80.0,
+    "turn_before": 0.0,
+    "turn_after": 34.0
+   }
+  },
+  "tp_ramp_120524": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "over the ramp side to side",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 7.4,
+    "path_m": 2.25,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.0,
+    "root_z_range_m": 0.07,
+    "slope_share": 0.3,
+    "deck_share": 0.0,
+    "ground_max_m": 0.03,
+    "start_on_deck": false,
+    "end_on_deck": false,
+    "path_on_slope_x": 87.0,
+    "body_on_slope_x": 87.0,
+    "turn_before": -8.0,
+    "turn_after": 6.0
+   }
+  },
+  "tp_ramp_120535": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "over the ramp side to side",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 7.1,
+    "path_m": 2.48,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.03,
+    "root_z_range_m": 0.13,
+    "slope_share": 0.29,
+    "deck_share": 0.0,
+    "ground_max_m": 0.08,
+    "start_on_deck": false,
+    "end_on_deck": false,
+    "path_on_slope_x": -83.0,
+    "body_on_slope_x": -84.0,
+    "turn_before": 4.0,
+    "turn_after": -3.0
+   }
+  },
+  "tp_ramp_120545": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "over the ramp side to side",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 7.8,
+    "path_m": 2.43,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.01,
+    "root_z_range_m": 0.13,
+    "slope_share": 0.31,
+    "deck_share": 0.0,
+    "ground_max_m": 0.09,
+    "start_on_deck": false,
+    "end_on_deck": false,
+    "path_on_slope_x": 92.0,
+    "body_on_slope_x": 84.0,
+    "turn_before": -9.0,
+    "turn_after": 36.0
+   }
+  },
+  "tp_ramp_120556": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "straight up",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 6.0,
+    "path_m": 1.57,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.21,
+    "root_z_range_m": 0.21,
+    "slope_share": 0.54,
+    "deck_share": 0.0,
+    "ground_max_m": 0.15,
+    "start_on_deck": false,
+    "end_on_deck": false,
+    "path_on_slope_x": 6.0,
+    "body_on_slope_x": 2.0,
+    "turn_before": -1.0,
+    "turn_after": 0.0
+   }
+  },
+  "tp_ramp_120605": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "straight down",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 6.3,
+    "path_m": 1.75,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.15,
+    "root_z_range_m": 0.23,
+    "slope_share": 0.45,
+    "deck_share": 0.29,
+    "ground_max_m": 0.17,
+    "start_on_deck": true,
+    "end_on_deck": false,
+    "path_on_slope_x": -174.0,
+    "body_on_slope_x": 179.0,
+    "turn_before": -0.0,
+    "turn_after": 11.0
+   }
+  },
+  "tp_ramp_120626": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "over the ramp side to side",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 6.8,
+    "path_m": 2.68,
+    "sideways_share": 0.02,
+    "backward_share": 0.0,
+    "root_z_gain_m": -0.02,
+    "root_z_range_m": 0.14,
+    "slope_share": 0.23,
+    "deck_share": 0.0,
+    "ground_max_m": 0.09,
+    "start_on_deck": false,
+    "end_on_deck": false,
+    "path_on_slope_x": 99.0,
+    "body_on_slope_x": 93.0,
+    "turn_before": -3.0,
+    "turn_after": -20.0
+   }
+  },
+  "tp_ramp_120637": {
+   "prop": "ramp",
+   "source": "acp_tp_ramp_sh2_x30.pkl (base takes)",
+   "category": "over the ramp side to side",
+   "frame": {
+    "origin": [
+     31.413,
+     1.738
+    ],
+    "yaw_deg": -25.3
+   },
+   "numbers": {
+    "seconds": 8.5,
+    "path_m": 2.66,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "root_z_gain_m": 0.03,
+    "root_z_range_m": 0.1,
+    "slope_share": 0.26,
+    "deck_share": 0.0,
+    "ground_max_m": 0.09,
+    "start_on_deck": false,
+    "end_on_deck": false,
+    "path_on_slope_x": -72.0,
+    "body_on_slope_x": -77.0,
+    "turn_before": 8.0,
+    "turn_after": -19.0
+   }
+  },
+  "tp_driveway_121023": {
+   "prop": "driveway",
+   "source": "data/2026-10-30/x2/record_20261030_121023.npz",
+   "category": "straight uphill",
+   "frame": {
+    "origin": [
+     1.122,
+     -5.778
+    ],
+    "yaw_deg": 94.1
+   },
+   "numbers": {
+    "seconds": 9.3,
+    "path_m": 5.08,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "net_travel_x": -12.0,
+    "root_z_gain_m": 0.4,
+    "turn_total": 17.0,
+    "slope_deg": 4.5
+   }
+  },
+  "tp_driveway_121035": {
+   "prop": "driveway",
+   "source": "data/2026-10-30/x2/record_20261030_121035.npz",
+   "category": "straight downhill",
+   "frame": {
+    "origin": [
+     1.122,
+     -5.778
+    ],
+    "yaw_deg": 94.1
+   },
+   "numbers": {
+    "seconds": 9.5,
+    "path_m": 4.46,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "net_travel_x": 176.0,
+    "root_z_gain_m": -0.33,
+    "turn_total": 42.0,
+    "slope_deg": 4.5
+   }
+  },
+  "tp_driveway_121046": {
+   "prop": "driveway",
+   "source": "data/2026-10-30/x2/record_20261030_121046.npz",
+   "category": "diagonal across the slope",
+   "frame": {
+    "origin": [
+     1.122,
+     -5.778
+    ],
+    "yaw_deg": 94.1
+   },
+   "numbers": {
+    "seconds": 7.3,
+    "path_m": 3.14,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "net_travel_x": 50.0,
+    "root_z_gain_m": 0.16,
+    "turn_total": 30.0,
+    "slope_deg": 4.5
+   }
+  },
+  "tp_driveway_121056": {
+   "prop": "driveway",
+   "source": "data/2026-10-30/x2/record_20261030_121056.npz",
+   "category": "diagonal across the slope",
+   "frame": {
+    "origin": [
+     1.122,
+     -5.778
+    ],
+    "yaw_deg": 94.1
+   },
+   "numbers": {
+    "seconds": 8.0,
+    "path_m": 3.47,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "net_travel_x": -63.0,
+    "root_z_gain_m": 0.12,
+    "turn_total": 5.0,
+    "slope_deg": 4.5
+   }
+  },
+  "tp_driveway_121106": {
+   "prop": "driveway",
+   "source": "data/2026-10-30/x2/record_20261030_121106.npz",
+   "category": "diagonal across the slope",
+   "frame": {
+    "origin": [
+     1.122,
+     -5.778
+    ],
+    "yaw_deg": 94.1
+   },
+   "numbers": {
+    "seconds": 6.2,
+    "path_m": 2.95,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "net_travel_x": 118.0,
+    "root_z_gain_m": -0.06,
+    "turn_total": -14.0,
+    "slope_deg": 4.5
+   }
+  },
+  "tp_driveway_121119": {
+   "prop": "driveway",
+   "source": "data/2026-10-30/x2/record_20261030_121119.npz",
+   "category": "straight uphill",
+   "frame": {
+    "origin": [
+     1.122,
+     -5.778
+    ],
+    "yaw_deg": 94.1
+   },
+   "numbers": {
+    "seconds": 6.9,
+    "path_m": 4.15,
+    "sideways_share": 0.0,
+    "backward_share": 0.0,
+    "net_travel_x": -10.0,
+    "root_z_gain_m": 0.3,
+    "turn_total": 5.0,
+    "slope_deg": 4.5
+   }
+  }
+ }
+}
