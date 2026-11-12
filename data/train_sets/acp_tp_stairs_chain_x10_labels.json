@@ -1,0 +1,115 @@
+{
+ "tp_stairs3x_114221": {
+  "passed": "1/3",
+  "rejected": {
+   "slip": 2
+  },
+  "labelled_from": "tp_stairs3x_114221#r2"
+ },
+ "tp_stairs3x_114241": {
+  "passed": "0/3",
+  "rejected": {
+   "slip": 3
+  },
+  "labelled_from": null
+ },
+ "tp_stairs3x_114251": {
+  "passed": "0/3",
+  "rejected": {
+   "slip": 3
+  },
+  "labelled_from": null
+ },
+ "tp_stairs3x_114258": {
+  "passed": "0/3",
+  "rejected": {
+   "fell": 3
+  },
+  "labelled_from": null
+ },
+ "tp_stairs3x_114308": {
+  "passed": "2/3",
+  "rejected": {
+   "slip": 1
+  },
+  "labelled_from": "tp_stairs3x_114308#r2"
+ },
+ "tp_stairs3x_114315": {
+  "passed": "0/3",
+  "rejected": {
+   "footholds": 3
+  },
+  "labelled_from": null
+ },
+ "tp_stairs3x_114324": {
+  "passed": "0/3",
+  "rejected": {
+   "slip": 3
+  },
+  "labelled_from": null
+ },
+ "tp_stairs3x_114330": {
+  "passed": "0/3",
+  "rejected": {
+   "slip": 3
+  },
+  "labelled_from": null
+ },
+ "tp_stairs4x_114221": {
+  "passed": "0/3",
+  "rejected": {
+   "fell": 3
+  },
+  "labelled_from": null
+ },
+ "tp_stairs4x_114241": {
+  "passed": "0/3",
+  "rejected": {
+   "fell": 3
+  },
+  "labelled_from": null
+ },
+ "tp_stairs4x_114251": {
+  "passed": "0/3",
+  "rejected": {
+   "slip": 3
+  },
+  "labelled_from": null
+ },
+ "tp_stairs4x_114258": {
+  "passed": "0/3",
+  "rejected": {
+   "fell": 3
+  },
+  "labelled_from": null
+ },
+ "tp_stairs4x_114308": {
+  "passed": "1/3",
+  "rejected": {
+   "slip": 2
+  },
+  "labelled_from": "tp_stairs4x_114308#r0"
+ },
+ "tp_stairs4x_114315": {
+  "passed": "0/3",
+  "rejected": {
+   "footholds": 3
+  },
+  "labelled_from": null
+ },
+ "tp_stairs4x_114324": {
+  "passed": "0/3",
+  "rejected": {
+   "slip": 3
+  },
+  "labelled_from": null
+ },
+ "tp_stairs4x_114330": {
+  "passed": "1/3",
+  "rejected": {
+   "fell": 1,
+   "slip": 1
+  },
+  "labelled_from": "tp_stairs4x_114330#r0"
+ }
+}

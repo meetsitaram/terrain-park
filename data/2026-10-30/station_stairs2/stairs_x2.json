@@ -1,0 +1,40 @@
+{
+ "takes": [
+  "record_20261030_114221.npz",
+  "record_20261030_114241.npz",
+  "record_20261030_114251.npz",
+  "record_20261030_114258.npz",
+  "record_20261030_114308.npz",
+  "record_20261030_114315.npz",
+  "record_20261030_114324.npz",
+  "record_20261030_114330.npz"
+ ],
+ "props": [
+  {
+   "kind": "stairs",
+   "origin": [
+    3.160020116676695,
+    0.6667317185322441,
+    0.042997504480650664
+   ],
+   "yaw": 0.6759146959846707,
+   "width": 0.8,
+   "steps": [
+    {
+     "rise": 0.1633,
+     "run": 0.4017,
+     "top": 0.1633,
+     "plants": 609
+    },
+    {
+     "rise": 0.1373,
+     "run": 1.4101,
+     "top": 0.3006,
+     "plants": 362
+    }
+   ],
+   "scale": "x2",
+   "frame": "retargeted X2 world (MuJoCo, z up), metres; origin = front edge of step 1, centre of the width, at the floor"
+  }
+ ]
+}
