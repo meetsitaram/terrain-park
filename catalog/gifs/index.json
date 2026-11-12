@@ -1,0 +1,700 @@
+{
+ "gifs": {
+  "4x4": {
+   "straight over": [
+    {
+     "file": "gifs/4x4_straight_over_1_112451_0.gif",
+     "bytes": 909334,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 48,
+     "speed": 1.0,
+     "seconds": 3.8,
+     "take": "tp_t4x4_112451_0",
+     "role": "medoid (typical)"
+    },
+    {
+     "file": "gifs/4x4_straight_over_2_112501_0.gif",
+     "bytes": 1067541,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 67,
+     "speed": 1.0,
+     "seconds": 5.3,
+     "take": "tp_t4x4_112501_0",
+     "role": "farthest from the medoid"
+    }
+   ],
+   "oblique over": [
+    {
+     "file": "gifs/4x4_oblique_over_1_105158_1.gif",
+     "bytes": 477457,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 31,
+     "speed": 1.0,
+     "seconds": 2.4,
+     "take": "tp_t4x4_105158_1",
+     "role": "medoid (typical)"
+    }
+   ],
+   "turn, then cross": [
+    {
+     "file": "gifs/4x4_turn_then_cross_1_105031_10.gif",
+     "bytes": 667107,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 41,
+     "speed": 1.0,
+     "seconds": 3.3,
+     "take": "tp_t4x4_105031_10",
+     "role": "medoid (typical)"
+    },
+    {
+     "file": "gifs/4x4_turn_then_cross_2_104850_10.gif",
+     "bytes": 625375,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 38,
+     "speed": 1.0,
+     "seconds": 3.0,
+     "take": "tp_t4x4_104850_10",
+     "role": "farthest from the medoid"
+    }
+   ],
+   "cross, then turn": [
+    {
+     "file": "gifs/4x4_cross_then_turn_1_105031_9.gif",
+     "bytes": 600307,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 36,
+     "speed": 1.0,
+     "seconds": 2.9,
+     "take": "tp_t4x4_105031_9",
+     "role": "medoid (typical)"
+    },
+    {
+     "file": "gifs/4x4_cross_then_turn_2_105031_5.gif",
+     "bytes": 872777,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 54,
+     "speed": 1.0,
+     "seconds": 4.3,
+     "take": "tp_t4x4_105031_5",
+     "role": "farthest from the medoid"
+    }
+   ],
+   "C / U turn": [
+    {
+     "file": "gifs/4x4_c_u_turn_1_105158_10.gif",
+     "bytes": 744669,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 40,
+     "speed": 1.0,
+     "seconds": 3.2,
+     "take": "tp_t4x4_105158_10",
+     "role": "medoid (typical)"
+    },
+    {
+     "file": "gifs/4x4_c_u_turn_2_104718_7.gif",
+     "bytes": 1093274,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 67,
+     "speed": 1.0,
+     "seconds": 5.4,
+     "take": "tp_t4x4_104718_7",
+     "role": "farthest from the medoid"
+    }
+   ],
+   "S turn": [
+    {
+     "file": "gifs/4x4_s_turn_1_104850_8.gif",
+     "bytes": 890357,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 57,
+     "speed": 1.0,
+     "seconds": 4.5,
+     "take": "tp_t4x4_104850_8",
+     "role": "medoid (typical)"
+    }
+   ],
+   "sidestep over": [
+    {
+     "file": "gifs/4x4_sidestep_over_1_104943_0.gif",
+     "bytes": 1029858,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 65,
+     "speed": 1.0,
+     "seconds": 5.2,
+     "take": "tp_t4x4_104943_0",
+     "role": "medoid (typical)"
+    },
+    {
+     "file": "gifs/4x4_sidestep_over_2_104931_0.gif",
+     "bytes": 1029042,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 54,
+     "speed": 1.0,
+     "seconds": 4.3,
+     "take": "tp_t4x4_104931_0",
+     "role": "farthest from the medoid"
+    }
+   ],
+   "backward over": [
+    {
+     "file": "gifs/4x4_backward_over_1_105103_2.gif",
+     "bytes": 653308,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 43,
+     "speed": 1.0,
+     "seconds": 3.4,
+     "take": "tp_t4x4_105103_2",
+     "role": "medoid (typical)"
+    }
+   ],
+   "no crossing (walk-up, stand at the beam or pass alongside)": [
+    {
+     "file": "gifs/4x4_no_crossing_walk_up_stand_at_the_beam_or_1_104620_0.gif",
+     "bytes": 533611,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 35,
+     "speed": 1.0,
+     "seconds": 2.8,
+     "take": "tp_t4x4_104620_0",
+     "role": "medoid (typical)"
+    },
+    {
+     "file": "gifs/4x4_no_crossing_walk_up_stand_at_the_beam_or_2_104620_1.gif",
+     "bytes": 686126,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 37,
+     "speed": 1.0,
+     "seconds": 2.9,
+     "take": "tp_t4x4_104620_1",
+     "role": "farthest from the medoid"
+    }
+   ]
+  },
+  "2x2": {
+   "straight over": [
+    {
+     "file": "gifs/2x2_straight_over_1_211251_1.gif",
+     "bytes": 1213766,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.0,
+     "seconds": 6.0,
+     "take": "pico_20261029_211251_1_2x2",
+     "role": "medoid (typical)"
+    }
+   ],
+   "oblique over": [
+    {
+     "file": "gifs/2x2_oblique_over_1_211436_0.gif",
+     "bytes": 898842,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 48,
+     "speed": 1.0,
+     "seconds": 3.8,
+     "take": "pico_20261029_211436_0_2x2",
+     "role": "medoid (typical)"
+    }
+   ],
+   "turn, then cross": [
+    {
+     "file": "gifs/2x2_turn_then_cross_1_211811_0.gif",
+     "bytes": 1424162,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.0,
+     "seconds": 6.0,
+     "take": "pico_20261029_211811_0_2x2",
+     "role": "medoid (typical)"
+    }
+   ],
+   "C / U turn": [
+    {
+     "file": "gifs/2x2_c_u_turn_1_211630_1.gif",
+     "bytes": 1194252,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.0,
+     "seconds": 6.0,
+     "take": "pico_20261029_211630_1_2x2",
+     "role": "medoid (typical)"
+    }
+   ],
+   "no crossing (walk-up, stand at the beam or pass alongside)": [
+    {
+     "file": "gifs/2x2_no_crossing_walk_up_stand_at_the_beam_or_1_211203_1.gif",
+     "bytes": 504810,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 31,
+     "speed": 1.0,
+     "seconds": 2.5,
+     "take": "pico_20261029_211203_1_2x2",
+     "role": "medoid (typical)"
+    }
+   ]
+  },
+  "stairs1": {
+   "straight up": [
+    {
+     "file": "gifs/stairs1_straight_up_1_114515.gif",
+     "bytes": 1323288,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 2.38,
+     "seconds": 14.3,
+     "take": "tp_stairs_114515",
+     "role": "medoid (typical)"
+    },
+    {
+     "file": "gifs/stairs1_straight_up_2_113624.gif",
+     "bytes": 1271268,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 73,
+     "speed": 1.0,
+     "seconds": 5.8,
+     "take": "tp_stairs_113624",
+     "role": "farthest from the medoid"
+    }
+   ],
+   "straight down": [
+    {
+     "file": "gifs/stairs1_straight_down_1_113817.gif",
+     "bytes": 1079607,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 63,
+     "speed": 1.0,
+     "seconds": 5.0,
+     "take": "tp_stairs_113817",
+     "role": "medoid (typical)"
+    },
+    {
+     "file": "gifs/stairs1_straight_down_2_114037.gif",
+     "bytes": 997283,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 59,
+     "speed": 1.0,
+     "seconds": 4.7,
+     "take": "tp_stairs_114037",
+     "role": "farthest from the medoid"
+    }
+   ],
+   "single step up, straight": [
+    {
+     "file": "gifs/stairs1_single_step_up_straight_1_114356.gif",
+     "bytes": 965719,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 54,
+     "speed": 1.0,
+     "seconds": 4.3,
+     "take": "tp_stairs_114356",
+     "role": "medoid (typical)"
+    },
+    {
+     "file": "gifs/stairs1_single_step_up_straight_2_114432.gif",
+     "bytes": 1180955,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 66,
+     "speed": 1.0,
+     "seconds": 5.2,
+     "take": "tp_stairs_114432",
+     "role": "farthest from the medoid"
+    }
+   ],
+   "single step down, straight": [
+    {
+     "file": "gifs/stairs1_single_step_down_straight_1_114339.gif",
+     "bytes": 824269,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 45,
+     "speed": 1.0,
+     "seconds": 3.6,
+     "take": "tp_stairs_114339",
+     "role": "medoid (typical)"
+    },
+    {
+     "file": "gifs/stairs1_single_step_down_straight_2_114349.gif",
+     "bytes": 1321887,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.02,
+     "seconds": 6.1,
+     "take": "tp_stairs_114349",
+     "role": "farthest from the medoid"
+    }
+   ],
+   "side approach then up": [
+    {
+     "file": "gifs/stairs1_side_approach_then_up_1_113941.gif",
+     "bytes": 1250981,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.08,
+     "seconds": 6.5,
+     "take": "tp_stairs_113941",
+     "role": "medoid (typical)"
+    }
+   ],
+   "down then turn": [
+    {
+     "file": "gifs/stairs1_down_then_turn_1_113842.gif",
+     "bytes": 1310448,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.63,
+     "seconds": 9.8,
+     "take": "tp_stairs_113842",
+     "role": "medoid (typical)"
+    }
+   ],
+   "C (up)": [
+    {
+     "file": "gifs/stairs1_c_up_1_114106.gif",
+     "bytes": 1299403,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.24,
+     "seconds": 7.5,
+     "take": "tp_stairs_114106",
+     "role": "medoid (typical)"
+    }
+   ],
+   "C (down)": [
+    {
+     "file": "gifs/stairs1_c_down_1_114057.gif",
+     "bytes": 1251966,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.14,
+     "seconds": 6.8,
+     "take": "tp_stairs_114057",
+     "role": "medoid (typical)"
+    }
+   ],
+   "S (up)": [
+    {
+     "file": "gifs/stairs1_s_up_1_114146.gif",
+     "bytes": 1287013,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.16,
+     "seconds": 7.0,
+     "take": "tp_stairs_114146",
+     "role": "medoid (typical)"
+    }
+   ],
+   "S (down)": [
+    {
+     "file": "gifs/stairs1_s_down_1_114137.gif",
+     "bytes": 1255131,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.16,
+     "seconds": 6.9,
+     "take": "tp_stairs_114137",
+     "role": "medoid (typical)"
+    }
+   ]
+  },
+  "stairs2": {
+   "single step up, straight": [
+    {
+     "file": "gifs/stairs2_single_step_up_straight_1_114324.gif",
+     "bytes": 1087179,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 64,
+     "speed": 1.0,
+     "seconds": 5.1,
+     "take": "tp_stairs_114324",
+     "role": "medoid (typical)"
+    }
+   ],
+   "single step down, straight": [
+    {
+     "file": "gifs/stairs2_single_step_down_straight_1_114315.gif",
+     "bytes": 1028862,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 59,
+     "speed": 1.0,
+     "seconds": 4.7,
+     "take": "tp_stairs_114315",
+     "role": "medoid (typical)"
+    }
+   ],
+   "down then turn": [
+    {
+     "file": "gifs/stairs2_down_then_turn_1_114221.gif",
+     "bytes": 1118059,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 68,
+     "speed": 1.0,
+     "seconds": 5.4,
+     "take": "tp_stairs_114221",
+     "role": "medoid (typical)"
+    }
+   ]
+  },
+  "ramp": {
+   "straight up": [
+    {
+     "file": "gifs/ramp_straight_up_1_120556.gif",
+     "bytes": 1382588,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.0,
+     "seconds": 6.0,
+     "take": "tp_ramp_120556",
+     "role": "medoid (typical)"
+    }
+   ],
+   "oblique up": [
+    {
+     "file": "gifs/ramp_oblique_up_1_120237.gif",
+     "bytes": 1400404,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.55,
+     "seconds": 9.3,
+     "take": "tp_ramp_120237",
+     "role": "medoid (typical)"
+    }
+   ],
+   "straight down": [
+    {
+     "file": "gifs/ramp_straight_down_1_120224.gif",
+     "bytes": 1390094,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.62,
+     "seconds": 9.7,
+     "take": "tp_ramp_120224",
+     "role": "medoid (typical)"
+    }
+   ],
+   "oblique down": [
+    {
+     "file": "gifs/ramp_oblique_down_1_120441.gif",
+     "bytes": 1396478,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 2.22,
+     "seconds": 13.3,
+     "take": "tp_ramp_120441",
+     "role": "medoid (typical)"
+    }
+   ],
+   "down, then turn": [
+    {
+     "file": "gifs/ramp_down_then_turn_1_120413.gif",
+     "bytes": 1367013,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 2.79,
+     "seconds": 16.7,
+     "take": "tp_ramp_120413",
+     "role": "medoid (typical)"
+    }
+   ],
+   "over the ramp side to side": [
+    {
+     "file": "gifs/ramp_over_the_ramp_side_to_side_1_120330.gif",
+     "bytes": 1396067,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 2.42,
+     "seconds": 14.5,
+     "take": "tp_ramp_120330",
+     "role": "medoid (typical)"
+    },
+    {
+     "file": "gifs/ramp_over_the_ramp_side_to_side_2_120312.gif",
+     "bytes": 1407256,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.36,
+     "seconds": 8.2,
+     "take": "tp_ramp_120312",
+     "role": "farthest from the medoid"
+    }
+   ]
+  },
+  "driveway": {
+   "straight uphill": [
+    {
+     "file": "gifs/driveway_straight_uphill_1_121023.gif",
+     "bytes": 1235546,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.56,
+     "seconds": 9.3,
+     "take": "tp_driveway_121023",
+     "role": "medoid (typical)"
+    }
+   ],
+   "straight downhill": [
+    {
+     "file": "gifs/driveway_straight_downhill_1_121035.gif",
+     "bytes": 1217876,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.58,
+     "seconds": 9.5,
+     "take": "tp_driveway_121035",
+     "role": "medoid (typical)"
+    }
+   ],
+   "diagonal across the slope": [
+    {
+     "file": "gifs/driveway_diagonal_across_the_slope_1_121106.gif",
+     "bytes": 1267048,
+     "size": [
+      400,
+      300
+     ],
+     "frames": 75,
+     "speed": 1.04,
+     "seconds": 6.2,
+     "take": "tp_driveway_121106",
+     "role": "medoid (typical)"
+    }
+   ]
+  }
+ },
+ "failed": {}
+}
