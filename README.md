@@ -14,11 +14,13 @@ complete; the props and the contact quality are being iterated (see Known issues
 
 ## Pictures
 
-**Pico captures** (a person on real props, retargeted to the X2; more in [`catalog/`](catalog/)):
+**Pico captures**: a person walking over real props at home (logs, a 4x4 beam, a ramp, the driveway and two sets of steps), retargeted to the X2 and replayed in MuJoCo. More in [`catalog/`](catalog/).
 
-| Two-step stairs, down | Turn, then cross a 2x2 |
-|---|---|
-| ![stairs](catalog/gifs/stairs1_straight_down_2_114037.gif) | ![2x2](catalog/gifs/2x2_turn_then_cross_1_211811_0.gif) |
+| 2x2 log, straight over | 4x4 beam, sidestep over | Ramp, straight up |
+|---|---|---|
+| ![2x2](catalog/gifs/2x2_straight_over_1_211251_1.gif) | ![4x4](catalog/gifs/4x4_sidestep_over_1_104943_0.gif) | ![ramp](catalog/gifs/ramp_straight_up_1_120556.gif) |
+| **Driveway, uphill** | **Steps (place 1), C-turn up** | **Steps (place 1), straight down** |
+| ![driveway](catalog/gifs/driveway_straight_uphill_1_121023.gif) | ![stairs1](catalog/gifs/stairs1_c_up_1_114106.gif) | ![stairs2](catalog/gifs/stairs1_straight_down_1_113817.gif) |
 
 **Extended training map** ([`terrains/`](terrains/)): 8 x 8 m tiles of everyday props, each type in easy, medium and hard rows.
 
@@ -32,7 +34,13 @@ complete; the props and the contact quality are being iterated (see Known issues
 | **Beams and blocks** | **Log corridors** |
 | ![beams](docs/images/terrain_beams_blocks.jpg) | ![logs](docs/images/terrain_log_corridors.jpg) |
 
-**Our apparatus** ([`apparatus/ours/`](apparatus/ours/)): our build of the IEEE Humanoids 2026 loco-manipulation course, in MuJoCo.
+**Our apparatus** ([`apparatus/ours/`](apparatus/ours/)): our build of the IEEE Humanoids 2026 loco-manipulation course, as CAD and in MuJoCo.
+
+| Whole course and mobile gantry | Walking over the 4x4s |
+|---|---|
+| ![overview](docs/images/apparatus/overview.gif) | ![walk](docs/images/apparatus/walk_4x4s.gif) |
+| **Building the stairs** | **Building the terrain section** |
+| ![stairs](docs/images/apparatus/stairs.gif) | ![terrain](docs/images/apparatus/terrain.gif) |
 
 ![apparatus](docs/images/apparatus_ours.jpg)
 ![apparatus, top](docs/images/apparatus_ours_top.jpg)
