@@ -542,12 +542,26 @@ def build_model(tk, ctx):
     off = dict(contype=0, conaffinity=0)
     wb.add_light(pos=[c0[0], c0[1], 5], dir=[0.2, 0.2, -1], diffuse=[0.7, 0.7, 0.7])
     if tk['prop'] == 'driveway':
+        # A concrete slab on the fitted plane, sized to the walked area, standing out of a flat level ground, so the
+        # 4-5 deg slope is visible (a full-size grey tilted plane looked like flat floor).
         dw = ctx['driveway']; a, b = dw['a'], dw['b']
+        zf = lambda x, y: a * x + b * y + dw['c']
         n = np.array([-a, -b, 1.0]); n /= np.linalg.norm(n)
-        z0 = a * c0[0] + b * c0[1] + dw['c']
-        ax = np.cross([0, 0, 1], n); s = np.linalg.norm(ax); ang = math.asin(s)
-        q = np.r_[math.cos(ang / 2), ax / (s + 1e-12) * math.sin(ang / 2)]
-        wb.add_geom(type=G.mjGEOM_BOX, size=[8, 8, 0.05], pos=(np.r_[c0, z0] - n * 0.05).tolist(), quat=q.tolist(), **ground, **off)
+        g2 = np.array([a, b]) / math.hypot(a, b); p2 = np.array([-g2[1], g2[0]])
+        P = tk['pos'][:, :2] - c0; al, ac = P @ g2, P @ p2
+        hu, hv = (al.max() - al.min()) / 2 + 1.5, (ac.max() - ac.min()) / 2 + 1.0
+        cx = c0 + g2 * (al.max() + al.min()) / 2 + p2 * (ac.max() + ac.min()) / 2
+        u = np.r_[g2, a * g2[0] + b * g2[1]]; u /= np.linalg.norm(u); v = np.cross(n, u)
+        q = np.zeros(4); mujoco.mju_mat2Quat(q, np.c_[u, v, n].ravel())
+        spec.add_texture(name='cat_concrete', type=mujoco.mjtTexture.mjTEXTURE_2D, builtin=mujoco.mjtBuiltin.mjBUILTIN_CHECKER,
+                         rgb1=[0.64, 0.62, 0.58], rgb2=[0.58, 0.56, 0.52], width=256, height=256)
+        cm = spec.add_material(name='cat_concrete', texrepeat=[1, 1], texuniform=True)
+        cm.textures[mujoco.mjtTextureRole.mjTEXROLE_RGB] = 'cat_concrete'
+        th = 0.4
+        wb.add_geom(type=G.mjGEOM_BOX, size=[hu / math.cos(math.atan(math.hypot(a, b))), hv, th], quat=q.tolist(),
+                    pos=(np.r_[cx, zf(*cx)] - n * th).tolist(), material='cat_concrete', **off)
+        lo = cx - g2 * hu
+        wb.add_geom(type=G.mjGEOM_PLANE, size=[30, 30, 0.05], pos=[c0[0], c0[1], zf(*lo) - 0.01], rgba=[0.30, 0.31, 0.33, 1], **off)  # street
         return spec.compile()
     wb.add_geom(type=G.mjGEOM_PLANE, size=[30, 30, 0.05], pos=[c0[0], c0[1], -0.004 if tk['prop'] == 'ramp' else 0.0], **ground, **off)
     for j, b in enumerate(tk['boxes']):
@@ -600,6 +614,8 @@ def render_gif(tk, ctx, path, strips=None):
     look = smooth(tk['pos'], 1.0 * tk['fps'])
     cam = mujoco.MjvCamera(); cam.type = mujoco.mjtCamera.mjCAMERA_FREE
     cam.distance, cam.elevation, cam.azimuth = 2.9, -18, D(tk['frame'][1]) + 125
+    if tk['prop'] == 'driveway':                                 # look across the slope so the tilt reads
+        cam.distance, cam.elevation, cam.azimuth = 3.8, -4, D(math.atan2(ctx['driveway']['b'], ctx['driveway']['a'])) + 90
     frames = []
     with mujoco.Renderer(m, H, W) as r:
         for i in idx:
