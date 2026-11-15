@@ -5,10 +5,39 @@ props (logs, steps, a two-step stair, a ramp onto a step, a sloped driveway) was
 foot trackers, and every take is retargeted to the AgiBot X2 Ultra. Props are fitted to where the feet actually went,
 as plain boxes and slopes, so each motion comes with terrain it fits.
 
-**Status: first version (2026-10-30).** The captures and X2 motions are complete; the props and the contact quality are
-being iterated (see Known issues).
+The repo also holds the terrain the X2 perception policies trained and were scored on: the extended training map (procedural
+8 x 8 m tiles of everyday props, with checked routes), the props it and the apparatus are built from, and our own model of the
+IEEE Humanoids 2026 loco-manipulation apparatus with its eval route.
 
-## Contents
+**Status: first version (2026-10-30); training terrain and apparatus added 2026-11-15.** The captures and X2 motions are
+complete; the props and the contact quality are being iterated (see Known issues).
+
+## What is here
+
+| Folder | What | Load |
+| --- | --- | --- |
+| `data/2026-10-29/`, `data/2026-10-30/` | Pico captures (raw and retargeted to the X2) and the props fitted to them | below, "Formats" |
+| `data/train_sets/` | Ready-to-train X2 clips, each with the terrain it was captured on (and left-right mirrored sets) | `data/train_sets/README.md` |
+| `data/style/` | Pico style clips (flat walk, ramp, logs, stairs, turn in place, side walk) for style rewards, `pico_style_v1.pkl` | `pico_style_v1_meta.json` (made by `tools/style/`) |
+| `catalog/` | Visual catalogue of the Pico takes (`index.html`) | open in a browser |
+| `terrains/` | The extended training map: `extended_v1` (330 tiles, 9 types, 10 levels) and `extended_v4k` (the trained set: inset stairs, 2,382 routes), and the generator code | `terrains/README.md` |
+| `props/` | Every prop's geometry parameters: 4x4 timbers, wedges and ramps, blocks, stairs, beams, rails, walls (map in metres, apparatus in inches) | `props/README.md` |
+| `apparatus/ours/` | Our apparatus: parametric CAD, Fusion 360 scripts, MuJoCo model, eval raster, 344 wall boxes and the 22-waypoint route, build guide and BOM | `apparatus/README.md` |
+| `apparatus/NIST.md` | Where to get the official NIST testbed (not included) and how our eval imports it | |
+| `tools/` | Prop fitting, mirroring, validation and a MuJoCo prop viewer | below, "Using the tools" |
+
+Sizes: Pico data and catalogue about 170 MB; `terrains/` 18 MB, `apparatus/` 2.6 MB (no file over 4 MB).
+
+## Models trained on this terrain
+
+| Model | Where |
+| --- | --- |
+| ACP contact planner + tracker for the X2 | [tinkerbuggy/x2-acp-contact-planner-tracker](https://huggingface.co/tinkerbuggy/x2-acp-contact-planner-tracker) |
+| Hiking in the Wild, ported to the X2 | [tinkerbuggy/x2-hiking-in-the-wild](https://huggingface.co/tinkerbuggy/x2-hiking-in-the-wild) |
+| SSR for the X2 | [tinkerbuggy/x2-ssr](https://huggingface.co/tinkerbuggy/x2-ssr) |
+| Training and eval code | [meetsitaram/x2-perception](https://github.com/meetsitaram/x2-perception) |
+
+## Pico captures
 
 | Path | What |
 | --- | --- |
@@ -69,4 +98,8 @@ python tools/view_props.py data/2026-10-30/x2_body_to_body data/2026-10-30/props
 
 ## License
 
-Apache-2.0 (LICENSE), code and data.
+Apache-2.0 (LICENSE), code and data: the Pico captures, the extended map and its generators, the props and our apparatus
+design are our own work.
+
+Not included and not covered: the official NIST testbed CAD and the challenge spec and rules, which belong to the organisers
+(see `apparatus/NIST.md`), and the X2 robot model (AgiBot).

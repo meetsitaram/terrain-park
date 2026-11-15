@@ -1,0 +1,9521 @@
+{
+ "type": "homes",
+ "npz": "homes.npz",
+ "n_tiles": 30,
+ "labels": [
+  "block",
+  "chair:block",
+  "cylinder",
+  "door_header",
+  "door_leaf",
+  "ground",
+  "table:block",
+  "wall"
+ ],
+ "tiles": [
+  {
+   "tile_id": "homes_L0_v0",
+   "type": "homes",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 70000,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.95,
+    "hall_width_m": 1.15,
+    "threshold_rise_m": 0.03,
+    "step_rise_m": 0.12,
+    "laundry_sill_m": 0.05,
+    "n_clutter": 3,
+    "n_bricks": 3,
+    "n_shoes": 2
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 21,
+     "chair:block": 18,
+     "cylinder": 4,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 64,
+   "n_meshes": 4,
+   "floor_height_range_m": [
+    0.0,
+    0.12
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.12,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.3,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.378,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.36,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.7,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.378,
+      0.341,
+      0.5,
+      0.38,
+      0.38,
+      0.5
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7750000000000004
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.05,
+      0.09,
+      0.12
+     ],
+     "clearance_m": [
+      0.24,
+      0.5,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.125
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.2686642440876135,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.36,
+      0.52,
+      0.449,
+      0.88,
+      0.64
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.7,
+      0.888,
+      0.796,
+      0.361
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 0
+  },
+  {
+   "tile_id": "homes_L0_v1",
+   "type": "homes",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 70001,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.95,
+    "hall_width_m": 1.15,
+    "threshold_rise_m": 0.03,
+    "step_rise_m": 0.12,
+    "laundry_sill_m": 0.05,
+    "n_clutter": 3,
+    "n_bricks": 3,
+    "n_shoes": 2
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 22,
+     "chair:block": 18,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 65,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.12
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.12,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.3,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.423,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.703,
+     "floor_range_r20_m": 0.06,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.423,
+      0.46,
+      0.5,
+      0.38,
+      0.38,
+      0.5
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7750000000000004
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.05,
+      0.09,
+      0.12
+     ],
+     "clearance_m": [
+      0.24,
+      0.5,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.703,
+      0.888,
+      0.796,
+      0.369
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 1
+  },
+  {
+   "tile_id": "homes_L0_v2",
+   "type": "homes",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 70002,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.95,
+    "hall_width_m": 1.15,
+    "threshold_rise_m": 0.03,
+    "step_rise_m": 0.12,
+    "laundry_sill_m": 0.05,
+    "n_clutter": 3,
+    "n_bricks": 3,
+    "n_shoes": 2
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 21,
+     "chair:block": 18,
+     "cylinder": 4,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 64,
+   "n_meshes": 4,
+   "floor_height_range_m": [
+    0.0,
+    0.12
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.12,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.3,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.375,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.36,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.68,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.375,
+      0.247,
+      0.5,
+      0.38,
+      0.38,
+      0.5
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7750000000000004
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.05,
+      0.0,
+      0.12
+     ],
+     "clearance_m": [
+      0.24,
+      0.5,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.125
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.2686642440876135,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.36,
+      0.52,
+      0.449,
+      0.88,
+      0.64
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.68,
+      0.888,
+      0.796,
+      0.354
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 2
+  },
+  {
+   "tile_id": "homes_L1_v0",
+   "type": "homes",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 70100,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.9289,
+    "hall_width_m": 1.1222,
+    "threshold_rise_m": 0.0356,
+    "step_rise_m": 0.13,
+    "laundry_sill_m": 0.0578,
+    "n_clutter": 4,
+    "n_bricks": 3,
+    "n_shoes": 2
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 22,
+     "chair:block": 18,
+     "cylinder": 4,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 65,
+   "n_meshes": 4,
+   "floor_height_range_m": [
+    0.0,
+    0.13
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.13,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.3,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.418,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.75,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.418,
+      0.4,
+      0.5,
+      0.38,
+      0.38,
+      0.5
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.761111111111111
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.012,
+      0.0,
+      0.13
+     ],
+     "clearance_m": [
+      0.24,
+      0.5,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.75,
+      0.888,
+      0.796,
+      0.321
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 3
+  },
+  {
+   "tile_id": "homes_L1_v1",
+   "type": "homes",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 70101,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.9289,
+    "hall_width_m": 1.1222,
+    "threshold_rise_m": 0.0356,
+    "step_rise_m": 0.13,
+    "laundry_sill_m": 0.0578,
+    "n_clutter": 4,
+    "n_bricks": 3,
+    "n_shoes": 2
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 21,
+     "chair:block": 18,
+     "cylinder": 6,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 64,
+   "n_meshes": 6,
+   "floor_height_range_m": [
+    0.0,
+    0.13
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.13,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.3,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.418,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.36,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.76,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.418,
+      0.412,
+      0.5,
+      0.38,
+      0.38,
+      0.5
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.761111111111111
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.09,
+      0.0,
+      0.13
+     ],
+     "clearance_m": [
+      0.24,
+      0.5,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.1388888888888888
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.268077839216216,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.36,
+      0.52,
+      0.449,
+      0.888,
+      0.64
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.76,
+      0.888,
+      0.796,
+      0.322
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 4
+  },
+  {
+   "tile_id": "homes_L1_v2",
+   "type": "homes",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 70102,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.9289,
+    "hall_width_m": 1.1222,
+    "threshold_rise_m": 0.0356,
+    "step_rise_m": 0.13,
+    "laundry_sill_m": 0.0578,
+    "n_clutter": 4,
+    "n_bricks": 3,
+    "n_shoes": 2
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 21,
+     "chair:block": 18,
+     "cylinder": 7,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 64,
+   "n_meshes": 7,
+   "floor_height_range_m": [
+    0.0,
+    0.13
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.13,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.12,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.12,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.3,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.436,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.36,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.744,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.436,
+      0.442,
+      0.5,
+      0.38,
+      0.38,
+      0.5
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.761111111111111
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.09,
+      0.09,
+      0.13
+     ],
+     "clearance_m": [
+      0.24,
+      0.5,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.1388888888888888
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.268077839216216,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.36,
+      0.52,
+      0.449,
+      0.88,
+      0.64
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.744,
+      0.888,
+      0.796,
+      0.32
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 5
+  },
+  {
+   "tile_id": "homes_L2_v0",
+   "type": "homes",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 70200,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.9078,
+    "hall_width_m": 1.0944,
+    "threshold_rise_m": 0.0411,
+    "step_rise_m": 0.14,
+    "laundry_sill_m": 0.0656,
+    "n_clutter": 5,
+    "n_bricks": 4,
+    "n_shoes": 2
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 25,
+     "chair:block": 18,
+     "cylinder": 1,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 68,
+   "n_meshes": 1,
+   "floor_height_range_m": [
+    0.0,
+    0.14
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.14,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.28,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.421,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.34,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.421,
+      0.36,
+      0.48,
+      0.36,
+      0.36,
+      0.48
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7472222222222222
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.012,
+      0.0,
+      0.14
+     ],
+     "clearance_m": [
+      0.24,
+      0.48,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.152777777777778
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.267497930112057,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.34,
+      0.5,
+      0.449,
+      0.881,
+      0.553
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 6
+  },
+  {
+   "tile_id": "homes_L2_v1",
+   "type": "homes",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 70201,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.9078,
+    "hall_width_m": 1.0944,
+    "threshold_rise_m": 0.0411,
+    "step_rise_m": 0.14,
+    "laundry_sill_m": 0.0656,
+    "n_clutter": 5,
+    "n_bricks": 4,
+    "n_shoes": 2
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 24,
+     "chair:block": 18,
+     "cylinder": 4,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 67,
+   "n_meshes": 4,
+   "floor_height_range_m": [
+    0.0,
+    0.14
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.14,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.28,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.408,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.34,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.703,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.408,
+      0.297,
+      0.48,
+      0.36,
+      0.36,
+      0.48
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7472222222222222
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.012,
+      0.09,
+      0.14
+     ],
+     "clearance_m": [
+      0.24,
+      0.48,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.152777777777778
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.267497930112057,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.34,
+      0.5,
+      0.449,
+      0.907,
+      0.64
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.703,
+      0.888,
+      0.796,
+      0.34
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 7
+  },
+  {
+   "tile_id": "homes_L2_v2",
+   "type": "homes",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 70202,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.9078,
+    "hall_width_m": 1.0944,
+    "threshold_rise_m": 0.0411,
+    "step_rise_m": 0.14,
+    "laundry_sill_m": 0.0656,
+    "n_clutter": 5,
+    "n_bricks": 4,
+    "n_shoes": 2
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 24,
+     "chair:block": 18,
+     "cylinder": 4,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 67,
+   "n_meshes": 4,
+   "floor_height_range_m": [
+    0.0,
+    0.14
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.14,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.28,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.461,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.34,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.7,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.461,
+      0.46,
+      0.48,
+      0.36,
+      0.36,
+      0.48
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7472222222222222
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.09,
+      0.0,
+      0.14
+     ],
+     "clearance_m": [
+      0.24,
+      0.48,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.152777777777778
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.267497930112057,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.34,
+      0.5,
+      0.449,
+      0.88,
+      0.64
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.7,
+      0.888,
+      0.796,
+      0.349
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 8
+  },
+  {
+   "tile_id": "homes_L3_v0",
+   "type": "homes",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 70300,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8867,
+    "hall_width_m": 1.0667,
+    "threshold_rise_m": 0.0467,
+    "step_rise_m": 0.15,
+    "laundry_sill_m": 0.0733,
+    "n_clutter": 6,
+    "n_bricks": 4,
+    "n_shoes": 3
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 25,
+     "chair:block": 18,
+     "cylinder": 6,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 68,
+   "n_meshes": 6,
+   "floor_height_range_m": [
+    0.0,
+    0.15
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.15,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.434,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.32,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.434,
+      0.221,
+      0.46,
+      0.34,
+      0.34,
+      0.46
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7333333333333334
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.0733,
+      0.0,
+      0.15
+     ],
+     "clearance_m": [
+      0.24,
+      0.46,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.1666666666666667
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.266924411688326,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.32,
+      0.48,
+      0.449,
+      0.882,
+      0.64
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 9
+  },
+  {
+   "tile_id": "homes_L3_v1",
+   "type": "homes",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 70301,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8867,
+    "hall_width_m": 1.0667,
+    "threshold_rise_m": 0.0467,
+    "step_rise_m": 0.15,
+    "laundry_sill_m": 0.0733,
+    "n_clutter": 6,
+    "n_bricks": 4,
+    "n_shoes": 3
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 23,
+     "chair:block": 18,
+     "cylinder": 13,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 66,
+   "n_meshes": 13,
+   "floor_height_range_m": [
+    0.0,
+    0.15
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.15,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.441,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.32,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.703,
+     "floor_range_r20_m": 0.1,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.441,
+      0.36,
+      0.46,
+      0.34,
+      0.34,
+      0.46
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7333333333333334
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.09,
+      0.0,
+      0.15
+     ],
+     "clearance_m": [
+      0.24,
+      0.46,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.1666666666666667
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.266924411688326,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.32,
+      0.48,
+      0.449,
+      0.88,
+      0.64
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.703,
+      0.888,
+      0.796,
+      0.32
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 10
+  },
+  {
+   "tile_id": "homes_L3_v2",
+   "type": "homes",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 70302,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8867,
+    "hall_width_m": 1.0667,
+    "threshold_rise_m": 0.0467,
+    "step_rise_m": 0.15,
+    "laundry_sill_m": 0.0733,
+    "n_clutter": 6,
+    "n_bricks": 4,
+    "n_shoes": 3
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 26,
+     "chair:block": 18,
+     "cylinder": 4,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 69,
+   "n_meshes": 4,
+   "floor_height_range_m": [
+    0.0,
+    0.15
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.15,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.724,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.028,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7333333333333334
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.0733,
+      0.0,
+      0.15
+     ],
+     "clearance_m": [
+      0.24,
+      0.46,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.724,
+      0.888,
+      0.796,
+      0.369
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 11
+  },
+  {
+   "tile_id": "homes_L4_v0",
+   "type": "homes",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 70400,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8656,
+    "hall_width_m": 1.0389,
+    "threshold_rise_m": 0.0522,
+    "step_rise_m": 0.16,
+    "laundry_sill_m": 0.0811,
+    "n_clutter": 7,
+    "n_bricks": 5,
+    "n_shoes": 3
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 29,
+     "chair:block": 18,
+     "cylinder": 1,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 72,
+   "n_meshes": 1,
+   "floor_height_range_m": [
+    0.0,
+    0.16
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.16,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.447,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.3,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.76,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.447,
+      0.3,
+      0.44,
+      0.32,
+      0.32,
+      0.44
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7194444444444446
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.0811,
+      0.0,
+      0.16
+     ],
+     "clearance_m": [
+      0.24,
+      0.44,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.1805555555555556
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.266357181063958,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.3,
+      0.46,
+      0.449,
+      0.894,
+      0.64
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.76,
+      0.888,
+      0.796,
+      0.322
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 12
+  },
+  {
+   "tile_id": "homes_L4_v1",
+   "type": "homes",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 70401,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8656,
+    "hall_width_m": 1.0389,
+    "threshold_rise_m": 0.0522,
+    "step_rise_m": 0.16,
+    "laundry_sill_m": 0.0811,
+    "n_clutter": 7,
+    "n_bricks": 5,
+    "n_shoes": 3
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 29,
+     "chair:block": 18,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 72,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.16
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.09,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.16,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.487,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.7,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.487,
+      0.42,
+      0.44,
+      0.32,
+      0.32,
+      0.44
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7194444444444446
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.0811,
+      0.09,
+      0.16
+     ],
+     "clearance_m": [
+      0.24,
+      0.44,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.7,
+      0.888,
+      0.796,
+      0.369
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 13
+  },
+  {
+   "tile_id": "homes_L4_v2",
+   "type": "homes",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 70402,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8656,
+    "hall_width_m": 1.0389,
+    "threshold_rise_m": 0.0522,
+    "step_rise_m": 0.16,
+    "laundry_sill_m": 0.0811,
+    "n_clutter": 7,
+    "n_bricks": 5,
+    "n_shoes": 3
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 27,
+     "chair:block": 18,
+     "cylinder": 6,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 70,
+   "n_meshes": 6,
+   "floor_height_range_m": [
+    0.0,
+    0.16
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.09,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.16,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0546,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.07,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.454,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.3,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.06,
+     "clearance_m": 0.68,
+     "floor_range_r20_m": 0.06,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.454,
+      0.22,
+      0.44,
+      0.32,
+      0.32,
+      0.44
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7194444444444446
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.0811,
+      0.0,
+      0.16
+     ],
+     "clearance_m": [
+      0.24,
+      0.44,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.1805555555555556
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.266357181063958,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.3,
+      0.46,
+      0.449,
+      0.54,
+      0.64
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.06,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.68,
+      0.888,
+      0.796,
+      0.3
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 14
+  },
+  {
+   "tile_id": "homes_L5_v0",
+   "type": "homes",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 70500,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8444,
+    "hall_width_m": 1.0111,
+    "threshold_rise_m": 0.0578,
+    "step_rise_m": 0.17,
+    "laundry_sill_m": 0.0889,
+    "n_clutter": 8,
+    "n_bricks": 5,
+    "n_shoes": 4
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 27,
+     "chair:block": 18,
+     "cylinder": 13,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 70,
+   "n_meshes": 13,
+   "floor_height_range_m": [
+    0.0,
+    0.17
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.17,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.484,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.3,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.06,
+     "clearance_m": 0.76,
+     "floor_range_r20_m": 0.06,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.484,
+      0.36,
+      0.44,
+      0.32,
+      0.32,
+      0.44
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7055555555555557
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.012,
+      0.0,
+      0.17
+     ],
+     "clearance_m": [
+      0.24,
+      0.44,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.1944444444444444
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.265796137507385,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.3,
+      0.46,
+      0.449,
+      0.88,
+      0.326
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.06,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.76,
+      0.888,
+      0.796,
+      0.36
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 15
+  },
+  {
+   "tile_id": "homes_L5_v1",
+   "type": "homes",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 70501,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8444,
+    "hall_width_m": 1.0111,
+    "threshold_rise_m": 0.0578,
+    "step_rise_m": 0.17,
+    "laundry_sill_m": 0.0889,
+    "n_clutter": 8,
+    "n_bricks": 5,
+    "n_shoes": 4
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 31,
+     "chair:block": 18,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 74,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.17
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.09,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.17,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.467,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.3,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.467,
+      0.3,
+      0.44,
+      0.32,
+      0.32,
+      0.44
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7055555555555557
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.012,
+      0.09,
+      0.17
+     ],
+     "clearance_m": [
+      0.24,
+      0.44,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.1944444444444444
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.265796137507385,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.3,
+      0.46,
+      0.449,
+      0.88,
+      0.64
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 16
+  },
+  {
+   "tile_id": "homes_L5_v2",
+   "type": "homes",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 70502,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8444,
+    "hall_width_m": 1.0111,
+    "threshold_rise_m": 0.0578,
+    "step_rise_m": 0.17,
+    "laundry_sill_m": 0.0889,
+    "n_clutter": 8,
+    "n_bricks": 5,
+    "n_shoes": 4
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 29,
+     "chair:block": 18,
+     "cylinder": 7,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 72,
+   "n_meshes": 7,
+   "floor_height_range_m": [
+    0.0,
+    0.17
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.09,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.17,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.475,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.3,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.475,
+      0.335,
+      0.44,
+      0.32,
+      0.32,
+      0.44
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.7055555555555557
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.09,
+      0.0,
+      0.17
+     ],
+     "clearance_m": [
+      0.24,
+      0.44,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.1944444444444444
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.265796137507385,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.3,
+      0.46,
+      0.449,
+      0.5,
+      0.64
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 17
+  },
+  {
+   "tile_id": "homes_L6_v0",
+   "type": "homes",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 70600,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8233,
+    "hall_width_m": 0.9833,
+    "threshold_rise_m": 0.0633,
+    "step_rise_m": 0.18,
+    "laundry_sill_m": 0.0967,
+    "n_clutter": 9,
+    "n_bricks": 6,
+    "n_shoes": 4
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 31,
+     "chair:block": 18,
+     "cylinder": 6,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 74,
+   "n_meshes": 6,
+   "floor_height_range_m": [
+    0.0,
+    0.18
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.09,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.18,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.22,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.491,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.28,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.7,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.491,
+      0.3,
+      0.42,
+      0.3,
+      0.3,
+      0.42
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.691666666666667
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.0967,
+      0.09,
+      0.18
+     ],
+     "clearance_m": [
+      0.24,
+      0.42,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.2083333333333333
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.265241182381947,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.28,
+      0.44,
+      0.449,
+      0.393,
+      0.31
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.7,
+      0.888,
+      0.796,
+      0.321
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 18
+  },
+  {
+   "tile_id": "homes_L6_v1",
+   "type": "homes",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 70601,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8233,
+    "hall_width_m": 0.9833,
+    "threshold_rise_m": 0.0633,
+    "step_rise_m": 0.18,
+    "laundry_sill_m": 0.0967,
+    "n_clutter": 9,
+    "n_bricks": 6,
+    "n_shoes": 4
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 30,
+     "chair:block": 18,
+     "cylinder": 9,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 73,
+   "n_meshes": 9,
+   "floor_height_range_m": [
+    0.0,
+    0.18
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.18,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.22,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.531,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.28,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.76,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.531,
+      0.44,
+      0.42,
+      0.3,
+      0.3,
+      0.42
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.691666666666667
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.0967,
+      0.09,
+      0.18
+     ],
+     "clearance_m": [
+      0.24,
+      0.42,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.2083333333333333
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.265241182381947,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.28,
+      0.44,
+      0.449,
+      0.894,
+      0.64
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.76,
+      0.888,
+      0.796,
+      0.369
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 19
+  },
+  {
+   "tile_id": "homes_L6_v2",
+   "type": "homes",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 70602,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8233,
+    "hall_width_m": 0.9833,
+    "threshold_rise_m": 0.0633,
+    "step_rise_m": 0.18,
+    "laundry_sill_m": 0.0967,
+    "n_clutter": 9,
+    "n_bricks": 6,
+    "n_shoes": 4
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 32,
+     "chair:block": 18,
+     "cylinder": 3,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 75,
+   "n_meshes": 3,
+   "floor_height_range_m": [
+    0.0,
+    0.18
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.18,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.171,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.22,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.537,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.28,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.537,
+      0.447,
+      0.42,
+      0.3,
+      0.3,
+      0.42
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.691666666666667
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.0967,
+      0.0,
+      0.18
+     ],
+     "clearance_m": [
+      0.24,
+      0.42,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.2083333333333333
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.265241182381947,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.28,
+      0.44,
+      0.449,
+      0.88,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 20
+  },
+  {
+   "tile_id": "homes_L7_v0",
+   "type": "homes",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 70700,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8022,
+    "hall_width_m": 0.9556,
+    "threshold_rise_m": 0.0689,
+    "step_rise_m": 0.19,
+    "laundry_sill_m": 0.1044,
+    "n_clutter": 10,
+    "n_bricks": 6,
+    "n_shoes": 5
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 31,
+     "chair:block": 18,
+     "cylinder": 12,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 74,
+   "n_meshes": 12,
+   "floor_height_range_m": [
+    0.0,
+    0.19
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.19,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.2,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.677777777777778
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.1044,
+      0.0,
+      0.19
+     ],
+     "clearance_m": [
+      0.24,
+      0.4,
+      0.278,
+      0.28,
+      0.44
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 21
+  },
+  {
+   "tile_id": "homes_L7_v1",
+   "type": "homes",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 70701,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8022,
+    "hall_width_m": 0.9556,
+    "threshold_rise_m": 0.0689,
+    "step_rise_m": 0.19,
+    "laundry_sill_m": 0.1044,
+    "n_clutter": 10,
+    "n_bricks": 6,
+    "n_shoes": 5
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 34,
+     "chair:block": 18,
+     "cylinder": 3,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 77,
+   "n_meshes": 3,
+   "floor_height_range_m": [
+    0.0,
+    0.19
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.19,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.2,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.523,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.727,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.523,
+      0.36,
+      0.4,
+      0.28,
+      0.28,
+      0.4
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.677777777777778
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.1044,
+      0.0,
+      0.19
+     ],
+     "clearance_m": [
+      0.24,
+      0.4,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.222222222222222
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.264692219092936,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.42,
+      0.449,
+      0.44,
+      0.64
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.12
+     ],
+     "clearance_m": [
+      0.727,
+      0.888,
+      0.796,
+      0.34
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 22
+  },
+  {
+   "tile_id": "homes_L7_v2",
+   "type": "homes",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 70702,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.8022,
+    "hall_width_m": 0.9556,
+    "threshold_rise_m": 0.0689,
+    "step_rise_m": 0.19,
+    "laundry_sill_m": 0.1044,
+    "n_clutter": 10,
+    "n_bricks": 6,
+    "n_shoes": 5
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 33,
+     "chair:block": 18,
+     "cylinder": 6,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 76,
+   "n_meshes": 6,
+   "floor_height_range_m": [
+    0.0,
+    0.19
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.09,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.19,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.2,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.51,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.51,
+      0.316,
+      0.4,
+      0.28,
+      0.28,
+      0.4
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.677777777777778
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.1044,
+      0.09,
+      0.19
+     ],
+     "clearance_m": [
+      0.24,
+      0.4,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.222222222222222
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.264692219092936,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.42,
+      0.449,
+      0.88,
+      0.422
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 23
+  },
+  {
+   "tile_id": "homes_L8_v0",
+   "type": "homes",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 70800,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.7811,
+    "hall_width_m": 0.9278,
+    "threshold_rise_m": 0.0744,
+    "step_rise_m": 0.2,
+    "laundry_sill_m": 0.1122,
+    "n_clutter": 11,
+    "n_bricks": 7,
+    "n_shoes": 5
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 36,
+     "chair:block": 18,
+     "cylinder": 3,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 79,
+   "n_meshes": 3,
+   "floor_height_range_m": [
+    0.0,
+    0.2
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.2,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.2,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.538,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.538,
+      0.34,
+      0.4,
+      0.28,
+      0.28,
+      0.4
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.663888888888889
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.012,
+      0.09,
+      0.2
+     ],
+     "clearance_m": [
+      0.24,
+      0.4,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.236111111111111
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.264149153036177,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.42,
+      0.449,
+      0.825,
+      0.64
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 24
+  },
+  {
+   "tile_id": "homes_L8_v1",
+   "type": "homes",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 70801,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.7811,
+    "hall_width_m": 0.9278,
+    "threshold_rise_m": 0.0744,
+    "step_rise_m": 0.2,
+    "laundry_sill_m": 0.1122,
+    "n_clutter": 11,
+    "n_bricks": 7,
+    "n_shoes": 5
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 35,
+     "chair:block": 18,
+     "cylinder": 6,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 78,
+   "n_meshes": 6,
+   "floor_height_range_m": [
+    0.0,
+    0.2
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.09,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.2,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.2,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.547,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.7,
+     "floor_range_r20_m": 0.1,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.1,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.547,
+      0.374,
+      0.4,
+      0.28,
+      0.28,
+      0.4
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.663888888888889
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.012,
+      0.09,
+      0.2
+     ],
+     "clearance_m": [
+      0.24,
+      0.4,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.236111111111111
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.264149153036177,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.42,
+      0.449,
+      0.653,
+      0.53
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.7,
+      0.888,
+      0.796,
+      0.322
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 25
+  },
+  {
+   "tile_id": "homes_L8_v2",
+   "type": "homes",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 70802,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.7811,
+    "hall_width_m": 0.9278,
+    "threshold_rise_m": 0.0744,
+    "step_rise_m": 0.2,
+    "laundry_sill_m": 0.1122,
+    "n_clutter": 11,
+    "n_bricks": 7,
+    "n_shoes": 5
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 35,
+     "chair:block": 18,
+     "cylinder": 6,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 78,
+   "n_meshes": 6,
+   "floor_height_range_m": [
+    0.0,
+    0.2
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.09,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.2,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.2,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.519,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.519,
+      0.22,
+      0.4,
+      0.28,
+      0.28,
+      0.4
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.663888888888889
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.012,
+      0.09,
+      0.2
+     ],
+     "clearance_m": [
+      0.24,
+      0.4,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.236111111111111
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.264149153036177,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.42,
+      0.449,
+      0.457,
+      0.64
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 26
+  },
+  {
+   "tile_id": "homes_L9_v0",
+   "type": "homes",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 70900,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.76,
+    "hall_width_m": 0.9,
+    "threshold_rise_m": 0.08,
+    "step_rise_m": 0.21,
+    "laundry_sill_m": 0.12,
+    "n_clutter": 12,
+    "n_bricks": 8,
+    "n_shoes": 6
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 34,
+     "chair:block": 18,
+     "cylinder": 18,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 77,
+   "n_meshes": 18,
+   "floor_height_range_m": [
+    0.0,
+    0.21
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.09,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.21,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.18,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.539,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.701,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.539,
+      0.24,
+      0.38,
+      0.26,
+      0.26,
+      0.38
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.6500000000000004
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.12,
+      0.09,
+      0.21
+     ],
+     "clearance_m": [
+      0.24,
+      0.381,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.25
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.263611891548138,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0674,
+      0.0
+     ],
+     "clearance_m": [
+      0.24,
+      0.4,
+      0.449,
+      0.88,
+      0.64
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.701,
+      0.888,
+      0.796,
+      0.349
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 27
+  },
+  {
+   "tile_id": "homes_L9_v1",
+   "type": "homes",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 70901,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.76,
+    "hall_width_m": 0.9,
+    "threshold_rise_m": 0.08,
+    "step_rise_m": 0.21,
+    "laundry_sill_m": 0.12,
+    "n_clutter": 12,
+    "n_bricks": 8,
+    "n_shoes": 6
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 38,
+     "chair:block": 18,
+     "cylinder": 6,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 81,
+   "n_meshes": 6,
+   "floor_height_range_m": [
+    0.0,
+    0.21
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.21,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.18,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.6500000000000004
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.12,
+      0.09,
+      0.21
+     ],
+     "clearance_m": [
+      0.24,
+      0.381,
+      0.278,
+      0.28,
+      0.44
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 28
+  },
+  {
+   "tile_id": "homes_L9_v2",
+   "type": "homes",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 70902,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "door_width_m": 0.76,
+    "hall_width_m": 0.9,
+    "threshold_rise_m": 0.08,
+    "step_rise_m": 0.21,
+    "laundry_sill_m": 0.12,
+    "n_clutter": 12,
+    "n_bricks": 8,
+    "n_shoes": 6
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 37,
+     "chair:block": 18,
+     "cylinder": 9,
+     "door_header": 5,
+     "door_leaf": 1,
+     "ground": 1,
+     "table:block": 5,
+     "wall": 13
+    }
+   },
+   "n_boxes": 80,
+   "n_meshes": 9,
+   "floor_height_range_m": [
+    0.0,
+    0.21
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": 3.55,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "hallway end, facing the closet: turn round, or turn right into the laundry"
+    },
+    {
+     "x": 3.15,
+     "y": -3.35,
+     "yaw": -1.5707963267948966,
+     "z": 0.09,
+     "clearance_m": 0.141,
+     "floor_range_r20_m": 0.21,
+     "source": "home_spawns",
+     "note": "laundry, facing the step and door: turn round and leave"
+    },
+    {
+     "x": 2.85,
+     "y": 3.55,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "kitchen corner, facing the wall: turn, sidestep the counter"
+    },
+    {
+     "x": -0.55,
+     "y": -2.2,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.18,
+     "floor_range_r20_m": 0.0,
+     "source": "home_spawns",
+     "note": "just inside the door, facing it: turn round into the hallway"
+    },
+    {
+     "x": -3.2,
+     "y": -2.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.572,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.55,
+     "y": -2.15,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -3.0,
+     "y": 1.6,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.76,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       -2.0
+      ],
+      [
+       -0.6,
+       -2.0
+      ],
+      [
+       -0.1,
+       -2.12
+      ],
+      [
+       0.4,
+       -2.12
+      ],
+      [
+       3.2,
+       -2.0
+      ]
+     ],
+     "target": [
+      3.2,
+      -2.0
+     ],
+     "length_m": 6.416768654183835,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.572,
+      0.38,
+      0.38,
+      0.26,
+      0.26,
+      0.38
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      3.55,
+      -2.0,
+      0.0
+     ],
+     "waypoints": [
+      [
+       3.0,
+       -2.0
+      ],
+      [
+       3.0,
+       -2.6500000000000004
+      ],
+      [
+       3.0,
+       -3.4
+      ],
+      [
+       3.0,
+       -3.75
+      ]
+     ],
+     "target": [
+      3.0,
+      -3.75
+     ],
+     "length_m": 2.3,
+     "z": [
+      0.0,
+      0.0,
+      0.12,
+      0.09,
+      0.21
+     ],
+     "clearance_m": [
+      0.24,
+      0.381,
+      0.278,
+      0.28,
+      0.44
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.55,
+      -2.15,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       1.3,
+       -2.0
+      ],
+      [
+       1.3,
+       -1.25
+      ],
+      [
+       2.0,
+       1.2
+      ],
+      [
+       2.2,
+       3.3
+      ]
+     ],
+     "target": [
+      2.2,
+      3.3
+     ],
+     "length_m": 7.263611891548138,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.24,
+      0.4,
+      0.449,
+      0.88,
+      0.64
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -3.0,
+      1.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6,
+       1.6
+      ],
+      [
+       -0.6,
+       1.6
+      ],
+      [
+       0.6,
+       1.2
+      ]
+     ],
+     "target": [
+      0.6,
+      1.2
+     ],
+     "length_m": 3.6649110640673515,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.76,
+      0.888,
+      0.796,
+      0.354
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": -2.0,
+     "label": "through the door",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": -2.0,
+     "label": "end of hallway",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.1,
+     "y": -3.75,
+     "label": "laundry step",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5,
+     "y": 3.2,
+     "label": "kitchen",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -2.5,
+     "y": 1.6,
+     "label": "patio",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "homes.npz",
+   "index": 29
+  }
+ ]
+}

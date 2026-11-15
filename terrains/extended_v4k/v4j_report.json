@@ -1,0 +1,119 @@
+{
+ "single_beams": {
+  "routes_in": 268,
+  "routes_kept": 268,
+  "starts_moved": 2,
+  "tight_kept": 0,
+  "spawns_in": 59,
+  "spawns_kept": 59,
+  "start_clear_p5_p50": [
+   0.81,
+   1000.0
+  ],
+  "under_0p34": 0.007462686567164179
+ },
+ "beam_fields": {
+  "routes_in": 268,
+  "routes_kept": 268,
+  "starts_moved": 1,
+  "tight_kept": 0,
+  "spawns_in": 60,
+  "spawns_kept": 59,
+  "start_clear_p5_p50": [
+   1.8,
+   1000.0
+  ],
+  "under_0p34": 0.0037313432835820895
+ },
+ "blocks": {
+  "routes_in": 240,
+  "routes_kept": 240,
+  "starts_moved": 0,
+  "tight_kept": 0,
+  "spawns_in": 60,
+  "spawns_kept": 60,
+  "start_clear_p5_p50": [
+   1000.0,
+   1000.0
+  ],
+  "under_0p34": 0.0
+ },
+ "wedges": {
+  "routes_in": 484,
+  "routes_kept": 484,
+  "starts_moved": 2,
+  "tight_kept": 0,
+  "spawns_in": 137,
+  "spawns_kept": 132,
+  "start_clear_p5_p50": [
+   0.64,
+   2.75
+  ],
+  "under_0p34": 0.0
+ },
+ "tight_spots": {
+  "routes_in": 40,
+  "routes_kept": 36,
+  "starts_moved": 16,
+  "tight_kept": 10,
+  "spawns_in": 60,
+  "spawns_kept": 26,
+  "start_clear_p5_p50": [
+   0.26,
+   0.36
+  ],
+  "under_0p34": 0.5
+ },
+ "log_corridors": {
+  "routes_in": 124,
+  "routes_kept": 124,
+  "starts_moved": 0,
+  "tight_kept": 0,
+  "spawns_in": 80,
+  "spawns_kept": 80,
+  "start_clear_p5_p50": [
+   0.47,
+   0.64
+  ],
+  "under_0p34": 0.0
+ },
+ "homes": {
+  "routes_in": 101,
+  "routes_kept": 101,
+  "starts_moved": 54,
+  "tight_kept": 0,
+  "spawns_in": 186,
+  "spawns_kept": 71,
+  "start_clear_p5_p50": [
+   0.25,
+   0.36
+  ],
+  "under_0p34": 0.46534653465346537
+ },
+ "street_front": {
+  "routes_in": 120,
+  "routes_kept": 120,
+  "starts_moved": 0,
+  "tight_kept": 0,
+  "spawns_in": 120,
+  "spawns_kept": 120,
+  "start_clear_p5_p50": [
+   0.43,
+   1.08
+  ],
+  "under_0p34": 0.0
+ },
+ "stairs": {
+  "routes_in": 741,
+  "routes_kept": 741,
+  "starts_moved": 0,
+  "tight_kept": 0,
+  "spawns_in": 741,
+  "spawns_kept": 741,
+  "start_clear_p5_p50": [
+   0.56,
+   1.18
+  ],
+  "under_0p34": 0.0
+ }
+}

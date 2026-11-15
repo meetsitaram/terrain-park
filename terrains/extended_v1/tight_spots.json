@@ -1,0 +1,3653 @@
+{
+ "type": "tight_spots",
+ "npz": "tight_spots.npz",
+ "n_tiles": 20,
+ "labels": [
+  "beam",
+  "block",
+  "ground",
+  "wall"
+ ],
+ "tiles": [
+  {
+   "tile_id": "tight_spots_L0_v0",
+   "type": "tight_spots",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 50000,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 1.0,
+    "wall_gap_m": 0.75,
+    "lane_beam_size_m": 0.05,
+    "pocket_block_height_m": 0.08,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.08
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.44,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.44,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.44,
+      0.44
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.44,
+      0.444,
+      0.569,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 0
+  },
+  {
+   "tile_id": "tight_spots_L0_v1",
+   "type": "tight_spots",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 50001,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 1.0,
+    "wall_gap_m": 0.75,
+    "lane_beam_size_m": 0.05,
+    "pocket_block_height_m": 0.08,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.08
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.44,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.44,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.44,
+      0.44
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.44,
+      0.444,
+      0.569,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 1
+  },
+  {
+   "tile_id": "tight_spots_L1_v0",
+   "type": "tight_spots",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 50100,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.9556,
+    "wall_gap_m": 0.7222,
+    "lane_beam_size_m": 0.0556,
+    "pocket_block_height_m": 0.0933,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0933
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.42,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.42,
+      0.42
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.453,
+      0.428,
+      0.556,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 2
+  },
+  {
+   "tile_id": "tight_spots_L1_v1",
+   "type": "tight_spots",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 50101,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.9556,
+    "wall_gap_m": 0.7222,
+    "lane_beam_size_m": 0.0556,
+    "pocket_block_height_m": 0.0933,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0933
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.42,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.42,
+      0.42
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.453,
+      0.428,
+      0.556,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 3
+  },
+  {
+   "tile_id": "tight_spots_L2_v0",
+   "type": "tight_spots",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 50200,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.9111,
+    "wall_gap_m": 0.6944,
+    "lane_beam_size_m": 0.0611,
+    "pocket_block_height_m": 0.1067,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1067
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.467,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.4,
+      0.4
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.467,
+      0.412,
+      0.544,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 4
+  },
+  {
+   "tile_id": "tight_spots_L2_v1",
+   "type": "tight_spots",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 50201,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.9111,
+    "wall_gap_m": 0.6944,
+    "lane_beam_size_m": 0.0611,
+    "pocket_block_height_m": 0.1067,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1067
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.467,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.4,
+      0.4
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.467,
+      0.412,
+      0.544,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 5
+  },
+  {
+   "tile_id": "tight_spots_L3_v0",
+   "type": "tight_spots",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 50300,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.8667,
+    "wall_gap_m": 0.6667,
+    "lane_beam_size_m": 0.0667,
+    "pocket_block_height_m": 0.12,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.12
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.38,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.481,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.38,
+      0.38
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.481,
+      0.412,
+      0.544,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 6
+  },
+  {
+   "tile_id": "tight_spots_L3_v1",
+   "type": "tight_spots",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 50301,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.8667,
+    "wall_gap_m": 0.6667,
+    "lane_beam_size_m": 0.0667,
+    "pocket_block_height_m": 0.12,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.12
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.38,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.481,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.38,
+      0.38
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.481,
+      0.412,
+      0.544,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 7
+  },
+  {
+   "tile_id": "tight_spots_L4_v0",
+   "type": "tight_spots",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 50400,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.8222,
+    "wall_gap_m": 0.6389,
+    "lane_beam_size_m": 0.0722,
+    "pocket_block_height_m": 0.1333,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1333
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.36,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.495,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.36,
+      0.36
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.495,
+      0.397,
+      0.533,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 8
+  },
+  {
+   "tile_id": "tight_spots_L4_v1",
+   "type": "tight_spots",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 50401,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.8222,
+    "wall_gap_m": 0.6389,
+    "lane_beam_size_m": 0.0722,
+    "pocket_block_height_m": 0.1333,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1333
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.36,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.495,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.36,
+      0.36
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.495,
+      0.397,
+      0.533,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 9
+  },
+  {
+   "tile_id": "tight_spots_L5_v0",
+   "type": "tight_spots",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 50500,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.7778,
+    "wall_gap_m": 0.6111,
+    "lane_beam_size_m": 0.0778,
+    "pocket_block_height_m": 0.1467,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1467
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.32,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.523,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.32,
+      0.32
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.523,
+      0.382,
+      0.522,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 10
+  },
+  {
+   "tile_id": "tight_spots_L5_v1",
+   "type": "tight_spots",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 50501,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.7778,
+    "wall_gap_m": 0.6111,
+    "lane_beam_size_m": 0.0778,
+    "pocket_block_height_m": 0.1467,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1467
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.32,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.523,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.32,
+      0.32
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.523,
+      0.382,
+      0.522,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 11
+  },
+  {
+   "tile_id": "tight_spots_L6_v0",
+   "type": "tight_spots",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 50600,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.7333,
+    "wall_gap_m": 0.5833,
+    "lane_beam_size_m": 0.0833,
+    "pocket_block_height_m": 0.16,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.16
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.3,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.537,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.3,
+      0.3
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.537,
+      0.382,
+      0.522,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 12
+  },
+  {
+   "tile_id": "tight_spots_L6_v1",
+   "type": "tight_spots",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 50601,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.7333,
+    "wall_gap_m": 0.5833,
+    "lane_beam_size_m": 0.0833,
+    "pocket_block_height_m": 0.16,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.16
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.3,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.537,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.3,
+      0.3
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.537,
+      0.382,
+      0.522,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 13
+  },
+  {
+   "tile_id": "tight_spots_L7_v0",
+   "type": "tight_spots",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 50700,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.6889,
+    "wall_gap_m": 0.5556,
+    "lane_beam_size_m": 0.0889,
+    "pocket_block_height_m": 0.1733,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1733
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.28,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.552,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.28,
+      0.28
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.552,
+      0.368,
+      0.511,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 14
+  },
+  {
+   "tile_id": "tight_spots_L7_v1",
+   "type": "tight_spots",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 50701,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.6889,
+    "wall_gap_m": 0.5556,
+    "lane_beam_size_m": 0.0889,
+    "pocket_block_height_m": 0.1733,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1733
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.28,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.552,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.28,
+      0.28
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.552,
+      0.368,
+      0.511,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 15
+  },
+  {
+   "tile_id": "tight_spots_L8_v0",
+   "type": "tight_spots",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 50800,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.6444,
+    "wall_gap_m": 0.5278,
+    "lane_beam_size_m": 0.0944,
+    "pocket_block_height_m": 0.1867,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1867
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.566,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.26,
+      0.26
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.566,
+      0.354,
+      0.501,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 16
+  },
+  {
+   "tile_id": "tight_spots_L8_v1",
+   "type": "tight_spots",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 50801,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.6444,
+    "wall_gap_m": 0.5278,
+    "lane_beam_size_m": 0.0944,
+    "pocket_block_height_m": 0.1867,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1867
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.26,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.566,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.26,
+      0.26,
+      0.26
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.566,
+      0.354,
+      0.501,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 17
+  },
+  {
+   "tile_id": "tight_spots_L9_v0",
+   "type": "tight_spots",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 50900,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.6,
+    "wall_gap_m": 0.5,
+    "lane_beam_size_m": 0.1,
+    "pocket_block_height_m": 0.2,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.2
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.581,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.24,
+      0.24,
+      0.24
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.581,
+      0.341,
+      0.492,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 18
+  },
+  {
+   "tile_id": "tight_spots_L9_v1",
+   "type": "tight_spots",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 50901,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "lane_width_m": 0.6,
+    "wall_gap_m": 0.5,
+    "lane_beam_size_m": 0.1,
+    "pocket_block_height_m": 0.2,
+    "wall_height_m": 1.0,
+    "wall_thickness_m": 0.08
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 1,
+     "block": 1,
+     "ground": 1,
+     "wall": 10
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.2
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "yaw": 3.141592653589793,
+     "z": 0.0,
+     "clearance_m": 0.24,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -1.0,
+     "y": -0.8,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.581,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3,
+      0.0,
+      3.141592653589793
+     ],
+     "waypoints": [
+      [
+       2.5,
+       0.0
+      ],
+      [
+       2.5,
+       2.6
+      ]
+     ],
+     "target": [
+      2.5,
+      2.6
+     ],
+     "length_m": 5.4,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.24,
+      0.24,
+      0.24
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -1.0,
+      -0.8,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -1.0,
+       -1.2
+      ],
+      [
+       -1.0,
+       -2.0
+      ],
+      [
+       -2.6,
+       -2.95
+      ]
+     ],
+     "target": [
+      -2.6,
+      -2.95
+     ],
+     "length_m": 3.0607794065928395,
+     "z": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.581,
+      0.341,
+      0.492,
+      0.4
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 2.5,
+     "y": 2.6,
+     "label": "turn left",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -0.25,
+     "y": 0.0,
+     "label": "behind: turn in place",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -1.0,
+     "y": -2.6,
+     "label": "sidestep through the gap",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "tight_spots.npz",
+   "index": 19
+  }
+ ]
+}

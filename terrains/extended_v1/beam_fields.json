@@ -1,0 +1,3604 @@
+{
+ "type": "beam_fields",
+ "npz": "beam_fields.npz",
+ "n_tiles": 30,
+ "labels": [
+  "beam",
+  "beam_support",
+  "brace_stand:board",
+  "brace_stand:brace",
+  "brace_stand:post",
+  "ground"
+ ],
+ "tiles": [
+  {
+   "tile_id": "beam_fields_L0_v0",
+   "type": "beam_fields",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 20000,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 1.2,
+    "beam_size_m": [
+     0.04,
+     0.05
+    ],
+    "angle_max_deg": 10.0,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0,
+    "slant_probability": 0.0,
+    "brace_stand_probability": 0.2
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 6,
+     "ground": 1
+    }
+   },
+   "n_boxes": 7,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0478
+   ],
+   "top_height_max_m": 0.0478,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -1.4824969497317353,
+     "y": 3.2805796429954417,
+     "yaw": 5.136822585832288,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -1.4824969497317353,
+      3.2805796429954417,
+      5.136822585832288
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -1.906596562460465,
+       -2.8151180344727886
+      ]
+     ],
+     "target": [
+      -1.906596562460465,
+      -2.8151180344727886
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 0
+  },
+  {
+   "tile_id": "beam_fields_L0_v1",
+   "type": "beam_fields",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 20001,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 1.2,
+    "beam_size_m": [
+     0.04,
+     0.05
+    ],
+    "angle_max_deg": 10.0,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0,
+    "slant_probability": 0.0,
+    "brace_stand_probability": 0.2
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 4,
+     "ground": 1
+    }
+   },
+   "n_boxes": 5,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0457
+   ],
+   "top_height_max_m": 0.0457,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.1997527108726396,
+     "y": 1.6497219733225343,
+     "yaw": 5.807153138265647,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.1997527108726396,
+      1.6497219733225343,
+      5.807153138265647
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -1.0944932600462804,
+       -3.219019183495691
+      ]
+     ],
+     "target": [
+      -1.0944932600462804,
+      -3.219019183495691
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 1
+  },
+  {
+   "tile_id": "beam_fields_L0_v2",
+   "type": "beam_fields",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 20002,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 1.2,
+    "beam_size_m": [
+     0.04,
+     0.05
+    ],
+    "angle_max_deg": 10.0,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0,
+    "slant_probability": 0.0,
+    "brace_stand_probability": 0.2
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 5,
+     "ground": 1
+    }
+   },
+   "n_boxes": 6,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0478
+   ],
+   "top_height_max_m": 0.0478,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 2.112082661042719,
+     "y": -2.9153227665084884,
+     "yaw": 2.197761256677847,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      2.112082661042719,
+      -2.9153227665084884,
+      2.197761256677847
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -3.304408490690767,
+       0.8005526382760636
+      ]
+     ],
+     "target": [
+      -3.304408490690767,
+      0.8005526382760636
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 2
+  },
+  {
+   "tile_id": "beam_fields_L1_v0",
+   "type": "beam_fields",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 20100,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 1.1222,
+    "beam_size_m": [
+     0.0462,
+     0.0578
+    ],
+    "angle_max_deg": 14.4444,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0167,
+    "slant_probability": 0.0333,
+    "brace_stand_probability": 0.2444
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 7,
+     "ground": 1
+    }
+   },
+   "n_boxes": 8,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.054
+   ],
+   "top_height_max_m": 0.054,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 3.016796917574297,
+     "y": -1.964417562056047,
+     "yaw": 2.5644023805570884,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      3.016796917574297,
+      -1.964417562056047,
+      2.5644023805570884
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       0.8505670540146786,
+       3.2918893794635307
+      ]
+     ],
+     "target": [
+      0.8505670540146786,
+      3.2918893794635307
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 3
+  },
+  {
+   "tile_id": "beam_fields_L1_v1",
+   "type": "beam_fields",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 20101,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 1.1222,
+    "beam_size_m": [
+     0.0462,
+     0.0578
+    ],
+    "angle_max_deg": 14.4444,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0167,
+    "slant_probability": 0.0333,
+    "brace_stand_probability": 0.2444
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 8,
+     "ground": 1
+    }
+   },
+   "n_boxes": 9,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0526
+   ],
+   "top_height_max_m": 0.0526,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -1.0202252997824417,
+     "y": 3.4524108008294476,
+     "yaw": 4.9997223368594135,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -1.0202252997824417,
+      3.4524108008294476,
+      4.9997223368594135
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.315725578142007,
+       0.7523057160854567
+      ]
+     ],
+     "target": [
+      3.315725578142007,
+      0.7523057160854567
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 4
+  },
+  {
+   "tile_id": "beam_fields_L1_v2",
+   "type": "beam_fields",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 20102,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 1.1222,
+    "beam_size_m": [
+     0.0462,
+     0.0578
+    ],
+    "angle_max_deg": 14.4444,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0167,
+    "slant_probability": 0.0333,
+    "brace_stand_probability": 0.2444
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 6,
+     "ground": 1
+    }
+   },
+   "n_boxes": 7,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.057
+   ],
+   "top_height_max_m": 0.057,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 3.494011518561797,
+     "y": 0.8671121658456222,
+     "yaw": 3.384849120571267,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      3.494011518561797,
+      0.8671121658456222,
+      3.384849120571267
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -1.9938753544893129,
+       -2.7539900273530615
+      ]
+     ],
+     "target": [
+      -1.9938753544893129,
+      -2.7539900273530615
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 5
+  },
+  {
+   "tile_id": "beam_fields_L2_v0",
+   "type": "beam_fields",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 20200,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 1.0444,
+    "beam_size_m": [
+     0.0524,
+     0.0656
+    ],
+    "angle_max_deg": 18.8889,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0333,
+    "slant_probability": 0.0667,
+    "brace_stand_probability": 0.2889
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 7,
+     "ground": 1
+    }
+   },
+   "n_boxes": 8,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0603
+   ],
+   "top_height_max_m": 0.0603,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.04248375437907,
+     "y": 1.924394087586906,
+     "yaw": 5.7192054776214425,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.04248375437907,
+      1.924394087586906,
+      5.7192054776214425
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.3158490492286514,
+       0.7517613203201171
+      ]
+     ],
+     "target": [
+      3.3158490492286514,
+      0.7517613203201171
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 6
+  },
+  {
+   "tile_id": "beam_fields_L2_v1",
+   "type": "beam_fields",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 20201,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 1.0444,
+    "beam_size_m": [
+     0.0524,
+     0.0656
+    ],
+    "angle_max_deg": 18.8889,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0333,
+    "slant_probability": 0.0667,
+    "brace_stand_probability": 0.2889
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 9,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 14,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0641
+   ],
+   "top_height_max_m": 1.3572,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 3.319,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.566949662388146,
+     "y": 0.48669303055323565,
+     "yaw": 6.147577555071395,
+     "z": 0.0,
+     "clearance_m": 5.599,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.566949662388146,
+      0.48669303055323565,
+      6.147577555071395
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       1.9036035849956405,
+       2.817142770821483
+      ]
+     ],
+     "target": [
+      1.9036035849956405,
+      2.817142770821483
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      5.599,
+      3.319,
+      0.12
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 7
+  },
+  {
+   "tile_id": "beam_fields_L2_v2",
+   "type": "beam_fields",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 20202,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 1.0444,
+    "beam_size_m": [
+     0.0524,
+     0.0656
+    ],
+    "angle_max_deg": 18.8889,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0333,
+    "slant_probability": 0.0667,
+    "brace_stand_probability": 0.2889
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 9,
+     "beam_support": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 11,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0855
+   ],
+   "top_height_max_m": 0.0855,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -2.0090008866493445,
+     "y": -2.9872923254081023,
+     "yaw": 0.9787553400552107,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -2.0090008866493445,
+      -2.9872923254081023,
+      0.9787553400552107
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -2.1430451201822587,
+       2.63957527130086
+      ]
+     ],
+     "target": [
+      -2.1430451201822587,
+      2.63957527130086
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 8
+  },
+  {
+   "tile_id": "beam_fields_L3_v0",
+   "type": "beam_fields",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 20300,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.9667,
+    "beam_size_m": [
+     0.0587,
+     0.0733
+    ],
+    "angle_max_deg": 23.3333,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.05,
+    "slant_probability": 0.1,
+    "brace_stand_probability": 0.3333
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 6,
+     "beam_support": 2,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0928
+   ],
+   "top_height_max_m": 1.4076,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 3.439,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 0.6966708551550995,
+     "y": 3.531947015397805,
+     "yaw": 4.517640595929422,
+     "z": 0.0,
+     "clearance_m": 6.484,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      0.6966708551550995,
+      3.531947015397805,
+      4.517640595929422
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       2.6310584914097004,
+       -2.1534927942254445
+      ]
+     ],
+     "target": [
+      2.6310584914097004,
+      -2.1534927942254445
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      6.484,
+      3.439,
+      0.796
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 9
+  },
+  {
+   "tile_id": "beam_fields_L3_v1",
+   "type": "beam_fields",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 20301,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.9667,
+    "beam_size_m": [
+     0.0587,
+     0.0733
+    ],
+    "angle_max_deg": 23.3333,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.05,
+    "slant_probability": 0.1,
+    "brace_stand_probability": 0.3333
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 7,
+     "ground": 1
+    }
+   },
+   "n_boxes": 8,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0704
+   ],
+   "top_height_max_m": 0.0704,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.5408631899140834,
+     "y": 0.6498368028293414,
+     "yaw": 6.101680136234659,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.5408631899140834,
+      0.6498368028293414,
+      6.101680136234659
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.104627747891354,
+       1.3861048109804173
+      ]
+     ],
+     "target": [
+      3.104627747891354,
+      1.3861048109804173
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 10
+  },
+  {
+   "tile_id": "beam_fields_L3_v2",
+   "type": "beam_fields",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 20302,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.9667,
+    "beam_size_m": [
+     0.0587,
+     0.0733
+    ],
+    "angle_max_deg": 23.3333,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.05,
+    "slant_probability": 0.1,
+    "brace_stand_probability": 0.3333
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 6,
+     "ground": 1
+    }
+   },
+   "n_boxes": 7,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0709
+   ],
+   "top_height_max_m": 0.0709,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 2.908368980574025,
+     "y": -2.1216479144369846,
+     "yaw": 2.511342781711887,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      2.908368980574025,
+      -2.1216479144369846,
+      2.511342781711887
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -3.1537465381102137,
+       -1.2703868597233845
+      ]
+     ],
+     "target": [
+      -3.1537465381102137,
+      -1.2703868597233845
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 11
+  },
+  {
+   "tile_id": "beam_fields_L4_v0",
+   "type": "beam_fields",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 20400,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.8889,
+    "beam_size_m": [
+     0.0649,
+     0.0811
+    ],
+    "angle_max_deg": 27.7778,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0667,
+    "slant_probability": 0.1333,
+    "brace_stand_probability": 0.3778
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 7,
+     "beam_support": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 12,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0937
+   ],
+   "top_height_max_m": 1.2943,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 3.144,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -2.5129596469246165,
+     "y": 2.5777963094334098,
+     "yaw": 5.485051676261303,
+     "z": 0.0,
+     "clearance_m": 6.579,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -2.5129596469246165,
+      2.5777963094334098,
+      5.485051676261303
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.3985076641089864,
+       -0.10072565210750062
+      ]
+     ],
+     "target": [
+      3.3985076641089864,
+      -0.10072565210750062
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      6.579,
+      3.144,
+      3.533
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 12
+  },
+  {
+   "tile_id": "beam_fields_L4_v1",
+   "type": "beam_fields",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 20401,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.8889,
+    "beam_size_m": [
+     0.0649,
+     0.0811
+    ],
+    "angle_max_deg": 27.7778,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0667,
+    "slant_probability": 0.1333,
+    "brace_stand_probability": 0.3778
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 7,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 11,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0786
+   ],
+   "top_height_max_m": 1.3545,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 3.688,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 2.304383367242986,
+     "y": -2.7658303087452563,
+     "yaw": 2.2654331927937625,
+     "z": 0.0,
+     "clearance_m": 4.68,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      2.304383367242986,
+      -2.7658303087452563,
+      2.2654331927937625
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -2.729082574302849,
+       -2.0278334011048678
+      ]
+     ],
+     "target": [
+      -2.729082574302849,
+      -2.0278334011048678
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      4.68,
+      3.688,
+      0.81
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 13
+  },
+  {
+   "tile_id": "beam_fields_L4_v2",
+   "type": "beam_fields",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 20402,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.8889,
+    "beam_size_m": [
+     0.0649,
+     0.0811
+    ],
+    "angle_max_deg": 27.7778,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0667,
+    "slant_probability": 0.1333,
+    "brace_stand_probability": 0.3778
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 9,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 14,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0797
+   ],
+   "top_height_max_m": 1.2067,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 3.073,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -2.287396856402994,
+     "y": -2.7798948939335277,
+     "yaw": 0.8822854252452118,
+     "z": 0.0,
+     "clearance_m": 3.193,
+     "floor_range_r20_m": 0.072,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -2.287396856402994,
+      -2.7798948939335277,
+      0.8822854252452118
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.260372611311735,
+       -0.9643497474507357
+      ]
+     ],
+     "target": [
+      3.260372611311735,
+      -0.9643497474507357
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      3.193,
+      3.073,
+      2.717
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 14
+  },
+  {
+   "tile_id": "beam_fields_L5_v0",
+   "type": "beam_fields",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 20500,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.8111,
+    "beam_size_m": [
+     0.0711,
+     0.0889
+    ],
+    "angle_max_deg": 32.2222,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0833,
+    "slant_probability": 0.1667,
+    "brace_stand_probability": 0.4222
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 7,
+     "ground": 1
+    }
+   },
+   "n_boxes": 8,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0887
+   ],
+   "top_height_max_m": 0.0887,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.1266881523852765,
+     "y": 1.784326538987062,
+     "yaw": 5.76460654288326,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.08,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.1266881523852765,
+      1.784326538987062,
+      5.76460654288326
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.3834764057923556,
+       0.3347945809693527
+      ]
+     ],
+     "target": [
+      3.3834764057923556,
+      0.3347945809693527
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 15
+  },
+  {
+   "tile_id": "beam_fields_L5_v1",
+   "type": "beam_fields",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 20501,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.8111,
+    "beam_size_m": [
+     0.0711,
+     0.0889
+    ],
+    "angle_max_deg": 32.2222,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0833,
+    "slant_probability": 0.1667,
+    "brace_stand_probability": 0.4222
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 7,
+     "beam_support": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 9,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0844
+   ],
+   "top_height_max_m": 0.0844,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.9062841642060536,
+     "y": 3.4840564021997884,
+     "yaw": 4.966872505441698,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.9062841642060536,
+      3.4840564021997884,
+      4.966872505441698
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.0772859071838505,
+       1.4457909411279575
+      ]
+     ],
+     "target": [
+      3.0772859071838505,
+      1.4457909411279575
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 16
+  },
+  {
+   "tile_id": "beam_fields_L5_v2",
+   "type": "beam_fields",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 20502,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.8111,
+    "beam_size_m": [
+     0.0711,
+     0.0889
+    ],
+    "angle_max_deg": 32.2222,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.0833,
+    "slant_probability": 0.1667,
+    "brace_stand_probability": 0.4222
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 9,
+     "beam_support": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 11,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0976
+   ],
+   "top_height_max_m": 0.0976,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.5853978838239446,
+     "y": -0.3239166785930883,
+     "yaw": 0.09009870589383775,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.5853978838239446,
+      -0.3239166785930883,
+      0.09009870589383775
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       1.9270249377842585,
+       -2.8011738412953906
+      ]
+     ],
+     "target": [
+      1.9270249377842585,
+      -2.8011738412953906
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 17
+  },
+  {
+   "tile_id": "beam_fields_L6_v0",
+   "type": "beam_fields",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 20600,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.7333,
+    "beam_size_m": [
+     0.0773,
+     0.0967
+    ],
+    "angle_max_deg": 36.6667,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.1,
+    "slant_probability": 0.2,
+    "brace_stand_probability": 0.4667
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 10,
+     "ground": 1
+    }
+   },
+   "n_boxes": 11,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0966
+   ],
+   "top_height_max_m": 0.0966,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 1.8455587170386916,
+     "y": 3.090940475318556,
+     "yaw": 4.174114540365427,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      1.8455587170386916,
+      3.090940475318556,
+      4.174114540365427
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -3.296639098645276,
+       -0.8319679400573456
+      ]
+     ],
+     "target": [
+      -3.296639098645276,
+      -0.8319679400573456
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 18
+  },
+  {
+   "tile_id": "beam_fields_L6_v1",
+   "type": "beam_fields",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 20601,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.7333,
+    "beam_size_m": [
+     0.0773,
+     0.0967
+    ],
+    "angle_max_deg": 36.6667,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.1,
+    "slant_probability": 0.2,
+    "brace_stand_probability": 0.4667
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 11,
+     "beam_support": 1,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 17,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0902
+   ],
+   "top_height_max_m": 1.4111,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 4.034,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -1.9349782378793776,
+     "y": -3.035763366755258,
+     "yaw": 1.00333386831961,
+     "z": 0.0,
+     "clearance_m": 7.638,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -1.9349782378793776,
+      -3.035763366755258,
+      1.00333386831961
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -3.1483572354287888,
+       1.283684820399148
+      ]
+     ],
+     "target": [
+      -3.1483572354287888,
+      1.283684820399148
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      7.638,
+      4.034,
+      5.84
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 19
+  },
+  {
+   "tile_id": "beam_fields_L6_v2",
+   "type": "beam_fields",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 20602,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.7333,
+    "beam_size_m": [
+     0.0773,
+     0.0967
+    ],
+    "angle_max_deg": 36.6667,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.1,
+    "slant_probability": 0.2,
+    "brace_stand_probability": 0.4667
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 9,
+     "ground": 1
+    }
+   },
+   "n_boxes": 10,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0965
+   ],
+   "top_height_max_m": 0.0965,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -2.034162128765721,
+     "y": -2.9702162267914622,
+     "yaw": 0.970308489398537,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -2.034162128765721,
+      -2.9702162267914622,
+      0.970308489398537
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.3214585110259875,
+       -0.7265764650283072
+      ]
+     ],
+     "target": [
+      3.3214585110259875,
+      -0.7265764650283072
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 20
+  },
+  {
+   "tile_id": "beam_fields_L7_v0",
+   "type": "beam_fields",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 20700,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.6556,
+    "beam_size_m": [
+     0.0836,
+     0.1044
+    ],
+    "angle_max_deg": 41.1111,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.1167,
+    "slant_probability": 0.2333,
+    "brace_stand_probability": 0.5111
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 8,
+     "beam_support": 1,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 14,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0979
+   ],
+   "top_height_max_m": 1.4769,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.942,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -1.712899563809071,
+     "y": 3.1663820180614173,
+     "yaw": 5.2082685195674525,
+     "z": 0.0,
+     "clearance_m": 0.42,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -1.712899563809071,
+      3.1663820180614173,
+      5.2082685195674525
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.38821892479681,
+       -0.28279412590919717
+      ]
+     ],
+     "target": [
+      3.38821892479681,
+      -0.28279412590919717
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.42,
+      2.942,
+      5.248
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 21
+  },
+  {
+   "tile_id": "beam_fields_L7_v1",
+   "type": "beam_fields",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 20701,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.6556,
+    "beam_size_m": [
+     0.0836,
+     0.1044
+    ],
+    "angle_max_deg": 41.1111,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.1167,
+    "slant_probability": 0.2333,
+    "brace_stand_probability": 0.5111
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 9,
+     "beam_support": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 14,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1071
+   ],
+   "top_height_max_m": 1.1304,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 4.172,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -1.6071287384117388,
+     "y": -3.221356425199033,
+     "yaw": 1.1080305918604243,
+     "z": 0.0,
+     "clearance_m": 4.162,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -1.6071287384117388,
+      -3.221356425199033,
+      1.1080305918604243
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -1.0440614916691637,
+       3.2357279863445814
+      ]
+     ],
+     "target": [
+      -1.0440614916691637,
+      3.2357279863445814
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      4.162,
+      4.172,
+      7.361
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 22
+  },
+  {
+   "tile_id": "beam_fields_L7_v2",
+   "type": "beam_fields",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 20702,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.6556,
+    "beam_size_m": [
+     0.0836,
+     0.1044
+    ],
+    "angle_max_deg": 41.1111,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.1167,
+    "slant_probability": 0.2333,
+    "brace_stand_probability": 0.5111
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 10,
+     "beam_support": 1,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 16,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1028
+   ],
+   "top_height_max_m": 1.3594,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 3.493,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 1.6619468462332372,
+     "y": -3.1934202166791947,
+     "yaw": 2.050652843383933,
+     "z": 0.0,
+     "clearance_m": 7.094,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      1.6619468462332372,
+      -3.1934202166791947,
+      2.050652843383933
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -3.2689833809480953,
+       0.9347447004851962
+      ]
+     ],
+     "target": [
+      -3.2689833809480953,
+      0.9347447004851962
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      7.094,
+      3.493,
+      2.453
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 23
+  },
+  {
+   "tile_id": "beam_fields_L8_v0",
+   "type": "beam_fields",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 20800,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.5778,
+    "beam_size_m": [
+     0.0898,
+     0.1122
+    ],
+    "angle_max_deg": 45.5556,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.1333,
+    "slant_probability": 0.2667,
+    "brace_stand_probability": 0.5556
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 14,
+     "beam_support": 2,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 21,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1316
+   ],
+   "top_height_max_m": 1.4832,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.91,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 1.9438866204111003,
+     "y": 3.030066799096467,
+     "yaw": 4.141989289615219,
+     "z": 0.0,
+     "clearance_m": 1.84,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      1.9438866204111003,
+      3.030066799096467,
+      4.141989289615219
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -3.206991260540734,
+       -1.1292506607548893
+      ]
+     ],
+     "target": [
+      -3.206991260540734,
+      -1.1292506607548893
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.84,
+      2.91,
+      4.876
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 24
+  },
+  {
+   "tile_id": "beam_fields_L8_v1",
+   "type": "beam_fields",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 20801,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.5778,
+    "beam_size_m": [
+     0.0898,
+     0.1122
+    ],
+    "angle_max_deg": 45.5556,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.1333,
+    "slant_probability": 0.2667,
+    "brace_stand_probability": 0.5556
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 15,
+     "beam_support": 2,
+     "ground": 1
+    }
+   },
+   "n_boxes": 18,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1281
+   ],
+   "top_height_max_m": 0.1602,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -1.5652098648313932,
+     "y": -3.241931226758904,
+     "yaw": 1.1210017879735115,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -1.5652098648313932,
+      -3.241931226758904,
+      1.1210017879735115
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.225683954125038,
+       1.0746920619881108
+      ]
+     ],
+     "target": [
+      3.225683954125038,
+      1.0746920619881108
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 25
+  },
+  {
+   "tile_id": "beam_fields_L8_v2",
+   "type": "beam_fields",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 20802,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.5778,
+    "beam_size_m": [
+     0.0898,
+     0.1122
+    ],
+    "angle_max_deg": 45.5556,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.1333,
+    "slant_probability": 0.2667,
+    "brace_stand_probability": 0.5556
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 14,
+     "beam_support": 3,
+     "ground": 1
+    }
+   },
+   "n_boxes": 18,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1204
+   ],
+   "top_height_max_m": 0.2166,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.412968618662507,
+     "y": -1.1452708011754003,
+     "yaw": 0.32375717770293666,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.412968618662507,
+      -1.1452708011754003,
+      0.32375717770293666
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       0.4600660602253191,
+       3.368729615185634
+      ]
+     ],
+     "target": [
+      0.4600660602253191,
+      3.368729615185634
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 26
+  },
+  {
+   "tile_id": "beam_fields_L9_v0",
+   "type": "beam_fields",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 20900,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.5,
+    "beam_size_m": [
+     0.096,
+     0.12
+    ],
+    "angle_max_deg": 50.0,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.15,
+    "slant_probability": 0.3,
+    "brace_stand_probability": 0.6
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 14,
+     "beam_support": 1,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 20,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1173
+   ],
+   "top_height_max_m": 1.3372,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 3.749,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 0.7275317686624465,
+     "y": 3.5257194337591433,
+     "yaw": 4.508895292636421,
+     "z": 0.0,
+     "clearance_m": 3.143,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      0.7275317686624465,
+      3.5257194337591433,
+      4.508895292636421
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       2.351614724992612,
+       -2.455587136551648
+      ]
+     ],
+     "target": [
+      2.351614724992612,
+      -2.455587136551648
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      3.143,
+      3.749,
+      7.14
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 27
+  },
+  {
+   "tile_id": "beam_fields_L9_v1",
+   "type": "beam_fields",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 20901,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.5,
+    "beam_size_m": [
+     0.096,
+     0.12
+    ],
+    "angle_max_deg": 50.0,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.15,
+    "slant_probability": 0.3,
+    "brace_stand_probability": 0.6
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 15,
+     "beam_support": 2,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 21,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1353
+   ],
+   "top_height_max_m": 1.2762,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.1344,
+     "clearance_m": 3.379,
+     "floor_range_r20_m": 0.135,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -2.341074731347782,
+     "y": 2.7348435242706133,
+     "yaw": 5.420366328316575,
+     "z": 0.0,
+     "clearance_m": 0.513,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -2.341074731347782,
+      2.7348435242706133,
+      5.420366328316575
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -2.2770694934393974,
+       -2.5248672285979006
+      ]
+     ],
+     "target": [
+      -2.2770694934393974,
+      -2.5248672285979006
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.1344,
+      0.0
+     ],
+     "clearance_m": [
+      0.513,
+      3.379,
+      5.416
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 28
+  },
+  {
+   "tile_id": "beam_fields_L9_v2",
+   "type": "beam_fields",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 20902,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "row_spacing_m": 0.5,
+    "beam_size_m": [
+     0.096,
+     0.12
+    ],
+    "angle_max_deg": 50.0,
+    "v_pair_probability": 0.35,
+    "v_pair_half_angle_deg": [
+     5,
+     12
+    ],
+    "v_pair_beam_length_m": 2.6,
+    "slant_raise_max_m": 0.15,
+    "slant_probability": 0.3,
+    "brace_stand_probability": 0.6
+   },
+   "realised": {
+    "primitive_counts": {
+     "beam": 16,
+     "beam_support": 2,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1
+    }
+   },
+   "n_boxes": 22,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.117
+   ],
+   "top_height_max_m": 1.39,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 3.042,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 1.241895653913591,
+     "y": -3.3790080178641975,
+     "yaw": 1.9230042310304698,
+     "z": 0.0,
+     "clearance_m": 6.264,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      1.241895653913591,
+      -3.3790080178641975,
+      1.9230042310304698
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -3.3823515357656357,
+       -0.3459741153668075
+      ]
+     ],
+     "target": [
+      -3.3823515357656357,
+      -0.3459741153668075
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      6.264,
+      3.042,
+      5.375
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "beam_fields.npz",
+   "index": 29
+  }
+ ]
+}
