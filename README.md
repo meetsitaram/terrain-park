@@ -34,6 +34,17 @@ complete; the props and the contact quality are being iterated (see Known issues
 | **Beams and blocks** | **Log corridors** |
 | ![beams](docs/images/terrain_beams_blocks.jpg) | ![logs](docs/images/terrain_log_corridors.jpg) |
 
+**Homes and street** (part of the extended map): indoor rooms with a dining table and chairs, a hallway, a laundry room and
+clutter on the floor; outdoors a driveway with a parked car, a porch, a curb, lawn and stones.
+
+| Dining table and chairs | Hallway and doors | Laundry room |
+|---|---|---|
+| ![kitchen](docs/images/homes/homes_closeup_kitchen.jpg) | ![hall](docs/images/homes/homes_closeup_door_hall.jpg) | ![laundry](docs/images/homes/homes_closeup_laundry.jpg) |
+| **Driveway and car** | **Porch** | **Curb and lawn** |
+| ![drive](docs/images/homes/street_closeup_drive.jpg) | ![porch](docs/images/homes/street_closeup_porch.jpg) | ![curb](docs/images/homes/street_closeup_curb.jpg) |
+| **A whole home** | **A whole street tile** | **ACP (X2) walking through a home** |
+| ![home](docs/images/homes/homes_full_height.jpg) | ![street](docs/images/homes/street_full.jpg) | ![acp](docs/images/homes/acp_walk_homes.gif) |
+
 **Our apparatus** ([`apparatus/ours/`](apparatus/ours/)): our build of the IEEE Humanoids 2026 loco-manipulation course, as CAD and in MuJoCo.
 
 | Whole course and mobile gantry | Walking over the 4x4s |
