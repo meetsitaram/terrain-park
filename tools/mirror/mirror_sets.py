@@ -426,6 +426,8 @@ def render_frames(tk, ctx, az_sign=1, n=None):
     cam = mujoco.MjvCamera(); cam.type = mujoco.mjtCamera.mjCAMERA_FREE
     psi = tk['mirror']['psi'] if 'mirror' in tk else tk['frame'][1]
     cam.distance, cam.elevation, cam.azimuth = 2.9, -18, mc.D(psi) + az_sign * 125          # mirrored camera for the mirrored take
+    if tk['prop'] == 'driveway':                                  # as the catalogue: look across the slope
+        cam.distance, cam.elevation, cam.azimuth = 3.8, -4, mc.D(math.atan2(ctx['driveway']['b'], ctx['driveway']['a'])) + 90
     frames = []
     with mujoco.Renderer(m, H, W) as r:
         for i in idx:
@@ -463,7 +465,11 @@ def run_gifs():
         tid = first['gifs'][0]['take'] if first.get('gifs') else first['takes'][0]
         picks[p] = tid
     index = {}
+    only = os.environ.get('MIRROR_ONLY')                                                # e.g. MIRROR_ONLY=driveway
+    index = json.load(open(outd / 'index.json')) if only else index
     for p, tid in picks.items():
+        if only and p != only:
+            continue
         t = next(x for x in mir if x['id'] == tid + '_mir')
         if t['id'] not in keep:
             print('skip (dropped)', t['id']); continue
@@ -475,6 +481,8 @@ def run_gifs():
         strip(fr, outd / 'strips' / (path.stem + '.png'))
         index[path.name] = dict(take=t['id'], prop=p, bytes=nb, frames=len(fr))
         print('gif', path.name, nb // 1000, 'kB', flush=True)
+    if only:
+        json.dump(index, open(outd / 'index.json', 'w'), indent=1); return
     # side by side, stairs side approach: original (catalogue camera) | mirror (mirrored camera)
     tid = cat['stairs1']['categories']['side approach then up']['takes'][0]
     t0 = next(x for x in takes if x['id'] == tid); t = next(x for x in mir if x['id'] == tid + '_mir')
