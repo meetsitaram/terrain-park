@@ -1,0 +1,12 @@
+map: FK check 20 poses, 32 bodies. Symmetrized model: max body position error 0.00e+00 mm, rotation 0.0e+00 -> PASS. Real model: max 3.20 mm (legs/pelvis/torso/head 0.58 mm), worst [('right_wrist_pitch_link', 3.202), ('right_wrist_roll_link', 3.202), ('left_wrist_pitch_link', 2.414), ('left_wrist_roll_link', 2.414)]
+4x4 {"n": 56, "kept": 56, "clamped_clips": 0, "clamped_values": 0, "dropped": [], "over2_orig": 9, "over2_mir": 9, "pairdiff": 0.0, "unmatched": 0}
+2x2 {"n": 10, "kept": 10, "clamped_clips": 0, "clamped_values": 0, "dropped": [], "over2_orig": 10, "over2_mir": 10, "pairdiff": 0.0, "unmatched": 0}
+stairs1 {"n": 38, "kept": 38, "clamped_clips": 1, "clamped_values": 42, "dropped": [], "over2_orig": 91, "over2_mir": 91, "pairdiff": 0.0, "unmatched": 0}
+stairs2 {"n": 6, "kept": 6, "clamped_clips": 0, "clamped_values": 0, "dropped": [], "over2_orig": 11, "over2_mir": 11, "pairdiff": 0.0, "unmatched": 0}
+ramp {"n": 15, "kept": 15, "clamped_clips": 0, "clamped_values": 0, "dropped": [], "over2_orig": 99, "over2_mir": 99, "pairdiff": 0.45, "unmatched": 0}
+driveway {"n": 6, "kept": 6, "clamped_clips": 0, "clamped_values": 0, "dropped": [], "over2_orig": 40, "over2_mir": 40, "pairdiff": 0.0, "unmatched": 0}
+props {"4x4": {"max_m": 0.0, "median_m": 0.0}, "2x2": {"max_m": 0.0, "median_m": 0.0}, "stairs1": {"max_m": 0.569, "median_m": 0.569}, "stairs2": {"max_m": 0.0, "median_m": 0.0}, "ramp": {"max_m": 0.185, "cells_over_2cm": 204, "cells": 61745}, "driveway": {"da": 1.3877787807814457e-17, "db": 1.3877787807814457e-17, "dz_at_centre_m": -0.0}}
+sets {"tp_t4x4u_y20_mir": {"clips": 56, "seconds": 217.4}, "pico_2026-10-29_2x2_train_mir": {"clips": 10, "seconds": 49.1}, "tp_stairs_all_v1_mir": {"clips": 44, "seconds": 306.8}, "tp_ramp_base_x30_mir": {"clips": 15, "seconds": 141.5}, "tp_driveway_v1_mir": {"clips": 6, "seconds": 47.2}, "tp_driveway_v1 (originals)": {"clips": 6}}
+categories same after mirroring: 131 / 131
+DONE sets
+EXIT 0

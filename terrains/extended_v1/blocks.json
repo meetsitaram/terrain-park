@@ -1,0 +1,3371 @@
+{
+ "type": "blocks",
+ "npz": "blocks.npz",
+ "n_tiles": 30,
+ "labels": [
+  "block",
+  "ground"
+ ],
+ "tiles": [
+  {
+   "tile_id": "blocks_L0_v0",
+   "type": "blocks",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 30000,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 10,
+    "block_height_m": [
+     0.05,
+     0.1
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 10,
+     "ground": 1
+    }
+   },
+   "n_boxes": 11,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0901
+   ],
+   "top_height_max_m": 0.0901,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 2.308720518566889,
+     "y": 2.7622109925109335,
+     "yaw": 4.016182968933528,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      2.308720518566889,
+      2.7622109925109335,
+      4.016182968933528
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       0.5349002234073771,
+       -3.357660160141097
+      ]
+     ],
+     "target": [
+      0.5349002234073771,
+      -3.357660160141097
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 0
+  },
+  {
+   "tile_id": "blocks_L0_v1",
+   "type": "blocks",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 30001,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 10,
+    "block_height_m": [
+     0.05,
+     0.1
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 10,
+     "ground": 1
+    }
+   },
+   "n_boxes": 11,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.0924
+   ],
+   "top_height_max_m": 0.0924,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -2.7716157438835225,
+     "y": 2.297421634845678,
+     "yaw": 5.591062859800169,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -2.7716157438835225,
+      2.297421634845678,
+      5.591062859800169
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -1.4659738484244322,
+       -3.067722392221248
+      ]
+     ],
+     "target": [
+      -1.4659738484244322,
+      -3.067722392221248
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 1
+  },
+  {
+   "tile_id": "blocks_L0_v2",
+   "type": "blocks",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 30002,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 10,
+    "block_height_m": [
+     0.05,
+     0.1
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 10,
+     "ground": 1
+    }
+   },
+   "n_boxes": 11,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.098
+   ],
+   "top_height_max_m": 0.098,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.8553166617436528,
+     "y": -3.4969177010824395,
+     "yaw": 1.3309143734261584,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.8553166617436528,
+      -3.4969177010824395,
+      1.3309143734261584
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.1406291970773834,
+       1.3024777335774569
+      ]
+     ],
+     "target": [
+      3.1406291970773834,
+      1.3024777335774569
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 2
+  },
+  {
+   "tile_id": "blocks_L1_v0",
+   "type": "blocks",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 30100,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 12,
+    "block_height_m": [
+     0.05,
+     0.1167
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 12,
+     "ground": 1
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1154
+   ],
+   "top_height_max_m": 0.1154,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.2918311749706426,
+     "y": 1.457342621174375,
+     "yaw": 5.866406185432283,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2918311749706426,
+      1.457342621174375,
+      5.866406185432283
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       0.08639311292745257,
+       -3.3989022095433556
+      ]
+     ],
+     "target": [
+      0.08639311292745257,
+      -3.3989022095433556
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 3
+  },
+  {
+   "tile_id": "blocks_L1_v1",
+   "type": "blocks",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 30101,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 12,
+    "block_height_m": [
+     0.05,
+     0.1167
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 12,
+     "ground": 1
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1117
+   ],
+   "top_height_max_m": 0.1117,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 3.28746186954709,
+     "y": 1.4671722653710277,
+     "yaw": 3.5613598279489835,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      3.28746186954709,
+      1.4671722653710277,
+      3.5613598279489835
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -3.2002788297388554,
+       1.1481356243603367
+      ]
+     ],
+     "target": [
+      -3.2002788297388554,
+      1.1481356243603367
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 4
+  },
+  {
+   "tile_id": "blocks_L1_v2",
+   "type": "blocks",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 30102,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 12,
+    "block_height_m": [
+     0.05,
+     0.1167
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 12,
+     "ground": 1
+    }
+   },
+   "n_boxes": 13,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1138
+   ],
+   "top_height_max_m": 0.1138,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 3.3513747807548024,
+     "y": -1.3146433276446894,
+     "yaw": 2.7677678984138647,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      3.3513747807548024,
+      -1.3146433276446894,
+      2.7677678984138647
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -2.4676482198308207,
+       -2.3389553786179382
+      ]
+     ],
+     "target": [
+      -2.4676482198308207,
+      -2.3389553786179382
+     ],
+     "length_m": 7.000000000000001,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 5
+  },
+  {
+   "tile_id": "blocks_L2_v0",
+   "type": "blocks",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 30200,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 15,
+    "block_height_m": [
+     0.05,
+     0.1333
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 15,
+     "ground": 1
+    }
+   },
+   "n_boxes": 16,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.13
+   ],
+   "top_height_max_m": 0.13,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 2.8445226021706707,
+     "y": 2.2065110844362867,
+     "yaw": 3.8013431736447973,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      2.8445226021706707,
+      2.2065110844362867,
+      3.8013431736447973
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       0.7338299535954995,
+       -3.3198634910498996
+      ]
+     ],
+     "target": [
+      0.7338299535954995,
+      -3.3198634910498996
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 6
+  },
+  {
+   "tile_id": "blocks_L2_v1",
+   "type": "blocks",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 30201,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 15,
+    "block_height_m": [
+     0.05,
+     0.1333
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 15,
+     "ground": 1
+    }
+   },
+   "n_boxes": 16,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1308
+   ],
+   "top_height_max_m": 0.1308,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.5783873590847577,
+     "y": 0.3938831150765616,
+     "yaw": 6.173553851605991,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.5783873590847577,
+      0.3938831150765616,
+      6.173553851605991
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       1.1670151222947855,
+       -3.193442610152136
+      ]
+     ],
+     "target": [
+      1.1670151222947855,
+      -3.193442610152136
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 7
+  },
+  {
+   "tile_id": "blocks_L2_v2",
+   "type": "blocks",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 30202,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 15,
+    "block_height_m": [
+     0.05,
+     0.1333
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 15,
+     "ground": 1
+    }
+   },
+   "n_boxes": 16,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1325
+   ],
+   "top_height_max_m": 0.1325,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 3.3512732829170897,
+     "y": -1.3149020431979372,
+     "yaw": 2.767690700401777,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      3.3512732829170897,
+      -1.3149020431979372,
+      2.767690700401777
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -3.0364052074583507,
+       -1.5297854150565722
+      ]
+     ],
+     "target": [
+      -3.0364052074583507,
+      -1.5297854150565722
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 8
+  },
+  {
+   "tile_id": "blocks_L3_v0",
+   "type": "blocks",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 30300,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 18,
+    "block_height_m": [
+     0.05,
+     0.15
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 18,
+     "ground": 1
+    }
+   },
+   "n_boxes": 19,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1383
+   ],
+   "top_height_max_m": 0.1383,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -1.9379778602235536,
+     "y": -3.0338493392525834,
+     "yaw": 1.0023454618939411,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -1.9379778602235536,
+      -3.0338493392525834,
+      1.0023454618939411
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.022500577013161,
+       -1.55707747461554
+      ]
+     ],
+     "target": [
+      3.022500577013161,
+      -1.55707747461554
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 9
+  },
+  {
+   "tile_id": "blocks_L3_v1",
+   "type": "blocks",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 30301,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 18,
+    "block_height_m": [
+     0.05,
+     0.15
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 18,
+     "ground": 1
+    }
+   },
+   "n_boxes": 19,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.144
+   ],
+   "top_height_max_m": 0.144,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 0.13554009042655457,
+     "y": 3.5974475512350645,
+     "yaw": 4.674730054615942,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      0.13554009042655457,
+      3.5974475512350645,
+      4.674730054615942
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       2.7537170320522693,
+       -1.9942523680279884
+      ]
+     ],
+     "target": [
+      2.7537170320522693,
+      -1.9942523680279884
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 10
+  },
+  {
+   "tile_id": "blocks_L3_v2",
+   "type": "blocks",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 30302,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 18,
+    "block_height_m": [
+     0.05,
+     0.15
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 18,
+     "ground": 1
+    }
+   },
+   "n_boxes": 19,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1497
+   ],
+   "top_height_max_m": 0.1497,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 0.4128566873556676,
+     "y": 3.5762479438240447,
+     "yaw": 4.597453682756983,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      0.4128566873556676,
+      3.5762479438240447,
+      4.597453682756983
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.015872517176868,
+       -1.5698767340582067
+      ]
+     ],
+     "target": [
+      3.015872517176868,
+      -1.5698767340582067
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 11
+  },
+  {
+   "tile_id": "blocks_L4_v0",
+   "type": "blocks",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 30400,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 20,
+    "block_height_m": [
+     0.05,
+     0.1667
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 20,
+     "ground": 1
+    }
+   },
+   "n_boxes": 21,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1648
+   ],
+   "top_height_max_m": 0.1648,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 3.5243671152113327,
+     "y": -0.7340547916994682,
+     "yaw": 2.9362484860976723,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      3.5243671152113327,
+      -0.7340547916994682,
+      2.9362484860976723
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -2.615278780378133,
+       -2.172629029748029
+      ]
+     ],
+     "target": [
+      -2.615278780378133,
+      -2.172629029748029
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 12
+  },
+  {
+   "tile_id": "blocks_L4_v1",
+   "type": "blocks",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 30401,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 20,
+    "block_height_m": [
+     0.05,
+     0.1667
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 20,
+     "ground": 1
+    }
+   },
+   "n_boxes": 21,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1607
+   ],
+   "top_height_max_m": 0.1607,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -1.958289611481502,
+     "y": 3.020778343004271,
+     "yaw": 5.287549316495433,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -1.958289611481502,
+      3.020778343004271,
+      5.287549316495433
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -2.4413349104827105,
+       -2.366407372972451
+      ]
+     ],
+     "target": [
+      -2.4413349104827105,
+      -2.366407372972451
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 13
+  },
+  {
+   "tile_id": "blocks_L4_v2",
+   "type": "blocks",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 30402,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 20,
+    "block_height_m": [
+     0.05,
+     0.1667
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 20,
+     "ground": 1
+    }
+   },
+   "n_boxes": 21,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1654
+   ],
+   "top_height_max_m": 0.1654,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.02727901659769294,
+     "y": -3.5998966450793364,
+     "yaw": 1.5632187496676317,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.02727901659769294,
+      -3.5998966450793364,
+      1.5632187496676317
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -2.8709493059170343,
+       1.8214417593913064
+      ]
+     ],
+     "target": [
+      -2.8709493059170343,
+      1.8214417593913064
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 14
+  },
+  {
+   "tile_id": "blocks_L5_v0",
+   "type": "blocks",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 30500,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 23,
+    "block_height_m": [
+     0.05,
+     0.1833
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 23,
+     "ground": 1
+    }
+   },
+   "n_boxes": 24,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1792
+   ],
+   "top_height_max_m": 0.1792,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 2.0601704262924176,
+     "y": -2.95223607027455,
+     "yaw": 2.1800670564911573,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      2.0601704262924176,
+      -2.95223607027455,
+      2.1800670564911573
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -2.299307936263128,
+       -2.504632311186094
+      ]
+     ],
+     "target": [
+      -2.299307936263128,
+      -2.504632311186094
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 15
+  },
+  {
+   "tile_id": "blocks_L5_v1",
+   "type": "blocks",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 30501,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 23,
+    "block_height_m": [
+     0.05,
+     0.1833
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 23,
+     "ground": 1
+    }
+   },
+   "n_boxes": 24,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1806
+   ],
+   "top_height_max_m": 0.1806,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -2.833809504774953,
+     "y": -2.2202530690547726,
+     "yaw": 0.6645906588605317,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -2.833809504774953,
+      -2.2202530690547726,
+      0.6645906588605317
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -2.6241806067730313,
+       2.1618686692387965
+      ]
+     ],
+     "target": [
+      -2.6241806067730313,
+      2.1618686692387965
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 16
+  },
+  {
+   "tile_id": "blocks_L5_v2",
+   "type": "blocks",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 30502,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 23,
+    "block_height_m": [
+     0.05,
+     0.1833
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 23,
+     "ground": 1
+    }
+   },
+   "n_boxes": 24,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1826
+   ],
+   "top_height_max_m": 0.1826,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.5947033531607646,
+     "y": 0.1952121993492042,
+     "yaw": 6.22893308670782,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.5947033531607646,
+      0.1952121993492042,
+      6.22893308670782
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       1.2110367565161888,
+       3.177009596203126
+      ]
+     ],
+     "target": [
+      1.2110367565161888,
+      3.177009596203126
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 17
+  },
+  {
+   "tile_id": "blocks_L6_v0",
+   "type": "blocks",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 30600,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 26,
+    "block_height_m": [
+     0.05,
+     0.2
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 26,
+     "ground": 1
+    }
+   },
+   "n_boxes": 27,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.191
+   ],
+   "top_height_max_m": 0.191,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -2.959284925508242,
+     "y": 2.050032372832117,
+     "yaw": 5.677344504748583,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -2.959284925508242,
+      2.050032372832117,
+      5.677344504748583
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       2.53231206122044,
+       2.2687872585585205
+      ]
+     ],
+     "target": [
+      2.53231206122044,
+      2.2687872585585205
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 18
+  },
+  {
+   "tile_id": "blocks_L6_v1",
+   "type": "blocks",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 30601,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 26,
+    "block_height_m": [
+     0.05,
+     0.2
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 26,
+     "ground": 1
+    }
+   },
+   "n_boxes": 27,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1832
+   ],
+   "top_height_max_m": 0.1832,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -2.9465284496806476,
+     "y": -2.0683254326199636,
+     "yaw": 0.6120357158571551,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.174,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -2.9465284496806476,
+      -2.0683254326199636,
+      0.6120357158571551
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.2761258031612543,
+       -0.9093952506259448
+      ]
+     ],
+     "target": [
+      3.2761258031612543,
+      -0.9093952506259448
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 19
+  },
+  {
+   "tile_id": "blocks_L6_v2",
+   "type": "blocks",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 30602,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 26,
+    "block_height_m": [
+     0.05,
+     0.2
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 26,
+     "ground": 1
+    }
+   },
+   "n_boxes": 27,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1974
+   ],
+   "top_height_max_m": 0.1974,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 2.7201809261278367,
+     "y": 2.3580957845537793,
+     "yaw": 3.8558104860959417,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      2.7201809261278367,
+      2.3580957845537793,
+      3.8558104860959417
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       1.9112773050587366,
+       -2.811942222586981
+      ]
+     ],
+     "target": [
+      1.9112773050587366,
+      -2.811942222586981
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 20
+  },
+  {
+   "tile_id": "blocks_L7_v0",
+   "type": "blocks",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 30700,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 28,
+    "block_height_m": [
+     0.05,
+     0.2167
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 28,
+     "ground": 1
+    }
+   },
+   "n_boxes": 29,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.2094
+   ],
+   "top_height_max_m": 0.2094,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 3.2968420826987157,
+     "y": -1.4459710514898967,
+     "yaw": 2.7282653826016574,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      3.2968420826987157,
+      -1.4459710514898967,
+      2.7282653826016574
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       1.9386302528345367,
+       2.7931546220706616
+      ]
+     ],
+     "target": [
+      1.9386302528345367,
+      2.7931546220706616
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 21
+  },
+  {
+   "tile_id": "blocks_L7_v1",
+   "type": "blocks",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 30701,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 28,
+    "block_height_m": [
+     0.05,
+     0.2167
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 28,
+     "ground": 1
+    }
+   },
+   "n_boxes": 29,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.1902
+   ],
+   "top_height_max_m": 0.1902,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.0910246655615974,
+     "y": -1.8454177079701544,
+     "yaw": 0.5382288205227758,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.0910246655615974,
+      -1.8454177079701544,
+      0.5382288205227758
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -1.2769738947707763,
+       3.151085157858155
+      ]
+     ],
+     "target": [
+      -1.2769738947707763,
+      3.151085157858155
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 22
+  },
+  {
+   "tile_id": "blocks_L7_v2",
+   "type": "blocks",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 30702,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 28,
+    "block_height_m": [
+     0.05,
+     0.2167
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 28,
+     "ground": 1
+    }
+   },
+   "n_boxes": 29,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.2133
+   ],
+   "top_height_max_m": 0.2133,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.5369404547585512,
+     "y": 0.6708593142324075,
+     "yaw": 6.095739748329637,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.5369404547585512,
+      0.6708593142324075,
+      6.095739748329637
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       0.7342302747270217,
+       3.3197749778673677
+      ]
+     ],
+     "target": [
+      0.7342302747270217,
+      3.3197749778673677
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 23
+  },
+  {
+   "tile_id": "blocks_L8_v0",
+   "type": "blocks",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 30800,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 31,
+    "block_height_m": [
+     0.05,
+     0.2333
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 31,
+     "ground": 1
+    }
+   },
+   "n_boxes": 32,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.2231
+   ],
+   "top_height_max_m": 0.2231,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 0.9541637398827304,
+     "y": 3.471249279077059,
+     "yaw": 4.444137888066993,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      0.9541637398827304,
+      3.471249279077059,
+      4.444137888066993
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -3.2806009557016393,
+       -0.8931166606045873
+      ]
+     ],
+     "target": [
+      -3.2806009557016393,
+      -0.8931166606045873
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 24
+  },
+  {
+   "tile_id": "blocks_L8_v1",
+   "type": "blocks",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 30801,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 31,
+    "block_height_m": [
+     0.05,
+     0.2333
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 31,
+     "ground": 1
+    }
+   },
+   "n_boxes": 32,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.2275
+   ],
+   "top_height_max_m": 0.2275,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.629006758351205,
+     "y": -3.544622758199878,
+     "yaw": 1.3951707764216161,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.629006758351205,
+      -3.544622758199878,
+      1.3951707764216161
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -3.084555156377911,
+       1.430216587535762
+      ]
+     ],
+     "target": [
+      -3.084555156377911,
+      1.430216587535762
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 25
+  },
+  {
+   "tile_id": "blocks_L8_v2",
+   "type": "blocks",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 30802,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 31,
+    "block_height_m": [
+     0.05,
+     0.2333
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 31,
+     "ground": 1
+    }
+   },
+   "n_boxes": 32,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.2237
+   ],
+   "top_height_max_m": 0.2237,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 2.3629283472700644,
+     "y": -2.715984098934963,
+     "yaw": 2.2867920896696092,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.101,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      2.3629283472700644,
+      -2.715984098934963,
+      2.2867920896696092
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       2.687920076439328,
+       2.0820868528172394
+      ]
+     ],
+     "target": [
+      2.687920076439328,
+      2.0820868528172394
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 26
+  },
+  {
+   "tile_id": "blocks_L9_v0",
+   "type": "blocks",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 30900,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 34,
+    "block_height_m": [
+     0.05,
+     0.25
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 34,
+     "ground": 1
+    }
+   },
+   "n_boxes": 35,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.2414
+   ],
+   "top_height_max_m": 0.2414,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 3.0400444255329395,
+     "y": 1.9282452880238288,
+     "yaw": 3.706838798669502,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      3.0400444255329395,
+      1.9282452880238288,
+      3.706838798669502
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -0.7064017579861521,
+       -3.3258076547380298
+      ]
+     ],
+     "target": [
+      -0.7064017579861521,
+      -3.3258076547380298
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 27
+  },
+  {
+   "tile_id": "blocks_L9_v1",
+   "type": "blocks",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 30901,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 34,
+    "block_height_m": [
+     0.05,
+     0.25
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 34,
+     "ground": 1
+    }
+   },
+   "n_boxes": 35,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.2473
+   ],
+   "top_height_max_m": 0.2473,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -2.3208283288976403,
+     "y": 2.7520457604818613,
+     "yaw": 5.412986441641334,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -2.3208283288976403,
+      2.7520457604818613,
+      5.412986441641334
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.296791850494171,
+       0.8313624327062297
+      ]
+     ],
+     "target": [
+      3.296791850494171,
+      0.8313624327062297
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 28
+  },
+  {
+   "tile_id": "blocks_L9_v2",
+   "type": "blocks",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 30902,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "n_blocks": 34,
+    "block_height_m": [
+     0.05,
+     0.25
+    ],
+    "block_side_m": [
+     0.08,
+     0.45
+    ]
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 34,
+     "ground": 1
+    }
+   },
+   "n_boxes": 35,
+   "n_meshes": 0,
+   "floor_height_range_m": [
+    0.0,
+    0.23
+   ],
+   "top_height_max_m": 0.23,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -1.860696863140213,
+     "y": -3.0818512591460627,
+     "yaw": 1.0276170993133047,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -1.860696863140213,
+      -3.0818512591460627,
+      1.0276170993133047
+     ],
+     "waypoints": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       3.318344152876122,
+       -0.7406700230688786
+      ]
+     ],
+     "target": [
+      3.318344152876122,
+      -0.7406700230688786
+     ],
+     "length_m": 7.0,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [],
+   "npz": "blocks.npz",
+   "index": 29
+  }
+ ]
+}

@@ -1,0 +1,651 @@
+{
+ "generated_by": "tools/mirror/mirror_sets.py map",
+ "model": "agibot-x2-record-and-replay/sim/x2_ultra.xml",
+ "convention": "dof_mirrored[i] = sign[i] * dof[perm[i]]; dof in MuJoCo order (31 joints after the free joint). Mirror about the robot sagittal x-z plane. Root: pos y -> -y, quat xyzw (x,y,z,w) -> (-x,y,-z,w) (R -> M R M, M=diag(1,-1,1)).",
+ "rule": "sign = (-M a_joint) . a_partner with a = joint axis in world at qpos0 (axis is a pseudovector): pitch (y) keeps its sign, roll (x) and yaw (z) flip.",
+ "perm": [
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  12,
+  13,
+  14,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  29,
+  30
+ ],
+ "sign": [
+  1,
+  -1,
+  -1,
+  1,
+  1,
+  -1,
+  1,
+  -1,
+  -1,
+  1,
+  1,
+  -1,
+  -1,
+  1,
+  -1,
+  1,
+  -1,
+  -1,
+  1,
+  -1,
+  1,
+  -1,
+  1,
+  -1,
+  -1,
+  1,
+  -1,
+  1,
+  -1,
+  -1,
+  1
+ ],
+ "joints": [
+  {
+   "joint": "left_hip_pitch_joint",
+   "index": 0,
+   "partner": "right_hip_pitch_joint",
+   "partner_index": 6,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "range": [
+    -2.704,
+    2.556
+   ]
+  },
+  {
+   "joint": "left_hip_roll_joint",
+   "index": 1,
+   "partner": "right_hip_roll_joint",
+   "partner_index": 7,
+   "sign": -1,
+   "axis_dot": -1.0,
+   "axis_world_qpos0": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -0.235,
+    2.906
+   ]
+  },
+  {
+   "joint": "left_hip_yaw_joint",
+   "index": 2,
+   "partner": "right_hip_yaw_joint",
+   "partner_index": 8,
+   "sign": -1,
+   "axis_dot": -1.0,
+   "axis_world_qpos0": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "range": [
+    -1.684,
+    3.43
+   ]
+  },
+  {
+   "joint": "left_knee_joint",
+   "index": 3,
+   "partner": "right_knee_joint",
+   "partner_index": 9,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "range": [
+    0.0,
+    2.4073
+   ]
+  },
+  {
+   "joint": "left_ankle_pitch_joint",
+   "index": 4,
+   "partner": "right_ankle_pitch_joint",
+   "partner_index": 10,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "range": [
+    -0.803,
+    0.453
+   ]
+  },
+  {
+   "joint": "left_ankle_roll_joint",
+   "index": 5,
+   "partner": "right_ankle_roll_joint",
+   "partner_index": 11,
+   "sign": -1,
+   "axis_dot": -1.0,
+   "axis_world_qpos0": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -0.262,
+    0.262
+   ]
+  },
+  {
+   "joint": "right_hip_pitch_joint",
+   "index": 6,
+   "partner": "left_hip_pitch_joint",
+   "partner_index": 0,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "range": [
+    -2.704,
+    2.556
+   ]
+  },
+  {
+   "joint": "right_hip_roll_joint",
+   "index": 7,
+   "partner": "left_hip_roll_joint",
+   "partner_index": 1,
+   "sign": -1,
+   "axis_dot": -1.0,
+   "axis_world_qpos0": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -2.906,
+    0.235
+   ]
+  },
+  {
+   "joint": "right_hip_yaw_joint",
+   "index": 8,
+   "partner": "left_hip_yaw_joint",
+   "partner_index": 2,
+   "sign": -1,
+   "axis_dot": -1.0,
+   "axis_world_qpos0": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "range": [
+    -3.43,
+    1.684
+   ]
+  },
+  {
+   "joint": "right_knee_joint",
+   "index": 9,
+   "partner": "left_knee_joint",
+   "partner_index": 3,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "range": [
+    0.0,
+    2.4073
+   ]
+  },
+  {
+   "joint": "right_ankle_pitch_joint",
+   "index": 10,
+   "partner": "left_ankle_pitch_joint",
+   "partner_index": 4,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "range": [
+    -0.803,
+    0.453
+   ]
+  },
+  {
+   "joint": "right_ankle_roll_joint",
+   "index": 11,
+   "partner": "left_ankle_roll_joint",
+   "partner_index": 5,
+   "sign": -1,
+   "axis_dot": -1.0,
+   "axis_world_qpos0": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -0.2625,
+    0.2625
+   ]
+  },
+  {
+   "joint": "waist_yaw_joint",
+   "index": 12,
+   "partner": "waist_yaw_joint",
+   "partner_index": 12,
+   "sign": -1,
+   "axis_dot": -1.0,
+   "axis_world_qpos0": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "range": [
+    -3.43,
+    2.382
+   ]
+  },
+  {
+   "joint": "waist_pitch_joint",
+   "index": 13,
+   "partner": "waist_pitch_joint",
+   "partner_index": 13,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "range": [
+    -0.3491,
+    0.3491
+   ]
+  },
+  {
+   "joint": "waist_roll_joint",
+   "index": 14,
+   "partner": "waist_roll_joint",
+   "partner_index": 14,
+   "sign": -1,
+   "axis_dot": -1.0,
+   "axis_world_qpos0": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -0.5236,
+    0.5236
+   ]
+  },
+  {
+   "joint": "left_shoulder_pitch_joint",
+   "index": 15,
+   "partner": "right_shoulder_pitch_joint",
+   "partner_index": 22,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    0.0,
+    0.978148,
+    0.207911
+   ],
+   "range": [
+    -3.08,
+    2.04
+   ]
+  },
+  {
+   "joint": "left_shoulder_roll_joint",
+   "index": 16,
+   "partner": "right_shoulder_roll_joint",
+   "partner_index": 23,
+   "sign": -1,
+   "axis_dot": -1.0,
+   "axis_world_qpos0": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -0.061,
+    2.993
+   ]
+  },
+  {
+   "joint": "left_shoulder_yaw_joint",
+   "index": 17,
+   "partner": "right_shoulder_yaw_joint",
+   "partner_index": 24,
+   "sign": -1,
+   "axis_dot": -0.999981,
+   "axis_world_qpos0": [
+    -0.005976,
+    -0.207907,
+    0.97813
+   ],
+   "range": [
+    -2.556,
+    2.556
+   ]
+  },
+  {
+   "joint": "left_elbow_joint",
+   "index": 18,
+   "partner": "right_elbow_joint",
+   "partner_index": 25,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    0.0,
+    0.978148,
+    0.207911
+   ],
+   "range": [
+    -2.3556,
+    0.0
+   ]
+  },
+  {
+   "joint": "left_wrist_yaw_joint",
+   "index": 19,
+   "partner": "right_wrist_yaw_joint",
+   "partner_index": 26,
+   "sign": -1,
+   "axis_dot": -1.0,
+   "axis_world_qpos0": [
+    -0.0,
+    -0.207911,
+    0.978148
+   ],
+   "range": [
+    -2.556,
+    2.556
+   ]
+  },
+  {
+   "joint": "left_wrist_pitch_joint",
+   "index": 20,
+   "partner": "right_wrist_pitch_joint",
+   "partner_index": 27,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    0.0,
+    0.978148,
+    0.207911
+   ],
+   "range": [
+    -0.558,
+    0.558
+   ]
+  },
+  {
+   "joint": "left_wrist_roll_joint",
+   "index": 21,
+   "partner": "right_wrist_roll_joint",
+   "partner_index": 28,
+   "sign": -1,
+   "axis_dot": -0.999981,
+   "axis_world_qpos0": [
+    0.999982,
+    -0.001242,
+    0.005845
+   ],
+   "range": [
+    -1.571,
+    0.724
+   ]
+  },
+  {
+   "joint": "right_shoulder_pitch_joint",
+   "index": 22,
+   "partner": "left_shoulder_pitch_joint",
+   "partner_index": 15,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    0.0,
+    0.978147,
+    -0.207915
+   ],
+   "range": [
+    -3.08,
+    2.04
+   ]
+  },
+  {
+   "joint": "right_shoulder_roll_joint",
+   "index": 23,
+   "partner": "left_shoulder_roll_joint",
+   "partner_index": 16,
+   "sign": -1,
+   "axis_dot": -1.0,
+   "axis_world_qpos0": [
+    1.0,
+    -3.2e-05,
+    -0.000151
+   ],
+   "range": [
+    -2.993,
+    0.061
+   ]
+  },
+  {
+   "joint": "right_shoulder_yaw_joint",
+   "index": 24,
+   "partner": "left_shoulder_yaw_joint",
+   "partner_index": 17,
+   "sign": -1,
+   "axis_dot": -0.999981,
+   "axis_world_qpos0": [
+    0.000154,
+    0.207915,
+    0.978147
+   ],
+   "range": [
+    -2.556,
+    2.556
+   ]
+  },
+  {
+   "joint": "right_elbow_joint",
+   "index": 25,
+   "partner": "left_elbow_joint",
+   "partner_index": 18,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    0.0,
+    0.978147,
+    -0.207915
+   ],
+   "range": [
+    -2.3556,
+    0.0
+   ]
+  },
+  {
+   "joint": "right_wrist_yaw_joint",
+   "index": 26,
+   "partner": "left_wrist_yaw_joint",
+   "partner_index": 19,
+   "sign": -1,
+   "axis_dot": -1.0,
+   "axis_world_qpos0": [
+    0.000154,
+    0.207915,
+    0.978147
+   ],
+   "range": [
+    -2.556,
+    2.556
+   ]
+  },
+  {
+   "joint": "right_wrist_pitch_joint",
+   "index": 27,
+   "partner": "left_wrist_pitch_joint",
+   "partner_index": 20,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    -0.0,
+    0.978147,
+    -0.207915
+   ],
+   "range": [
+    -0.558,
+    0.558
+   ]
+  },
+  {
+   "joint": "right_wrist_roll_joint",
+   "index": 28,
+   "partner": "left_wrist_roll_joint",
+   "partner_index": 21,
+   "sign": -1,
+   "axis_dot": -0.999981,
+   "axis_world_qpos0": [
+    1.0,
+    -3.2e-05,
+    -0.000151
+   ],
+   "range": [
+    -0.724,
+    1.571
+   ]
+  },
+  {
+   "joint": "head_yaw_joint",
+   "index": 29,
+   "partner": "head_yaw_joint",
+   "partner_index": 29,
+   "sign": -1,
+   "axis_dot": -1.0,
+   "axis_world_qpos0": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "range": [
+    -0.366,
+    0.366
+   ]
+  },
+  {
+   "joint": "head_pitch_joint",
+   "index": 30,
+   "partner": "head_pitch_joint",
+   "partner_index": 30,
+   "sign": 1,
+   "axis_dot": 1.0,
+   "axis_world_qpos0": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "range": [
+    -0.3838,
+    0.3838
+   ]
+  }
+ ],
+ "fk_check": {
+  "poses": 20,
+  "seed": 0,
+  "bodies": 32,
+  "symmetrized_model": {
+   "max_body_pos_err_mm": 0.0,
+   "max_body_rotmat_err": 0.0,
+   "passed": true
+  },
+  "real_model": {
+   "max_body_pos_err_mm": 3.202,
+   "max_legs_pelvis_torso_head_mm": 0.575,
+   "per_body_mm": {
+    "pelvis": 0.0,
+    "left_hip_pitch_link": 0.0,
+    "left_hip_roll_link": 0.575,
+    "left_hip_yaw_link": 0.0,
+    "left_knee_link": 0.0,
+    "left_ankle_pitch_link": 0.0,
+    "left_ankle_roll_link": 0.0,
+    "right_hip_pitch_link": 0.0,
+    "right_hip_roll_link": 0.575,
+    "right_hip_yaw_link": 0.0,
+    "right_knee_link": 0.0,
+    "right_ankle_pitch_link": 0.0,
+    "right_ankle_roll_link": 0.0,
+    "waist_yaw_link": 0.0,
+    "waist_pitch_link": 0.0,
+    "torso_link": 0.0,
+    "left_shoulder_pitch_link": 0.002,
+    "left_shoulder_roll_link": 0.002,
+    "left_shoulder_yaw_link": 0.742,
+    "left_elbow_link": 1.251,
+    "left_wrist_yaw_link": 1.996,
+    "left_wrist_pitch_link": 2.414,
+    "left_wrist_roll_link": 2.414,
+    "right_shoulder_pitch_link": 0.002,
+    "right_shoulder_roll_link": 0.002,
+    "right_shoulder_yaw_link": 0.742,
+    "right_elbow_link": 1.253,
+    "right_wrist_yaw_link": 2.008,
+    "right_wrist_pitch_link": 3.202,
+    "right_wrist_roll_link": 3.202,
+    "head_yaw_link": 0.0,
+    "head_pitch_link": 0.0
+   },
+   "max_body_rotmat_err": 0.01434,
+   "note": "x2_ultra.xml is not exactly left/right symmetric (CAD export): left_hip_roll / hip_yaw offsets differ by 0.6 mm, shoulder_yaw / wrist_yaw / wrist_pitch by 0.5-0.7 mm and 0.003 rad (0.35 deg) in orientation; the arm residual is that, not the map."
+  }
+ }
+}

@@ -5,16 +5,18 @@
 Planted = the human foot still and lower (the human recording decides), sole height = the X2 foot's lowest visual-mesh
 vertex. The ramp axis is the principal direction of the planted feet. Along it, the profile h(s) = 0 before s0,
 rises linearly to H at s1, stays H after (the deck), fitted by grid search on (s0, s1) with H = the median sole height
-beyond s1, minimising the median absolute error. Width = planted spread across the axis + 10 cm, at least 0.6 m.
+beyond s1, minimising the median absolute error. Width = across-axis spread of the feet up on the slope or deck (not the floor around it) + 10 cm, at least 0.6 m.
 Written as one prop: kind 'ramp', origin (foot of the slope, width centre, floor), yaw, width, slope_run, rise,
 deck_run, floor z.
 """
 import glob, json, os, sys
 import numpy as np, mujoco
+TOE = 0.10   # m: a toe against the lip puts the foot centre this far in front of it
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _x2 import X2_XML  # noqa: E402
 
 x2dir, rawdir, first, last, out = sys.argv[1:6]
+LIP = [float(x) for x in sys.argv[6].split(',')] if len(sys.argv) > 6 else None   # x1,y1,x2,y2: bottom-lip corner marks (X2 frame)
 names = sorted(os.path.basename(f) for f in glob.glob(os.path.join(x2dir, 'record_*.npz')) if first <= os.path.basename(f)[16:22] <= last)
 m = mujoco.MjModel.from_xml_path(str(X2_XML)); d = mujoco.MjData(m)
 feet = []
@@ -36,6 +38,10 @@ for nm in names:
             R.append(np.r_[w[:, :2].mean(0), w[:, 2].min()])
 R = np.array(R)
 c = R[:, :2].mean(0); _, V = np.linalg.eigh(np.cov((R[:, :2] - c).T)); u = V[:, -1]
+if LIP:                                                  # survey: the lip's corners fix the heading, width and the slope's foot
+    p1, p2 = np.array(LIP[:2]), np.array(LIP[2:]); lip = p2 - p1
+    u = np.array([lip[1], -lip[0]]) / np.linalg.norm(lip)
+    c = (p1 + p2) / 2
 s = (R[:, :2] - c) @ u
 if np.corrcoef(s, R[:, 2])[0, 1] < 0:
     u = -u; s = -s                                       # uphill = +s
@@ -43,7 +49,8 @@ n = np.array([-u[1], u[0]]); qq = (R[:, :2] - c) @ n
 floor = float(np.percentile(R[:, 2], 10))
 hz = R[:, 2] - floor
 best = None
-for s0 in np.arange(np.percentile(s, 2), np.percentile(s, 70), 0.02):
+S0 = [TOE] if LIP else np.arange(np.percentile(s, 2), np.percentile(s, 70), 0.02)
+for s0 in S0:
     for s1 in np.arange(s0 + 0.2, np.percentile(s, 98), 0.02):
         top = hz[s > s1]
         if len(top) < 30:
@@ -55,7 +62,10 @@ for s0 in np.arange(np.percentile(s, 2), np.percentile(s, 70), 0.02):
             best = (err, s0, s1, H)
 err, s0, s1, H = best
 pred = np.clip((s - s0) / (s1 - s0), 0, 1) * H; res = hz - pred
-w0, w1 = np.percentile(qq, [3, 97]); width = max(w1 - w0 + 0.10, 0.6)
+on = (s > s0 + 0.10) & (hz > 0.03)                     # feet up on the slope or deck, not the floor around it
+w0, w1 = np.percentile(qq[on], [3, 97]); width = max(w1 - w0 + 0.10, 0.6)
+if LIP:
+    w0, w1 = sorted(((p1 - c) @ n, (p2 - c) @ n)); width = float(w1 - w0)
 origin = c + u * s0 + n * (w0 + w1) / 2
 deck = float(np.percentile(s, 98) - s1 + 0.06)
 prop = dict(kind='ramp', origin=[float(origin[0]), float(origin[1]), floor], yaw=float(np.arctan2(u[1], u[0])), width=float(width),

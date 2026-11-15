@@ -1,0 +1,10177 @@
+{
+ "type": "wedges",
+ "npz": "wedges.npz",
+ "n_tiles": 40,
+ "labels": [
+  "block",
+  "brace_stand:board",
+  "brace_stand:brace",
+  "brace_stand:post",
+  "ground",
+  "rail_fence:post",
+  "rail_fence:rail",
+  "wedge"
+ ],
+ "tiles": [
+  {
+   "tile_id": "wedges_L0_v0",
+   "type": "wedges",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 40000,
+   "variant": 0,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     8.0,
+     12.0
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.35,
+    "wide_wedge_width_m": [
+     1.2,
+     1.2
+    ],
+    "brace_stand_probability": 0.3
+   },
+   "realised": {
+    "primitive_counts": {
+     "ground": 1,
+     "wedge": 10
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.854,
+     "cells": 4,
+     "crest_m": [
+      0.154,
+      0.157,
+      0.184,
+      0.157
+     ],
+     "slope_deg": [
+      9.41,
+      9.63,
+      11.22,
+      9.59
+     ],
+     "rails": false
+    }
+   },
+   "n_boxes": 1,
+   "n_meshes": 10,
+   "floor_height_range_m": [
+    0.0,
+    0.1833
+   ],
+   "top_height_max_m": 0.1833,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0195,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.053,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.6078198534398016,
+     "y": 0.9150938713259884,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 2.145731049776688,
+     "y": -0.6078198534398016,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": -0.6078198534398016,
+     "y": -0.6078198534398016,
+     "yaw": 0.7853981633974483,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -0.24434237175982643,
+     "y": 1.7460900732800995,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.025,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.6078198534398016,
+      0.9150938713259884,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.7460900732800992,
+       0.9150938713259884
+      ],
+      [
+       1.7460900732800992,
+       2.223890017699473
+      ],
+      [
+       3.9,
+       2.223890017699473
+      ]
+     ],
+     "target": [
+      3.9,
+      2.223890017699473
+     ],
+     "length_m": 5.816615999813285,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.22))",
+     "z": [
+      0.0,
+      0.1419,
+      0.0007,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      2.145731049776688,
+      -0.6078198534398016,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       1.7460900732800992,
+       1.7460900732800992
+      ],
+      [
+       1.2376560081867254,
+       3.9
+      ]
+     ],
+     "target": [
+      1.2376560081867254,
+      3.9
+     ],
+     "length_m": 4.600698817676155,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (1.24, 4.10))",
+     "z": [
+      0.0,
+      0.0007,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.6078198534398016,
+      -0.6078198534398016,
+      0.7853981633974483
+     ],
+     "waypoints": [
+      [
+       3.9,
+       3.9
+      ]
+     ],
+     "target": [
+      3.9,
+      3.9
+     ],
+     "length_m": 6.375019973469265,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.00, 4.00))",
+     "z": [
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -0.24434237175982643,
+      1.7460900732800995,
+      0.0
+     ],
+     "waypoints": [
+      [
+       0.35565762824017355,
+       1.7460900732800995
+      ],
+      [
+       0.5419402536294131,
+       1.0508738507601367
+      ],
+      [
+       1.0508738507601358,
+       0.5419402536294138
+      ],
+      [
+       1.746090073280099,
+       0.35565762824017355
+      ],
+      [
+       2.4413062958000613,
+       0.5419402536294127
+      ],
+      [
+       2.9502398929307847,
+       1.0508738507601358
+      ],
+      [
+       3.136522518320025,
+       1.7460900732800988
+      ],
+      [
+       2.950239892930786,
+       2.441306295800061
+      ],
+      [
+       2.4413062958000626,
+       2.9502398929307847
+      ],
+      [
+       1.7460900732800997,
+       3.136522518320025
+      ],
+      [
+       1.0508738507601376,
+       2.950239892930786
+      ],
+      [
+       0.5419402536294131,
+       2.4413062958000618
+      ],
+      [
+       0.35565762824017355,
+       1.7460900732800997
+      ]
+     ],
+     "target": [
+      0.35565762824017355,
+      1.7460900732800997
+     ],
+     "length_m": 9.23688954491512,
+     "z": [
+      0.0,
+      0.0008,
+      0.109,
+      0.1153,
+      0.0777,
+      0.1116,
+      0.1181,
+      0.0794,
+      0.1099,
+      0.119,
+      0.0007,
+      0.1289,
+      0.1396,
+      0.0008
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.223890017699473,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.2376560081867254,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.35565762824017355,
+     "y": 1.7460900732800997,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 0
+  },
+  {
+   "tile_id": "wedges_L0_v1",
+   "type": "wedges",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 40005,
+   "variant": 1,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     8.0,
+     12.0
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.35,
+    "wide_wedge_width_m": [
+     1.2,
+     1.2
+    ],
+    "brace_stand_probability": 0.3
+   },
+   "realised": {
+    "primitive_counts": {
+     "brace_stand:board": 2,
+     "brace_stand:brace": 4,
+     "brace_stand:post": 2,
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 4,
+     "wedge": 10
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.712,
+     "cells": 4,
+     "crest_m": [
+      0.132,
+      0.146,
+      0.146,
+      0.163
+     ],
+     "slope_deg": [
+      8.77,
+      9.69,
+      9.71,
+      10.8
+     ],
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 19,
+   "n_meshes": 10,
+   "floor_height_range_m": [
+    0.0,
+    0.2526
+   ],
+   "top_height_max_m": 1.3614,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.126,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.3242029605391248,
+     "y": 1.2488875013781067,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.192,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 2.523891795261308,
+     "y": -0.3242029605391248,
+     "yaw": 1.5707963267948966,
+     "z": 0.0912,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.079,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": 0.0038224095282658466,
+     "y": 1.8878985197304379,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.744,
+     "floor_range_r20_m": 0.014,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.3242029605391248,
+      1.2488875013781067,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.8878985197304377,
+       1.2488875013781067
+      ],
+      [
+       1.8878985197304377,
+       2.4861336978971598
+      ],
+      [
+       3.9,
+       2.4861336978971598
+      ]
+     ],
+     "target": [
+      3.9,
+      2.4861336978971598
+     ],
+     "length_m": 5.461449157058178,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.49))",
+     "z": [
+      0.0,
+      0.1089,
+      0.0004,
+      0.0
+     ],
+     "clearance_m": [
+      1.192,
+      1.1,
+      1.14,
+      1.169
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      2.523891795261308,
+      -0.3242029605391248,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       1.8878985197304377,
+       1.8878985197304377
+      ],
+      [
+       1.3890093295493213,
+       3.9
+      ]
+     ],
+     "target": [
+      1.3890093295493213,
+      3.9
+     ],
+     "length_m": 4.374739939893775,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (1.39, 4.10))",
+     "z": [
+      0.0912,
+      0.0004,
+      0.0
+     ],
+     "clearance_m": [
+      0.4,
+      1.74,
+      0.2
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      0.0038224095282658466,
+      1.8878985197304379,
+      0.0
+     ],
+     "waypoints": [
+      [
+       0.6038224095282658,
+       1.8878985197304379
+      ],
+      [
+       0.7758559879026503,
+       1.245860464629352
+      ],
+      [
+       1.2458604646293512,
+       0.7758559879026508
+      ],
+      [
+       1.8878985197304374,
+       0.6038224095282658
+      ],
+      [
+       2.5299365748315226,
+       0.7758559879026499
+      ],
+      [
+       2.9999410515582245,
+       1.2458604646293512
+      ],
+      [
+       3.1719746299326097,
+       1.8878985197304374
+      ],
+      [
+       2.9999410515582254,
+       2.5299365748315226
+      ],
+      [
+       2.5299365748315243,
+       2.9999410515582245
+      ],
+      [
+       1.887898519730438,
+       3.1719746299326097
+      ],
+      [
+       1.2458604646293527,
+       2.9999410515582254
+      ],
+      [
+       0.7758559879026503,
+       2.529936574831523
+      ],
+      [
+       0.6038224095282658,
+       1.887898519730438
+      ]
+     ],
+     "target": [
+      0.6038224095282658,
+      1.887898519730438
+     ],
+     "length_m": 8.576240464355648,
+     "z": [
+      0.0,
+      0.0004,
+      0.0917,
+      0.0984,
+      0.0741,
+      0.1014,
+      0.1089,
+      0.082,
+      0.1163,
+      0.1225,
+      0.0004,
+      0.1044,
+      0.1098,
+      0.0004
+     ],
+     "clearance_m": [
+      1.744,
+      1.76,
+      1.12,
+      0.64,
+      0.46,
+      0.64,
+      1.12,
+      1.76,
+      1.12,
+      0.66,
+      0.46,
+      0.66,
+      1.12,
+      1.76
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.4861336978971598,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.3890093295493213,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.6038224095282658,
+     "y": 1.887898519730438,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 1
+  },
+  {
+   "tile_id": "wedges_L0_v2",
+   "type": "wedges",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 40001,
+   "variant": 2,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     8.0,
+     12.0
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.35,
+    "wide_wedge_width_m": [
+     1.2,
+     1.2
+    ],
+    "brace_stand_probability": 0.3
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "wedge": 11
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.15,
+     "length_m": 1.2,
+     "width_m": 1.085,
+     "rails": false
+    }
+   },
+   "n_boxes": 5,
+   "n_meshes": 11,
+   "floor_height_range_m": [
+    0.0,
+    0.2665
+   ],
+   "top_height_max_m": 1.3688,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.6,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 2.054546014112925,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 4.417,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.30873694999811296,
+     "y": 0.712271257988792,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 3.1,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      2.054546014112925,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -2.204368474999056,
+       2.054546014112925
+      ],
+      [
+       -0.30873694999811296,
+       2.054546014112925
+      ],
+      [
+       -0.30873694999811296,
+       0.712271257988792
+      ]
+     ],
+     "target": [
+      -0.30873694999811296,
+      0.712271257988792
+     ],
+     "length_m": 4.88353780612602,
+     "z": [
+      0.0,
+      0.1502,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      4.417,
+      4.061,
+      4.377,
+      3.1
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -0.30873694999811296,
+      0.712271257988792,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -0.30873694999811296,
+       2.054546014112925
+      ],
+      [
+       -3.85,
+       2.054546014112925
+      ]
+     ],
+     "target": [
+      -3.85,
+      2.054546014112925
+     ],
+     "length_m": 4.88353780612602,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      3.1,
+      4.377,
+      4.417
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.30873694999811296,
+     "y": 0.712271257988792,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 2.054546014112925,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 2
+  },
+  {
+   "tile_id": "wedges_L0_v3",
+   "type": "wedges",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 40002,
+   "variant": 3,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     8.0,
+     12.0
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.35,
+    "wide_wedge_width_m": [
+     1.2,
+     1.2
+    ],
+    "brace_stand_probability": 0.3
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "ground": 1,
+     "wedge": 11
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.126,
+     "length_m": 1.2,
+     "width_m": 1.942,
+     "rails": false
+    }
+   },
+   "n_boxes": 2,
+   "n_meshes": 11,
+   "floor_height_range_m": [
+    0.0,
+    0.2422
+   ],
+   "top_height_max_m": 0.2422,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 2.5897840850005274,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.2094802047835158,
+     "y": 0.8187081009023678,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      2.5897840850005274,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -2.154740102391758,
+       2.5897840850005274
+      ],
+      [
+       -0.2094802047835158,
+       2.5897840850005274
+      ],
+      [
+       -0.2094802047835158,
+       0.8187081009023678
+      ]
+     ],
+     "target": [
+      -0.2094802047835158,
+      0.8187081009023678
+     ],
+     "length_m": 5.411595779314643,
+     "z": [
+      0.0,
+      0.1257,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -0.2094802047835158,
+      0.8187081009023678,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -0.2094802047835158,
+       2.5897840850005274
+      ],
+      [
+       -3.85,
+       2.5897840850005274
+      ]
+     ],
+     "target": [
+      -3.85,
+      2.5897840850005274
+     ],
+     "length_m": 5.411595779314643,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.2094802047835158,
+     "y": 0.8187081009023678,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 2.5897840850005274,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 3
+  },
+  {
+   "tile_id": "wedges_L1_v0",
+   "type": "wedges",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 40100,
+   "variant": 0,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     8.7778,
+     13.4444
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.3278,
+    "wide_wedge_width_m": [
+     1.1333,
+     1.2
+    ],
+    "brace_stand_probability": 0.3556
+   },
+   "realised": {
+    "primitive_counts": {
+     "ground": 1,
+     "wedge": 10
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.366,
+     "cells": 4,
+     "crest_m": [
+      0.158,
+      0.107,
+      0.147,
+      0.154
+     ],
+     "slope_deg": [
+      13.06,
+      8.9,
+      12.13,
+      12.71
+     ],
+     "rails": false
+    }
+   },
+   "n_boxes": 1,
+   "n_meshes": 10,
+   "floor_height_range_m": [
+    0.0,
+    0.158
+   ],
+   "top_height_max_m": 0.158,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 0.36891263358576376,
+     "y": 1.533358407088147,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 2.4057332816696526,
+     "y": 0.36891263358576376,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": 0.36891263358576376,
+     "y": 0.36891263358576376,
+     "yaw": 0.7853981633974483,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": 0.6102985543875433,
+     "y": 2.234456316792882,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      0.36891263358576376,
+      1.533358407088147,
+      0.0
+     ],
+     "waypoints": [
+      [
+       2.234456316792882,
+       1.533358407088147
+      ],
+      [
+       2.234456316792882,
+       2.832849025618233
+      ],
+      [
+       3.9,
+       2.832849025618233
+      ]
+     ],
+     "target": [
+      3.9,
+      2.832849025618233
+     ],
+     "length_m": 4.830577984944322,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.83))",
+     "z": [
+      0.0,
+      0.001,
+      0.1279,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      2.4057332816696526,
+      0.36891263358576376,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       2.234456316792882,
+       2.234456316792882
+      ],
+      [
+       2.755418031503674,
+       3.9
+      ]
+     ],
+     "target": [
+      2.755418031503674,
+      3.9
+     ],
+     "length_m": 3.618507727248774,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (2.76, 4.10))",
+     "z": [
+      0.0,
+      0.001,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      0.36891263358576376,
+      0.36891263358576376,
+      0.7853981633974483
+     ],
+     "waypoints": [
+      [
+       3.9,
+       3.9
+      ]
+     ],
+     "target": [
+      3.9,
+      3.9
+     ],
+     "length_m": 4.993711643507307,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.00, 4.00))",
+     "z": [
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      0.6102985543875433,
+      2.234456316792882,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.2102985543875433,
+       2.234456316792882
+      ],
+      [
+       1.3475096770668311,
+       1.722377435590213
+      ],
+      [
+       1.7223774355902122,
+       1.3475096770668316
+      ],
+      [
+       2.234456316792882,
+       1.2102985543875433
+      ],
+      [
+       2.7465351979955503,
+       1.3475096770668311
+      ],
+      [
+       3.1214029565189323,
+       1.7223774355902122
+      ],
+      [
+       3.2586140791982205,
+       2.2344563167928815
+      ],
+      [
+       3.1214029565189327,
+       2.7465351979955503
+      ],
+      [
+       2.7465351979955517,
+       3.1214029565189323
+      ],
+      [
+       2.2344563167928824,
+       3.2586140791982205
+      ],
+      [
+       1.7223774355902135,
+       3.121402956518933
+      ],
+      [
+       1.3475096770668311,
+       2.7465351979955512
+      ],
+      [
+       1.2102985543875433,
+       2.2344563167928824
+      ]
+     ],
+     "target": [
+      1.2102985543875433,
+      2.2344563167928824
+     ],
+     "length_m": 6.961716818402019,
+     "z": [
+      0.0,
+      0.0791,
+      0.1116,
+      0.117,
+      0.001,
+      0.0753,
+      0.079,
+      0.0007,
+      0.106,
+      0.1163,
+      0.0752,
+      0.101,
+      0.1108,
+      0.0791
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.832849025618233,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.755418031503674,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.2102985543875433,
+     "y": 2.2344563167928824,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 4
+  },
+  {
+   "tile_id": "wedges_L1_v1",
+   "type": "wedges",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 40101,
+   "variant": 1,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     8.7778,
+     13.4444
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.3278,
+    "wide_wedge_width_m": [
+     1.1333,
+     1.2
+    ],
+    "brace_stand_probability": 0.3556
+   },
+   "realised": {
+    "primitive_counts": {
+     "ground": 1,
+     "wedge": 10
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.271,
+     "cells": 4,
+     "crest_m": [
+      0.12,
+      0.128,
+      0.101,
+      0.125
+     ],
+     "slope_deg": [
+      10.73,
+      11.42,
+      9.06,
+      11.1
+     ],
+     "rails": false
+    }
+   },
+   "n_boxes": 1,
+   "n_meshes": 10,
+   "floor_height_range_m": [
+    0.0,
+    0.2703
+   ],
+   "top_height_max_m": 0.2703,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 0.5581255595116281,
+     "y": 1.5832293937619317,
+     "yaw": 0.0,
+     "z": 0.1111,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.142,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 2.8236969189343606,
+     "y": 0.5581255595116281,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": 0.5581255595116281,
+     "y": 0.5581255595116281,
+     "yaw": 0.7853981633974483,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.024,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": 0.7758598645726745,
+     "y": 2.329062779755814,
+     "yaw": 0.0,
+     "z": 0.2338,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.252,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      0.5581255595116281,
+      1.5832293937619317,
+      0.0
+     ],
+     "waypoints": [
+      [
+       2.329062779755814,
+       1.5832293937619317
+      ],
+      [
+       2.329062779755814,
+       2.7993665534636993
+      ],
+      [
+       3.9,
+       2.7993665534636993
+      ]
+     ],
+     "target": [
+      3.9,
+      2.7993665534636993
+     ],
+     "length_m": 4.55801160019014,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.80))",
+     "z": [
+      0.1111,
+      0.1075,
+      0.0002,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      2.8236969189343606,
+      0.5581255595116281,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       2.329062779755814,
+       2.329062779755814
+      ],
+      [
+       2.1540546639701836,
+       3.9
+      ]
+     ],
+     "target": [
+      2.1540546639701836,
+      3.9
+     ],
+     "length_m": 3.419372801481856,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (2.15, 4.10))",
+     "z": [
+      0.0,
+      0.0002,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      0.5581255595116281,
+      0.5581255595116281,
+      0.7853981633974483
+     ],
+     "waypoints": [
+      [
+       3.9,
+       3.9
+      ]
+     ],
+     "target": [
+      3.9,
+      3.9
+     ],
+     "length_m": 4.726124157486654,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.00, 4.00))",
+     "z": [
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      0.7758598645726745,
+      2.329062779755814,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.3758598645726745,
+       2.329062779755814
+      ],
+      [
+       1.5035648402458315,
+       1.8524613221642445
+      ],
+      [
+       1.8524613221642439,
+       1.503564840245832
+      ],
+      [
+       2.329062779755814,
+       1.3758598645726745
+      ],
+      [
+       2.8056642373473832,
+       1.5035648402458315
+      ],
+      [
+       3.1545607192657963,
+       1.8524613221642439
+      ],
+      [
+       3.2822656949389537,
+       2.3290627797558137
+      ],
+      [
+       3.1545607192657967,
+       2.8056642373473832
+      ],
+      [
+       2.8056642373473846,
+       3.1545607192657963
+      ],
+      [
+       2.3290627797558145,
+       3.2822656949389537
+      ],
+      [
+       1.852461322164245,
+       3.154560719265797
+      ],
+      [
+       1.5035648402458315,
+       2.8056642373473837
+      ],
+      [
+       1.3758598645726745,
+       2.3290627797558145
+      ]
+     ],
+     "target": [
+      1.3758598645726745,
+      2.3290627797558145
+     ],
+     "length_m": 6.5209696391193415,
+     "z": [
+      0.2338,
+      0.0001,
+      0.0857,
+      0.0908,
+      0.063,
+      0.0913,
+      0.0968,
+      0.0608,
+      0.0883,
+      0.0943,
+      0.0002,
+      0.0718,
+      0.0767,
+      0.0001
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.7993665534636993,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.1540546639701836,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.3758598645726745,
+     "y": 2.3290627797558145,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 5
+  },
+  {
+   "tile_id": "wedges_L1_v2",
+   "type": "wedges",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 40104,
+   "variant": 2,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     8.7778,
+     13.4444
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.3278,
+    "wide_wedge_width_m": [
+     1.1333,
+     1.2
+    ],
+    "brace_stand_probability": 0.3556
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "rail_fence:post": 8,
+     "rail_fence:rail": 2,
+     "wedge": 9
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.263,
+     "length_m": 1.2,
+     "width_m": 1.128,
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 16,
+   "n_meshes": 9,
+   "floor_height_range_m": [
+    0.0,
+    0.3577
+   ],
+   "top_height_max_m": 1.2923,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.23,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 1.9006861403771338,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.595,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 0.7205280480226366,
+     "y": 0.5365927753483093,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.838,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      1.9006861403771338,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6897359759886816,
+       1.9006861403771338
+      ],
+      [
+       0.7205280480226366,
+       1.9006861403771338
+      ],
+      [
+       0.7205280480226366,
+       0.5365927753483093
+      ]
+     ],
+     "target": [
+      0.7205280480226366,
+      0.5365927753483093
+     ],
+     "length_m": 5.9346214130514605,
+     "z": [
+      0.0,
+      0.2629,
+      0.088,
+      0.0
+     ],
+     "clearance_m": [
+      0.595,
+      0.58,
+      0.725,
+      0.838
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      0.7205280480226366,
+      0.5365927753483093,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       0.7205280480226366,
+       1.9006861403771338
+      ],
+      [
+       -3.85,
+       1.9006861403771338
+      ]
+     ],
+     "target": [
+      -3.85,
+      1.9006861403771338
+     ],
+     "length_m": 5.934621413051461,
+     "z": [
+      0.0,
+      0.088,
+      0.0
+     ],
+     "clearance_m": [
+      0.838,
+      0.725,
+      0.595
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 0.7205280480226366,
+     "y": 0.5365927753483093,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 1.9006861403771338,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 6
+  },
+  {
+   "tile_id": "wedges_L1_v3",
+   "type": "wedges",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 40105,
+   "variant": 3,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     8.7778,
+     13.4444
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.3278,
+    "wide_wedge_width_m": [
+     1.1333,
+     1.2
+    ],
+    "brace_stand_probability": 0.3556
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "ground": 1,
+     "rail_fence:post": 8,
+     "rail_fence:rail": 4,
+     "wedge": 7
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.266,
+     "length_m": 1.2,
+     "width_m": 1.62,
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 14,
+   "n_meshes": 7,
+   "floor_height_range_m": [
+    0.0,
+    0.3068
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.6,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 1.5142837561855416,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.844,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 0.7208207877623576,
+     "y": -0.0958316157312703,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.821,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      1.5142837561855416,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6895896061188211,
+       1.5142837561855416
+      ],
+      [
+       0.7208207877623576,
+       1.5142837561855416
+      ],
+      [
+       0.7208207877623576,
+       -0.0958316157312703
+      ]
+     ],
+     "target": [
+      0.7208207877623576,
+      -0.0958316157312703
+     ],
+     "length_m": 6.18093615967917,
+     "z": [
+      0.0,
+      0.2665,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.844,
+      0.84,
+      0.94,
+      0.821
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      0.7208207877623576,
+      -0.0958316157312703,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       0.7208207877623576,
+       1.5142837561855416
+      ],
+      [
+       -3.85,
+       1.5142837561855416
+      ]
+     ],
+     "target": [
+      -3.85,
+      1.5142837561855416
+     ],
+     "length_m": 6.18093615967917,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.821,
+      0.94,
+      0.844
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 0.7208207877623576,
+     "y": -0.0958316157312703,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 1.5142837561855416,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 7
+  },
+  {
+   "tile_id": "wedges_L2_v0",
+   "type": "wedges",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 40200,
+   "variant": 0,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     9.5556,
+     14.8889
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.3056,
+    "wide_wedge_width_m": [
+     1.0667,
+     1.2
+    ],
+    "brace_stand_probability": 0.4111
+   },
+   "realised": {
+    "primitive_counts": {
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 2,
+     "wedge": 9
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.28,
+     "cells": 4,
+     "crest_m": [
+      0.15,
+      0.115,
+      0.148,
+      0.145
+     ],
+     "slope_deg": [
+      13.16,
+      10.18,
+      13.06,
+      12.76
+     ],
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 9,
+   "n_meshes": 9,
+   "floor_height_range_m": [
+    0.0,
+    0.3501
+   ],
+   "top_height_max_m": 0.3501,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.331,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 0.5394560359762028,
+     "y": 1.8631977828551096,
+     "yaw": 0.0,
+     "z": 0.1516,
+     "clearance_m": 0.975,
+     "floor_range_r20_m": 0.071,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 2.392252709480609,
+     "y": 0.5394560359762028,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.381,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": 0.7595240314791772,
+     "y": 2.3197280179881012,
+     "yaw": 0.0,
+     "z": 0.0446,
+     "clearance_m": 1.322,
+     "floor_range_r20_m": 0.094,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      0.5394560359762028,
+      1.8631977828551096,
+      0.0
+     ],
+     "waypoints": [
+      [
+       2.3197280179881012,
+       1.8631977828551096
+      ],
+      [
+       2.3197280179881012,
+       2.881028611987448
+      ],
+      [
+       3.9,
+       2.881028611987448
+      ]
+     ],
+     "target": [
+      3.9,
+      2.881028611987448
+     ],
+     "length_m": 4.378374793156135,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.88))",
+     "z": [
+      0.1516,
+      0.0023,
+      0.1323,
+      0.0
+     ],
+     "clearance_m": [
+      0.975,
+      0.86,
+      0.74,
+      0.784
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      2.392252709480609,
+      0.5394560359762028,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       2.3197280179881012,
+       2.3197280179881012
+      ],
+      [
+       2.209251497313189,
+       3.9
+      ]
+     ],
+     "target": [
+      2.209251497313189,
+      3.9
+     ],
+     "length_m": 3.3658775961016807,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (2.21, 4.10))",
+     "z": [
+      0.0,
+      0.0023,
+      0.0
+     ],
+     "clearance_m": [
+      0.381,
+      1.3,
+      0.19
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      0.7595240314791772,
+      2.3197280179881012,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.3595240314791772,
+       2.3197280179881012
+      ],
+      [
+       1.4881669728562825,
+       1.8396260247336396
+      ],
+      [
+       1.8396260247336387,
+       1.4881669728562827
+      ],
+      [
+       2.3197280179881012,
+       1.3595240314791772
+      ],
+      [
+       2.7998300112425625,
+       1.4881669728562823
+      ],
+      [
+       3.1512890631199197,
+       1.8396260247336387
+      ],
+      [
+       3.2799320044970255,
+       2.319728017988101
+      ],
+      [
+       3.15128906311992,
+       2.7998300112425625
+      ],
+      [
+       2.799830011242564,
+       3.1512890631199197
+      ],
+      [
+       2.3197280179881017,
+       3.2799320044970255
+      ],
+      [
+       1.83962602473364,
+       3.15128906311992
+      ],
+      [
+       1.4881669728562825,
+       2.799830011242563
+      ],
+      [
+       1.3595240314791772,
+       2.3197280179881017
+      ]
+     ],
+     "target": [
+      1.3595240314791772,
+      2.3197280179881017
+     ],
+     "length_m": 6.5644578934049616,
+     "z": [
+      0.0446,
+      0.0726,
+      0.1054,
+      0.1145,
+      0.0023,
+      0.0809,
+      0.0879,
+      0.0017,
+      0.1019,
+      0.1065,
+      0.0765,
+      0.1044,
+      0.1091,
+      0.0726
+     ],
+     "clearance_m": [
+      1.322,
+      1.32,
+      0.84,
+      0.5,
+      0.34,
+      0.5,
+      0.84,
+      1.32,
+      0.86,
+      0.5,
+      0.36,
+      0.5,
+      0.86,
+      1.32
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.881028611987448,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.209251497313189,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.3595240314791772,
+     "y": 2.3197280179881017,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 8
+  },
+  {
+   "tile_id": "wedges_L2_v1",
+   "type": "wedges",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 40201,
+   "variant": 1,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     9.5556,
+     14.8889
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.3056,
+    "wide_wedge_width_m": [
+     1.0667,
+     1.2
+    ],
+    "brace_stand_probability": 0.4111
+   },
+   "realised": {
+    "primitive_counts": {
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 4,
+     "wedge": 8
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.752,
+     "cells": 4,
+     "crest_m": [
+      0.193,
+      0.181,
+      0.223,
+      0.198
+     ],
+     "slope_deg": [
+      12.41,
+      11.68,
+      14.26,
+      12.76
+     ],
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 11,
+   "n_meshes": 8,
+   "floor_height_range_m": [
+    0.0,
+    0.2675
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": -0.40439431013531246,
+     "y": 1.360444802928917,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.379,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.06634502136839837,
+     "y": 1.847802844932344,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.784,
+     "floor_range_r20_m": 0.021,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.04,
+     "floor_range_r20_m": 0.016,
+     "source": "generator",
+     "note": "tile centre, facing +x",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.40439431013531246,
+      1.360444802928917,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.8478028449323438,
+       1.360444802928917
+      ],
+      [
+       1.8478028449323438,
+       2.211305323244809
+      ],
+      [
+       3.9,
+       2.211305323244809
+      ]
+     ],
+     "target": [
+      3.9,
+      2.211305323244809
+     ],
+     "length_m": 5.155254830451204,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.21))",
+     "z": [
+      0.0,
+      0.0988,
+      0.0005,
+      0.0
+     ],
+     "clearance_m": [
+      1.379,
+      1.3,
+      1.42,
+      1.444
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -0.06634502136839837,
+      1.847802844932344,
+      0.0
+     ],
+     "waypoints": [
+      [
+       0.5336549786316016,
+       1.847802844932344
+      ],
+      [
+       0.7097174083867848,
+       1.190728911781973
+      ],
+      [
+       1.1907289117819722,
+       0.7097174083867854
+      ],
+      [
+       1.8478028449323436,
+       0.5336549786316016
+      ],
+      [
+       2.504876778082714,
+       0.7097174083867845
+      ],
+      [
+       2.9858882814779024,
+       1.1907289117819722
+      ],
+      [
+       3.161950711233086,
+       1.8478028449323436
+      ],
+      [
+       2.9858882814779033,
+       2.504876778082714
+      ],
+      [
+       2.504876778082716,
+       2.9858882814779024
+      ],
+      [
+       1.8478028449323443,
+       3.161950711233086
+      ],
+      [
+       1.1907289117819737,
+       2.9858882814779033
+      ],
+      [
+       0.7097174083867848,
+       2.5048767780827146
+      ],
+      [
+       0.5336549786316016,
+       1.8478028449323443
+      ]
+     ],
+     "target": [
+      0.5336549786316016,
+      1.8478028449323443
+     ],
+     "length_m": 8.763035901107356,
+     "z": [
+      0.0,
+      0.0006,
+      0.1352,
+      0.1447,
+      0.0898,
+      0.127,
+      0.136,
+      0.0973,
+      0.1381,
+      0.1499,
+      0.0005,
+      0.1551,
+      0.1683,
+      0.0006
+     ],
+     "clearance_m": [
+      1.784,
+      1.8,
+      1.14,
+      0.66,
+      0.46,
+      0.66,
+      1.14,
+      1.8,
+      1.14,
+      0.66,
+      0.46,
+      0.66,
+      1.14,
+      1.8
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.211305323244809,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.6701278629939371,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.5336549786316016,
+     "y": 1.8478028449323443,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 9
+  },
+  {
+   "tile_id": "wedges_L2_v2",
+   "type": "wedges",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 40205,
+   "variant": 2,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     9.5556,
+     14.8889
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.3056,
+    "wide_wedge_width_m": [
+     1.0667,
+     1.2
+    ],
+    "brace_stand_probability": 0.4111
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "ground": 1,
+     "wedge": 9
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.199,
+     "length_m": 1.2,
+     "width_m": 1.741,
+     "rails": false
+    }
+   },
+   "n_boxes": 2,
+   "n_meshes": 9,
+   "floor_height_range_m": [
+    0.0,
+    0.2396
+   ],
+   "top_height_max_m": 0.2396,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 1.3747939545998062,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 0.0034007510550786435,
+     "y": -0.2955503341591732,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      1.3747939545998062,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -2.0482996244724605,
+       1.3747939545998062
+      ],
+      [
+       0.0034007510550786435,
+       1.3747939545998062
+      ],
+      [
+       0.0034007510550786435,
+       -0.2955503341591732
+      ]
+     ],
+     "target": [
+      0.0034007510550786435,
+      -0.2955503341591732
+     ],
+     "length_m": 5.523745039814058,
+     "z": [
+      0.0,
+      0.1991,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      0.0034007510550786435,
+      -0.2955503341591732,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       0.0034007510550786435,
+       1.3747939545998062
+      ],
+      [
+       -3.85,
+       1.3747939545998062
+      ]
+     ],
+     "target": [
+      -3.85,
+      1.3747939545998062
+     ],
+     "length_m": 5.523745039814058,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 0.0034007510550786435,
+     "y": -0.2955503341591732,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 1.3747939545998062,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 10
+  },
+  {
+   "tile_id": "wedges_L2_v3",
+   "type": "wedges",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 40206,
+   "variant": 3,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     9.5556,
+     14.8889
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.3056,
+    "wide_wedge_width_m": [
+     1.0667,
+     1.2
+    ],
+    "brace_stand_probability": 0.4111
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 4,
+     "wedge": 11
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.222,
+     "length_m": 1.2,
+     "width_m": 1.34,
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 16,
+   "n_meshes": 11,
+   "floor_height_range_m": [
+    0.0,
+    0.2218
+   ],
+   "top_height_max_m": 1.1067,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.946,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 2.7024031657590006,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.69,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 0.03636621658903705,
+     "y": 1.2326302089651981,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.81,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      2.7024031657590006,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -2.0318168917054815,
+       2.7024031657590006
+      ],
+      [
+       0.03636621658903705,
+       2.7024031657590006
+      ],
+      [
+       0.03636621658903705,
+       1.2326302089651981
+      ]
+     ],
+     "target": [
+      0.03636621658903705,
+      1.2326302089651981
+     ],
+     "length_m": 5.356139173382839,
+     "z": [
+      0.0,
+      0.2218,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.69,
+      0.66,
+      0.793,
+      0.81
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      0.03636621658903705,
+      1.2326302089651981,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       0.03636621658903705,
+       2.7024031657590006
+      ],
+      [
+       -3.85,
+       2.7024031657590006
+      ]
+     ],
+     "target": [
+      -3.85,
+      2.7024031657590006
+     ],
+     "length_m": 5.356139173382839,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.81,
+      0.793,
+      0.69
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 0.03636621658903705,
+     "y": 1.2326302089651981,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 2.7024031657590006,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 11
+  },
+  {
+   "tile_id": "wedges_L3_v0",
+   "type": "wedges",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 40300,
+   "variant": 0,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     10.3333,
+     16.3333
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2833,
+    "wide_wedge_width_m": [
+     1.0,
+     1.2
+    ],
+    "brace_stand_probability": 0.4667
+   },
+   "realised": {
+    "primitive_counts": {
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 2,
+     "wedge": 10
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.615,
+     "cells": 4,
+     "crest_m": [
+      0.219,
+      0.205,
+      0.228,
+      0.213
+     ],
+     "slope_deg": [
+      15.2,
+      14.22,
+      15.77,
+      14.75
+     ],
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 9,
+   "n_meshes": 10,
+   "floor_height_range_m": [
+    0.0,
+    0.3585
+   ],
+   "top_height_max_m": 0.3585,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.372,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.1297425805251451,
+     "y": 1.2140319388024632,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.966,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 1.5127076328784357,
+     "y": -0.1297425805251451,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.4,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": 0.17397524204049797,
+     "y": 1.9851287097374277,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.646,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.1297425805251451,
+      1.2140319388024632,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.9851287097374275,
+       1.2140319388024632
+      ],
+      [
+       1.9851287097374275,
+       2.367535967711272
+      ],
+      [
+       3.9,
+       2.367535967711272
+      ]
+     ],
+     "target": [
+      3.9,
+      2.367535967711272
+     ],
+     "length_m": 5.183246609433954,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.37))",
+     "z": [
+      0.0,
+      0.1965,
+      0.0013,
+      0.0
+     ],
+     "clearance_m": [
+      0.966,
+      0.86,
+      1.26,
+      1.287
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      1.5127076328784357,
+      -0.1297425805251451,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       1.9851287097374275,
+       1.9851287097374275
+      ],
+      [
+       1.5174859638020788,
+       3.9
+      ]
+     ],
+     "target": [
+      1.5174859638020788,
+      3.9
+     ],
+     "length_m": 4.138141157338378,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (1.52, 4.10))",
+     "z": [
+      0.0,
+      0.0013,
+      0.0
+     ],
+     "clearance_m": [
+      0.4,
+      1.64,
+      0.2
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      0.17397524204049797,
+      1.9851287097374277,
+      0.0
+     ],
+     "waypoints": [
+      [
+       0.773975242040498,
+       1.9851287097374277
+      ],
+      [
+       0.9362390388302708,
+       1.3795519758889632
+      ],
+      [
+       1.3795519758889623,
+       0.9362390388302713
+      ],
+      [
+       1.9851287097374273,
+       0.773975242040498
+      ],
+      [
+       2.5907054435858914,
+       0.9362390388302706
+      ],
+      [
+       3.034018380644584,
+       1.3795519758889623
+      ],
+      [
+       3.196282177434357,
+       1.9851287097374273
+      ],
+      [
+       3.0340183806445844,
+       2.5907054435858914
+      ],
+      [
+       2.590705443585893,
+       3.034018380644584
+      ],
+      [
+       1.985128709737428,
+       3.196282177434357
+      ],
+      [
+       1.3795519758889636,
+       3.034018380644585
+      ],
+      [
+       0.9362390388302708,
+       2.5907054435858923
+      ],
+      [
+       0.773975242040498,
+       1.985128709737428
+      ]
+     ],
+     "target": [
+      0.773975242040498,
+      1.985128709737428
+     ],
+     "length_m": 8.123270015566225,
+     "z": [
+      0.0,
+      0.0014,
+      0.152,
+      0.1671,
+      0.1013,
+      0.1419,
+      0.1559,
+      0.108,
+      0.1501,
+      0.1593,
+      0.0013,
+      0.1609,
+      0.1708,
+      0.0014
+     ],
+     "clearance_m": [
+      1.646,
+      1.66,
+      1.04,
+      0.6,
+      0.42,
+      0.6,
+      1.04,
+      1.66,
+      1.06,
+      0.62,
+      0.44,
+      0.62,
+      1.06,
+      1.66
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.367535967711272,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5174859638020788,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.773975242040498,
+     "y": 1.985128709737428,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 12
+  },
+  {
+   "tile_id": "wedges_L3_v1",
+   "type": "wedges",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 40303,
+   "variant": 1,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     10.3333,
+     16.3333
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2833,
+    "wide_wedge_width_m": [
+     1.0,
+     1.2
+    ],
+    "brace_stand_probability": 0.4667
+   },
+   "realised": {
+    "primitive_counts": {
+     "ground": 1,
+     "wedge": 8
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.423,
+     "cells": 4,
+     "crest_m": [
+      0.163,
+      0.167,
+      0.142,
+      0.169
+     ],
+     "slope_deg": [
+      12.93,
+      13.22,
+      11.28,
+      13.39
+     ],
+     "rails": false
+    }
+   },
+   "n_boxes": 1,
+   "n_meshes": 8,
+   "floor_height_range_m": [
+    0.0,
+    0.4091
+   ],
+   "top_height_max_m": 0.4091,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 0.2547585129370664,
+     "y": 1.4978986603369626,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 1.9272027884523775,
+     "y": 0.2547585129370664,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": 0.2547585129370664,
+     "y": 0.2547585129370664,
+     "yaw": 0.7853981633974483,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": 0.5104136988199331,
+     "y": 2.1773792564685333,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      0.2547585129370664,
+      1.4978986603369626,
+      0.0
+     ],
+     "waypoints": [
+      [
+       2.1773792564685333,
+       1.4978986603369626
+      ],
+      [
+       2.1773792564685333,
+       2.778947182128606
+      ],
+      [
+       3.9,
+       2.778947182128606
+      ]
+     ],
+     "target": [
+      3.9,
+      2.778947182128606
+     ],
+     "length_m": 4.926290008854577,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.78))",
+     "z": [
+      0.0,
+      0.0017,
+      0.1182,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      1.9272027884523775,
+      0.2547585129370664,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       2.1773792564685333,
+       2.1773792564685333
+      ],
+      [
+       2.0195636064017846,
+       3.9
+      ]
+     ],
+     "target": [
+      2.0195636064017846,
+      3.9
+     ],
+     "length_m": 3.668663907176324,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (2.02, 4.10))",
+     "z": [
+      0.0,
+      0.0017,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      0.2547585129370664,
+      0.2547585129370664,
+      0.7853981633974483
+     ],
+     "waypoints": [
+      [
+       3.9,
+       3.9
+      ]
+     ],
+     "target": [
+      3.9,
+      3.9
+     ],
+     "length_m": 5.15514994912947,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.00, 4.00))",
+     "z": [
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      0.5104136988199331,
+      2.1773792564685333,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.1104136988199331,
+       2.1773792564685333
+      ],
+      [
+       1.2533599785818152,
+       1.6438964776442335
+      ],
+      [
+       1.6438964776442329,
+       1.253359978581816
+      ],
+      [
+       2.1773792564685333,
+       1.1104136988199331
+      ],
+      [
+       2.7108620352928328,
+       1.2533599785818152
+      ],
+      [
+       3.1013985343552504,
+       1.6438964776442329
+      ],
+      [
+       3.2443448141171336,
+       2.177379256468533
+      ],
+      [
+       3.1013985343552513,
+       2.7108620352928323
+      ],
+      [
+       2.710862035292834,
+       3.1013985343552504
+      ],
+      [
+       2.1773792564685337,
+       3.2443448141171336
+      ],
+      [
+       1.643896477644234,
+       3.1013985343552513
+      ],
+      [
+       1.2533599785818152,
+       2.710862035292833
+      ],
+      [
+       1.1104136988199331,
+       2.1773792564685337
+      ]
+     ],
+     "target": [
+      1.1104136988199331,
+      2.1773792564685337
+     ],
+     "length_m": 7.227624162909341,
+     "z": [
+      0.0,
+      0.0815,
+      0.1137,
+      0.1211,
+      0.0017,
+      0.1163,
+      0.1239,
+      0.0017,
+      0.1167,
+      0.1268,
+      0.0698,
+      0.0977,
+      0.1062,
+      0.0815
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.778947182128606,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.0195636064017846,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.1104136988199331,
+     "y": 2.1773792564685337,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 13
+  },
+  {
+   "tile_id": "wedges_L3_v2",
+   "type": "wedges",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 40301,
+   "variant": 2,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     10.3333,
+     16.3333
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2833,
+    "wide_wedge_width_m": [
+     1.0,
+     1.2
+    ],
+    "brace_stand_probability": 0.4667
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 4,
+     "wedge": 6
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.254,
+     "length_m": 1.2,
+     "width_m": 1.411,
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 16,
+   "n_meshes": 6,
+   "floor_height_range_m": [
+    0.0,
+    0.3478
+   ],
+   "top_height_max_m": 1.2964,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.834,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 1.5482261362193164,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.728,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 0.03429710958264809,
+     "y": 0.042543321528278666,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.81,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      1.5482261362193164,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -2.0328514452086757,
+       1.5482261362193164
+      ],
+      [
+       0.03429710958264809,
+       1.5482261362193164
+      ],
+      [
+       0.03429710958264809,
+       0.042543321528278666
+      ]
+     ],
+     "target": [
+      0.03429710958264809,
+      0.042543321528278666
+     ],
+     "length_m": 5.389979924273685,
+     "z": [
+      0.0,
+      0.2539,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.728,
+      0.7,
+      0.827,
+      0.81
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      0.03429710958264809,
+      0.042543321528278666,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       0.03429710958264809,
+       1.5482261362193164
+      ],
+      [
+       -3.85,
+       1.5482261362193164
+      ]
+     ],
+     "target": [
+      -3.85,
+      1.5482261362193164
+     ],
+     "length_m": 5.389979924273685,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.81,
+      0.827,
+      0.728
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 0.03429710958264809,
+     "y": 0.042543321528278666,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 1.5482261362193164,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 14
+  },
+  {
+   "tile_id": "wedges_L3_v3",
+   "type": "wedges",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 40302,
+   "variant": 3,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     10.3333,
+     16.3333
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2833,
+    "wide_wedge_width_m": [
+     1.0,
+     1.2
+    ],
+    "brace_stand_probability": 0.4667
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 4,
+     "wedge": 8
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.258,
+     "length_m": 1.2,
+     "width_m": 1.181,
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 12,
+   "n_meshes": 8,
+   "floor_height_range_m": [
+    0.0,
+    0.4226
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.116,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 1.7915940276994728,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.632,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 0.16964926518661705,
+     "y": 0.40107989571740066,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.81,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      1.7915940276994728,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.9651753674066916,
+       1.7915940276994728
+      ],
+      [
+       0.16964926518661705,
+       1.7915940276994728
+      ],
+      [
+       0.16964926518661705,
+       0.40107989571740066
+      ]
+     ],
+     "target": [
+      0.16964926518661705,
+      0.40107989571740066
+     ],
+     "length_m": 5.410163397168689,
+     "z": [
+      0.0,
+      0.2581,
+      0.2825,
+      0.0
+     ],
+     "clearance_m": [
+      0.632,
+      0.6,
+      0.744,
+      0.81
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      0.16964926518661705,
+      0.40107989571740066,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       0.16964926518661705,
+       1.7915940276994728
+      ],
+      [
+       -3.85,
+       1.7915940276994728
+      ]
+     ],
+     "target": [
+      -3.85,
+      1.7915940276994728
+     ],
+     "length_m": 5.410163397168689,
+     "z": [
+      0.0,
+      0.2825,
+      0.0
+     ],
+     "clearance_m": [
+      0.81,
+      0.744,
+      0.632
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 0.16964926518661705,
+     "y": 0.40107989571740066,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 1.7915940276994728,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 15
+  },
+  {
+   "tile_id": "wedges_L4_v0",
+   "type": "wedges",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 40402,
+   "variant": 0,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     11.1111,
+     17.7778
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2611,
+    "wide_wedge_width_m": [
+     0.9333,
+     1.2
+    ],
+    "brace_stand_probability": 0.5222
+   },
+   "realised": {
+    "primitive_counts": {
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "wedge": 9
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.557,
+     "cells": 4,
+     "crest_m": [
+      0.213,
+      0.229,
+      0.217,
+      0.16
+     ],
+     "slope_deg": [
+      15.29,
+      16.37,
+      15.59,
+      11.63
+     ],
+     "rails": false
+    }
+   },
+   "n_boxes": 5,
+   "n_meshes": 9,
+   "floor_height_range_m": [
+    0.0,
+    0.3295
+   ],
+   "top_height_max_m": 1.1217,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.796,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.013417315598446056,
+     "y": 1.4610858285921346,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 4.198,
+     "floor_range_r20_m": 0.003,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 2.246018691619653,
+     "y": -0.013417315598446056,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 4.105,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": -0.013417315598446056,
+     "y": -0.013417315598446056,
+     "yaw": 0.7853981633974483,
+     "z": 0.0,
+     "clearance_m": 2.77,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": 0.27575984885135985,
+     "y": 2.043291342200777,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 4.826,
+     "floor_range_r20_m": 0.021,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.013417315598446056,
+      1.4610858285921346,
+      0.0
+     ],
+     "waypoints": [
+      [
+       2.043291342200777,
+       1.4610858285921346
+      ],
+      [
+       2.043291342200777,
+       2.487490507134234
+      ],
+      [
+       3.9,
+       2.487490507134234
+      ]
+     ],
+     "target": [
+      3.9,
+      2.487490507134234
+     ],
+     "length_m": 4.939821994140545,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.49))",
+     "z": [
+      0.0,
+      0.1684,
+      0.0014,
+      0.0
+     ],
+     "clearance_m": [
+      4.198,
+      5.057,
+      5.914,
+      7.032
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      2.246018691619653,
+      -0.013417315598446056,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       2.043291342200777,
+       2.043291342200777
+      ],
+      [
+       1.7945898423447453,
+       3.9
+      ]
+     ],
+     "target": [
+      1.7945898423447453,
+      3.9
+     ],
+     "length_m": 3.939966886074412,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (1.79, 4.10))",
+     "z": [
+      0.0,
+      0.0014,
+      0.0
+     ],
+     "clearance_m": [
+      4.105,
+      5.538,
+      7.075
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.013417315598446056,
+      -0.013417315598446056,
+      0.7853981633974483
+     ],
+     "waypoints": [
+      [
+       3.9,
+       3.9
+      ]
+     ],
+     "target": [
+      3.9,
+      3.9
+     ],
+     "length_m": 5.534407842945033,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.00, 4.00))",
+     "z": [
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      2.77,
+      8.124
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      0.27575984885135985,
+      2.043291342200777,
+      0.0
+     ],
+     "waypoints": [
+      [
+       0.8757598488513598,
+       2.043291342200777
+      ],
+      [
+       1.032179409241799,
+       1.4595255955260686
+      ],
+      [
+       1.4595255955260678,
+       1.0321794092417997
+      ],
+      [
+       2.043291342200777,
+       0.8757598488513598
+      ],
+      [
+       2.627057088875485,
+       1.0321794092417989
+      ],
+      [
+       3.0544032751597543,
+       1.4595255955260678
+      ],
+      [
+       3.210822835550194,
+       2.0432913422007766
+      ],
+      [
+       3.054403275159755,
+       2.6270570888754845
+      ],
+      [
+       2.6270570888754863,
+       3.0544032751597543
+      ],
+      [
+       2.0432913422007775,
+       3.210822835550194
+      ],
+      [
+       1.4595255955260693,
+       3.054403275159755
+      ],
+      [
+       1.032179409241799,
+       2.6270570888754854
+      ],
+      [
+       0.8757598488513598,
+       2.0432913422007775
+      ]
+     ],
+     "target": [
+      0.8757598488513598,
+      2.0432913422007775
+     ],
+     "length_m": 7.852305269659589,
+     "z": [
+      0.0,
+      0.0019,
+      0.1486,
+      0.1622,
+      0.1126,
+      0.1596,
+      0.1742,
+      0.0803,
+      0.1132,
+      0.1208,
+      0.0014,
+      0.1534,
+      0.1637,
+      0.0019
+     ],
+     "clearance_m": [
+      4.826,
+      5.007,
+      4.518,
+      4.355,
+      4.584,
+      5.092,
+      5.686,
+      6.235,
+      6.584,
+      6.693,
+      6.547,
+      6.151,
+      5.606,
+      5.007
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.487490507134234,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.7945898423447453,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.8757598488513598,
+     "y": 2.0432913422007775,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 16
+  },
+  {
+   "tile_id": "wedges_L4_v1",
+   "type": "wedges",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 40406,
+   "variant": 1,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     11.1111,
+     17.7778
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2611,
+    "wide_wedge_width_m": [
+     0.9333,
+     1.2
+    ],
+    "brace_stand_probability": 0.5222
+   },
+   "realised": {
+    "primitive_counts": {
+     "brace_stand:board": 1,
+     "brace_stand:brace": 4,
+     "brace_stand:post": 2,
+     "ground": 1,
+     "wedge": 10
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.899,
+     "cells": 4,
+     "crest_m": [
+      0.205,
+      0.233,
+      0.27,
+      0.263
+     ],
+     "slope_deg": [
+      12.18,
+      13.79,
+      15.89,
+      15.46
+     ],
+     "rails": false
+    }
+   },
+   "n_boxes": 8,
+   "n_meshes": 10,
+   "floor_height_range_m": [
+    0.0,
+    0.4438
+   ],
+   "top_height_max_m": 1.3526,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0451,
+     "clearance_m": 1.64,
+     "floor_range_r20_m": 0.086,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.6989121467262565,
+     "y": 1.1893692465799999,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.354,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 2.3462447479446,
+     "y": -0.6989121467262565,
+     "yaw": 1.5707963267948966,
+     "z": 0.1359,
+     "clearance_m": 3.478,
+     "floor_range_r20_m": 0.104,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": -0.6989121467262565,
+     "y": -0.6989121467262565,
+     "yaw": 0.7853981633974483,
+     "z": 0.0,
+     "clearance_m": 0.651,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -0.3240481283854745,
+     "y": 1.700543926636872,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.948,
+     "floor_range_r20_m": 0.043,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.6989121467262565,
+      1.1893692465799999,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.7005439266368718,
+       1.1893692465799999
+      ],
+      [
+       1.7005439266368718,
+       2.538639571025403
+      ],
+      [
+       3.9,
+       2.538639571025403
+      ]
+     ],
+     "target": [
+      3.9,
+      2.538639571025403
+     ],
+     "length_m": 5.948182471171659,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.54))",
+     "z": [
+      0.0,
+      0.1253,
+      0.0026,
+      0.0
+     ],
+     "clearance_m": [
+      2.354,
+      3.695,
+      4.654,
+      6.257
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      2.3462447479446,
+      -0.6989121467262565,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       1.7005439266368718,
+       1.7005439266368718
+      ],
+      [
+       2.201023320278166,
+       3.9
+      ]
+     ],
+     "target": [
+      2.201023320278166,
+      3.9
+     ],
+     "length_m": 4.7404964534683565,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (2.20, 4.10))",
+     "z": [
+      0.1359,
+      0.0026,
+      0.0
+     ],
+     "clearance_m": [
+      3.478,
+      4.045,
+      6.063
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.6989121467262565,
+      -0.6989121467262565,
+      0.7853981633974483
+     ],
+     "waypoints": [
+      [
+       3.9,
+       3.9
+      ]
+     ],
+     "target": [
+      3.9,
+      3.9
+     ],
+     "length_m": 6.503843930062637,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.00, 4.00))",
+     "z": [
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.651,
+      7.156
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -0.3240481283854745,
+      1.700543926636872,
+      0.0
+     ],
+     "waypoints": [
+      [
+       0.2759518716145255,
+       1.700543926636872
+      ],
+      [
+       0.46681101695804084,
+       0.9882478991256991
+      ],
+      [
+       0.988247899125698,
+       0.4668110169580415
+      ],
+      [
+       1.7005439266368716,
+       0.2759518716145255
+      ],
+      [
+       2.412839954148044,
+       0.4668110169580406
+      ],
+      [
+       2.934276836315702,
+       0.988247899125698
+      ],
+      [
+       3.125135981659218,
+       1.7005439266368714
+      ],
+      [
+       2.934276836315703,
+       2.412839954148044
+      ],
+      [
+       2.412839954148046,
+       2.934276836315702
+      ],
+      [
+       1.7005439266368723,
+       3.125135981659218
+      ],
+      [
+       0.9882478991256998,
+       2.9342768363157035
+      ],
+      [
+       0.46681101695804084,
+       2.4128399541480445
+      ],
+      [
+       0.2759518716145255,
+       1.7005439266368723
+      ]
+     ],
+     "target": [
+      0.2759518716145255,
+      1.7005439266368723
+     ],
+     "length_m": 9.449077328196513,
+     "z": [
+      0.0,
+      0.0027,
+      0.1443,
+      0.1533,
+      0.1151,
+      0.1642,
+      0.1744,
+      0.13,
+      0.1853,
+      0.1962,
+      0.0026,
+      0.1907,
+      0.2019,
+      0.0027
+     ],
+     "clearance_m": [
+      2.948,
+      3.176,
+      2.677,
+      2.684,
+      3.193,
+      3.91,
+      4.607,
+      5.148,
+      5.415,
+      5.411,
+      5.137,
+      4.591,
+      3.892,
+      3.176
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.538639571025403,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.201023320278166,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.2759518716145255,
+     "y": 1.7005439266368723,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 17
+  },
+  {
+   "tile_id": "wedges_L4_v2",
+   "type": "wedges",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 40400,
+   "variant": 2,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     11.1111,
+     17.7778
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2611,
+    "wide_wedge_width_m": [
+     0.9333,
+     1.2
+    ],
+    "brace_stand_probability": 0.5222
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "brace_stand:board": 2,
+     "brace_stand:brace": 4,
+     "brace_stand:post": 2,
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 4,
+     "wedge": 8
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.229,
+     "length_m": 1.2,
+     "width_m": 1.743,
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 20,
+   "n_meshes": 8,
+   "floor_height_range_m": [
+    0.0,
+    0.3252
+   ],
+   "top_height_max_m": 1.4678,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.501,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 1.2383205087351714,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.883,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 0.008568074591547958,
+     "y": -0.43326442036595747,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.81,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      1.2383205087351714,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -2.045715962704226,
+       1.2383205087351714
+      ],
+      [
+       0.008568074591547958,
+       1.2383205087351714
+      ],
+      [
+       0.008568074591547958,
+       -0.43326442036595747
+      ]
+     ],
+     "target": [
+      0.008568074591547958,
+      -0.43326442036595747
+     ],
+     "length_m": 5.530153003692677,
+     "z": [
+      0.0,
+      0.2289,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.883,
+      0.86,
+      0.966,
+      0.81
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      0.008568074591547958,
+      -0.43326442036595747,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       0.008568074591547958,
+       1.2383205087351714
+      ],
+      [
+       -3.85,
+       1.2383205087351714
+      ]
+     ],
+     "target": [
+      -3.85,
+      1.2383205087351714
+     ],
+     "length_m": 5.530153003692677,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.81,
+      0.966,
+      0.883
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 0.008568074591547958,
+     "y": -0.43326442036595747,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 1.2383205087351714,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 18
+  },
+  {
+   "tile_id": "wedges_L4_v3",
+   "type": "wedges",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 40401,
+   "variant": 3,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     11.1111,
+     17.7778
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2611,
+    "wide_wedge_width_m": [
+     0.9333,
+     1.2
+    ],
+    "brace_stand_probability": 0.5222
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 2,
+     "wedge": 9
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.287,
+     "length_m": 1.2,
+     "width_m": 1.668,
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 10,
+   "n_meshes": 9,
+   "floor_height_range_m": [
+    0.0,
+    0.34
+   ],
+   "top_height_max_m": 0.34,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.865,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 2.458693876507228,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.863,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.08851866191846769,
+     "y": 0.8244556717962961,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 1.204,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      2.458693876507228,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -2.094259330959234,
+       2.458693876507228
+      ],
+      [
+       -0.08851866191846769,
+       2.458693876507228
+      ],
+      [
+       -0.08851866191846769,
+       0.8244556717962961
+      ]
+     ],
+     "target": [
+      -0.08851866191846769,
+      0.8244556717962961
+     ],
+     "length_m": 5.395719542792464,
+     "z": [
+      0.0,
+      0.2871,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.863,
+      0.84,
+      0.948,
+      1.204
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -0.08851866191846769,
+      0.8244556717962961,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -0.08851866191846769,
+       2.458693876507228
+      ],
+      [
+       -3.85,
+       2.458693876507228
+      ]
+     ],
+     "target": [
+      -3.85,
+      2.458693876507228
+     ],
+     "length_m": 5.395719542792464,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.204,
+      0.948,
+      0.863
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.08851866191846769,
+     "y": 0.8244556717962961,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 2.458693876507228,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 19
+  },
+  {
+   "tile_id": "wedges_L5_v0",
+   "type": "wedges",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 40500,
+   "variant": 0,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     11.8889,
+     19.2222
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2389,
+    "wide_wedge_width_m": [
+     0.8667,
+     1.2
+    ],
+    "brace_stand_probability": 0.5778
+   },
+   "realised": {
+    "primitive_counts": {
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "wedge": 9
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.806,
+     "cells": 4,
+     "crest_m": [
+      0.298,
+      0.233,
+      0.197,
+      0.266
+     ],
+     "slope_deg": [
+      18.28,
+      14.49,
+      12.32,
+      16.43
+     ],
+     "rails": false
+    }
+   },
+   "n_boxes": 4,
+   "n_meshes": 9,
+   "floor_height_range_m": [
+    0.0,
+    0.5349
+   ],
+   "top_height_max_m": 1.3614,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0074,
+     "clearance_m": 2.309,
+     "floor_range_r20_m": 0.073,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.5124272345028458,
+     "y": 0.7997729832004433,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.97,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 1.386543505106688,
+     "y": -0.5124272345028458,
+     "yaw": 1.5707963267948966,
+     "z": 0.0686,
+     "clearance_m": 2.48,
+     "floor_range_r20_m": 0.094,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": -0.5124272345028458,
+     "y": -0.5124272345028458,
+     "yaw": 0.7853981633974483,
+     "z": 0.0,
+     "clearance_m": 1.677,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -0.16087383018999002,
+     "y": 1.7937863827485774,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 4.002,
+     "floor_range_r20_m": 0.025,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.5124272345028458,
+      0.7997729832004433,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.7937863827485772,
+       0.7997729832004433
+      ],
+      [
+       1.7937863827485772,
+       2.2269216574967543
+      ],
+      [
+       3.9,
+       2.2269216574967543
+      ]
+     ],
+     "target": [
+      3.9,
+      2.2269216574967543
+     ],
+     "length_m": 5.839575908799157,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.23))",
+     "z": [
+      0.0,
+      0.0013,
+      0.0953,
+      0.0
+     ],
+     "clearance_m": [
+      2.97,
+      3.783,
+      5.057,
+      6.198
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      1.386543505106688,
+      -0.5124272345028458,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       1.7937863827485772,
+       1.7937863827485772
+      ],
+      [
+       1.8046561257328617,
+       3.9
+      ]
+     ],
+     "target": [
+      1.8046561257328617,
+      3.9
+     ],
+     "length_m": 4.44813577263411,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (1.80, 4.10))",
+     "z": [
+      0.0686,
+      0.0013,
+      0.0
+     ],
+     "clearance_m": [
+      2.48,
+      4.669,
+      6.588
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.5124272345028458,
+      -0.5124272345028458,
+      0.7853981633974483
+     ],
+     "waypoints": [
+      [
+       3.9,
+       3.9
+      ]
+     ],
+     "target": [
+      3.9,
+      3.9
+     ],
+     "length_m": 6.240114438018334,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.00, 4.00))",
+     "z": [
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.677,
+      7.552
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -0.16087383018999002,
+      1.7937863827485774,
+      0.0
+     ],
+     "waypoints": [
+      [
+       0.43912616981000996,
+       1.7937863827485774
+      ],
+      [
+       0.6206162248477407,
+       1.116456276279294
+      ],
+      [
+       1.1164562762792931,
+       0.6206162248477411
+      ],
+      [
+       1.793786382748577,
+       0.43912616981000996
+      ],
+      [
+       2.47111648921786,
+       0.6206162248477403
+      ],
+      [
+       2.966956540649413,
+       1.1164562762792931
+      ],
+      [
+       3.1484465956871444,
+       1.793786382748577
+      ],
+      [
+       2.966956540649414,
+       2.47111648921786
+      ],
+      [
+       2.4711164892178616,
+       2.966956540649413
+      ],
+      [
+       1.7937863827485776,
+       3.1484465956871444
+      ],
+      [
+       1.1164562762792944,
+       2.966956540649414
+      ],
+      [
+       0.6206162248477407,
+       2.4711164892178603
+      ],
+      [
+       0.43912616981000996,
+       1.7937863827485776
+      ]
+     ],
+     "target": [
+      0.43912616981000996,
+      1.7937863827485776
+     ],
+     "length_m": 9.014684706027296,
+     "z": [
+      0.0,
+      0.1462,
+      0.2122,
+      0.2259,
+      0.0013,
+      0.166,
+      0.1767,
+      0.001,
+      0.1858,
+      0.1994,
+      0.0983,
+      0.1376,
+      0.1477,
+      0.1462
+     ],
+     "clearance_m": [
+      4.002,
+      4.132,
+      3.551,
+      3.328,
+      3.478,
+      4.046,
+      4.736,
+      5.376,
+      5.832,
+      6.028,
+      5.881,
+      5.464,
+      4.841,
+      4.132
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.2269216574967543,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.8046561257328617,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.43912616981000996,
+     "y": 1.7937863827485776,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 20
+  },
+  {
+   "tile_id": "wedges_L5_v1",
+   "type": "wedges",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 40502,
+   "variant": 1,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     11.8889,
+     19.2222
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2389,
+    "wide_wedge_width_m": [
+     0.8667,
+     1.2
+    ],
+    "brace_stand_probability": 0.5778
+   },
+   "realised": {
+    "primitive_counts": {
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 4,
+     "wedge": 8
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.434,
+     "cells": 4,
+     "crest_m": [
+      0.226,
+      0.156,
+      0.19,
+      0.217
+     ],
+     "slope_deg": [
+      17.49,
+      12.28,
+      14.86,
+      16.82
+     ],
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 15,
+   "n_meshes": 8,
+   "floor_height_range_m": [
+    0.0,
+    0.4216
+   ],
+   "top_height_max_m": 1.3507,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.879,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 0.2326853651224381,
+     "y": 1.330071403874665,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.76,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 0.49109969448213364,
+     "y": 2.1663426825612193,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.471,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      0.2326853651224381,
+      1.330071403874665,
+      0.0
+     ],
+     "waypoints": [
+      [
+       2.1663426825612193,
+       1.330071403874665
+      ],
+      [
+       2.1663426825612193,
+       3.00044754279126
+      ],
+      [
+       3.9,
+       3.00044754279126
+      ]
+     ],
+     "target": [
+      3.9,
+      3.00044754279126
+     ],
+     "length_m": 5.337690773794156,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 3.00))",
+     "z": [
+      0.0,
+      0.13,
+      0.0011,
+      0.0
+     ],
+     "clearance_m": [
+      0.76,
+      0.62,
+      0.62,
+      0.672
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      0.49109969448213364,
+      2.1663426825612193,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.0910996944821336,
+       2.1663426825612193
+      ],
+      [
+       1.2351549396436425,
+       1.6287211885216768
+      ],
+      [
+       1.6287211885216761,
+       1.235154939643643
+      ],
+      [
+       2.1663426825612193,
+       1.0910996944821336
+      ],
+      [
+       2.7039641766007616,
+       1.2351549396436423
+      ],
+      [
+       3.0975304254787956,
+       1.6287211885216761
+      ],
+      [
+       3.241585670640305,
+       2.166342682561219
+      ],
+      [
+       3.097530425478796,
+       2.7039641766007616
+      ],
+      [
+       2.7039641766007625,
+       3.0975304254787956
+      ],
+      [
+       2.1663426825612198,
+       3.241585670640305
+      ],
+      [
+       1.6287211885216775,
+       3.0975304254787965
+      ],
+      [
+       1.2351549396436425,
+       2.703964176600762
+      ],
+      [
+       1.0910996944821336,
+       2.1663426825612198
+      ]
+     ],
+     "target": [
+      1.0910996944821336,
+      2.1663426825612198
+     ],
+     "length_m": 7.279040722267442,
+     "z": [
+      0.0,
+      0.001,
+      0.1567,
+      0.169,
+      0.0778,
+      0.1082,
+      0.1167,
+      0.1058,
+      0.1542,
+      0.1644,
+      0.0011,
+      0.1353,
+      0.1443,
+      0.001
+     ],
+     "clearance_m": [
+      1.471,
+      1.48,
+      0.94,
+      0.54,
+      0.38,
+      0.54,
+      0.94,
+      1.48,
+      0.94,
+      0.56,
+      0.38,
+      0.56,
+      0.94,
+      1.48
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 3.00044754279126,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.1858739099685787,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0910996944821336,
+     "y": 2.1663426825612198,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 21
+  },
+  {
+   "tile_id": "wedges_L5_v2",
+   "type": "wedges",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 40501,
+   "variant": 2,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     11.8889,
+     19.2222
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2389,
+    "wide_wedge_width_m": [
+     0.8667,
+     1.2
+    ],
+    "brace_stand_probability": 0.5778
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "ground": 1,
+     "wedge": 10
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.196,
+     "length_m": 1.2,
+     "width_m": 1.375,
+     "rails": false
+    }
+   },
+   "n_boxes": 2,
+   "n_meshes": 10,
+   "floor_height_range_m": [
+    0.0,
+    0.2588
+   ],
+   "top_height_max_m": 0.2588,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 1.2966488746964324,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.3593239169423754,
+     "y": -0.19075921939017326,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      1.2966488746964324,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -2.2296619584711874,
+       1.2966488746964324
+      ],
+      [
+       -0.3593239169423754,
+       1.2966488746964324
+      ],
+      [
+       -0.3593239169423754,
+       -0.19075921939017326
+      ]
+     ],
+     "target": [
+      -0.3593239169423754,
+      -0.19075921939017326
+     ],
+     "length_m": 4.97808417714423,
+     "z": [
+      0.0,
+      0.1962,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -0.3593239169423754,
+      -0.19075921939017326,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -0.3593239169423754,
+       1.2966488746964324
+      ],
+      [
+       -3.85,
+       1.2966488746964324
+      ]
+     ],
+     "target": [
+      -3.85,
+      1.2966488746964324
+     ],
+     "length_m": 4.97808417714423,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3593239169423754,
+     "y": -0.19075921939017326,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 1.2966488746964324,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 22
+  },
+  {
+   "tile_id": "wedges_L5_v3",
+   "type": "wedges",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 40504,
+   "variant": 3,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     11.8889,
+     19.2222
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2389,
+    "wide_wedge_width_m": [
+     0.8667,
+     1.2
+    ],
+    "brace_stand_probability": 0.5778
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "rail_fence:post": 8,
+     "rail_fence:rail": 4,
+     "wedge": 8
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.435,
+     "length_m": 1.2,
+     "width_m": 1.258,
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 17,
+   "n_meshes": 8,
+   "floor_height_range_m": [
+    0.0,
+    0.4352
+   ],
+   "top_height_max_m": 1.4731,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.173,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 2.914135597915469,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.671,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 0.799937303395714,
+     "y": 1.4851912638561895,
+     "yaw": 1.5707963267948966,
+     "z": 0.116,
+     "clearance_m": 0.81,
+     "floor_range_r20_m": 0.058,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      2.914135597915469,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.650031348302143,
+       2.914135597915469
+      ],
+      [
+       0.799937303395714,
+       2.914135597915469
+      ],
+      [
+       0.799937303395714,
+       1.4851912638561895
+      ]
+     ],
+     "target": [
+      0.799937303395714,
+      1.4851912638561895
+     ],
+     "length_m": 6.078881637454993,
+     "z": [
+      0.0,
+      0.4352,
+      0.0,
+      0.116
+     ],
+     "clearance_m": [
+      0.671,
+      0.66,
+      0.777,
+      0.81
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      0.799937303395714,
+      1.4851912638561895,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       0.799937303395714,
+       2.914135597915469
+      ],
+      [
+       -3.85,
+       2.914135597915469
+      ]
+     ],
+     "target": [
+      -3.85,
+      2.914135597915469
+     ],
+     "length_m": 6.078881637454994,
+     "z": [
+      0.116,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.81,
+      0.777,
+      0.671
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 0.799937303395714,
+     "y": 1.4851912638561895,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 2.914135597915469,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 23
+  },
+  {
+   "tile_id": "wedges_L6_v0",
+   "type": "wedges",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 40601,
+   "variant": 0,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     12.6667,
+     20.6667
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2167,
+    "wide_wedge_width_m": [
+     0.8,
+     1.2
+    ],
+    "brace_stand_probability": 0.6333
+   },
+   "realised": {
+    "primitive_counts": {
+     "ground": 1,
+     "wedge": 10
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.787,
+     "cells": 4,
+     "crest_m": [
+      0.283,
+      0.25,
+      0.211,
+      0.238
+     ],
+     "slope_deg": [
+      17.59,
+      15.65,
+      13.31,
+      14.94
+     ],
+     "rails": false
+    }
+   },
+   "n_boxes": 1,
+   "n_meshes": 10,
+   "floor_height_range_m": [
+    0.0,
+    0.3841
+   ],
+   "top_height_max_m": 0.3841,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.052,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.47309763673409577,
+     "y": 1.4146200730627922,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 1.585090922838994,
+     "y": -0.47309763673409577,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": -0.47309763673409577,
+     "y": -0.47309763673409577,
+     "yaw": 0.7853981633974483,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": -0.12646043214233382,
+     "y": 1.8134511816329524,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 9.99,
+     "floor_range_r20_m": 0.028,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.47309763673409577,
+      1.4146200730627922,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.8134511816329522,
+       1.4146200730627922
+      ],
+      [
+       1.8134511816329522,
+       2.311900001348333
+      ],
+      [
+       3.9,
+       2.311900001348333
+      ]
+     ],
+     "target": [
+      3.9,
+      2.311900001348333
+     ],
+     "length_m": 5.270377565019636,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.31))",
+     "z": [
+      0.0,
+      0.0011,
+      0.1175,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      1.585090922838994,
+      -0.47309763673409577,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       1.8134511816329522,
+       1.8134511816329522
+      ],
+      [
+       2.436831535314528,
+       3.9
+      ]
+     ],
+     "target": [
+      2.436831535314528,
+      3.9
+     ],
+     "length_m": 4.475603562197065,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (2.44, 4.10))",
+     "z": [
+      0.0,
+      0.0011,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.47309763673409577,
+      -0.47309763673409577,
+      0.7853981633974483
+     ],
+     "waypoints": [
+      [
+       3.9,
+       3.9
+      ]
+     ],
+     "target": [
+      3.9,
+      3.9
+     ],
+     "length_m": 6.18449398745109,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.00, 4.00))",
+     "z": [
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      9.99,
+      9.99
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -0.12646043214233382,
+      1.8134511816329524,
+      0.0
+     ],
+     "waypoints": [
+      [
+       0.47353956785766615,
+       1.8134511816329524
+      ],
+      [
+       0.6530536852777511,
+       1.1434953747453096
+      ],
+      [
+       1.1434953747453087,
+       0.6530536852777518
+      ],
+      [
+       1.813451181632952,
+       0.47353956785766615
+      ],
+      [
+       2.4834069885205943,
+       0.6530536852777509
+      ],
+      [
+       2.9738486779881526,
+       1.1434953747453087
+      ],
+      [
+       3.1533627954082384,
+       1.813451181632952
+      ],
+      [
+       2.9738486779881534,
+       2.4834069885205943
+      ],
+      [
+       2.483406988520596,
+       2.9738486779881526
+      ],
+      [
+       1.8134511816329526,
+       3.1533627954082384
+      ],
+      [
+       1.14349537474531,
+       2.973848677988154
+      ],
+      [
+       0.6530536852777511,
+       2.4834069885205947
+      ],
+      [
+       0.47353956785766615,
+       1.8134511816329526
+      ]
+     ],
+     "target": [
+      0.47353956785766615,
+      1.8134511816329526
+     ],
+     "length_m": 8.923071465578332,
+     "z": [
+      0.0,
+      0.1405,
+      0.1975,
+      0.2103,
+      0.0011,
+      0.1746,
+      0.1859,
+      0.001,
+      0.1681,
+      0.1805,
+      0.1065,
+      0.1491,
+      0.1601,
+      0.1405
+     ],
+     "clearance_m": [
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.311900001348333,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.436831535314528,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.47353956785766615,
+     "y": 1.8134511816329526,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 24
+  },
+  {
+   "tile_id": "wedges_L6_v1",
+   "type": "wedges",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 40602,
+   "variant": 1,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     12.6667,
+     20.6667
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2167,
+    "wide_wedge_width_m": [
+     0.8,
+     1.2
+    ],
+    "brace_stand_probability": 0.6333
+   },
+   "realised": {
+    "primitive_counts": {
+     "ground": 1,
+     "rail_fence:post": 8,
+     "rail_fence:rail": 2,
+     "wedge": 8
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.863,
+     "cells": 4,
+     "crest_m": [
+      0.242,
+      0.286,
+      0.265,
+      0.329
+     ],
+     "slope_deg": [
+      14.55,
+      17.08,
+      15.87,
+      19.46
+     ],
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 11,
+   "n_meshes": 8,
+   "floor_height_range_m": [
+    0.0,
+    0.4
+   ],
+   "top_height_max_m": 0.4,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0353,
+     "clearance_m": 0.179,
+     "floor_range_r20_m": 0.087,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.6260008687370231,
+     "y": 0.9254435640524648,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.166,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 1.2023633613548117,
+     "y": -0.6260008687370231,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.362,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": -0.26025076014489523,
+     "y": 1.7369995656314887,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.882,
+     "floor_range_r20_m": 0.032,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.6260008687370231,
+      0.9254435640524648,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.7369995656314885,
+       0.9254435640524648
+      ],
+      [
+       1.7369995656314885,
+       2.230535297141565
+      ],
+      [
+       3.9,
+       2.230535297141565
+      ]
+     ],
+     "target": [
+      3.9,
+      2.230535297141565
+     ],
+     "length_m": 5.831092601826123,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.23))",
+     "z": [
+      0.0,
+      0.0018,
+      0.1402,
+      0.0
+     ],
+     "clearance_m": [
+      1.166,
+      1.1,
+      1.42,
+      1.424
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      1.2023633613548117,
+      -0.6260008687370231,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       1.7369995656314885,
+       1.7369995656314885
+      ],
+      [
+       1.4531315210247353,
+       3.9
+      ]
+     ],
+     "target": [
+      1.4531315210247353,
+      3.9
+     ],
+     "length_m": 4.604275228366678,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (1.45, 4.10))",
+     "z": [
+      0.0,
+      0.0018,
+      0.0
+     ],
+     "clearance_m": [
+      0.362,
+      1.9,
+      0.2
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      -0.26025076014489523,
+      1.7369995656314887,
+      0.0
+     ],
+     "waypoints": [
+      [
+       0.33974923985510475,
+       1.7369995656314887
+      ],
+      [
+       0.5269452880630572,
+       1.038374402743297
+      ],
+      [
+       1.038374402743296,
+       0.5269452880630576
+      ],
+      [
+       1.7369995656314883,
+       0.33974923985510475
+      ],
+      [
+       2.4356247285196795,
+       0.5269452880630567
+      ],
+      [
+       2.947053843199919,
+       1.038374402743296
+      ],
+      [
+       3.1342498914078725,
+       1.736999565631488
+      ],
+      [
+       2.94705384319992,
+       2.4356247285196795
+      ],
+      [
+       2.4356247285196813,
+       2.947053843199919
+      ],
+      [
+       1.736999565631489,
+       3.1342498914078725
+      ],
+      [
+       1.0383744027432977,
+       2.9470538431999205
+      ],
+      [
+       0.5269452880630572,
+       2.43562472851968
+      ],
+      [
+       0.33974923985510475,
+       1.736999565631489
+      ]
+     ],
+     "target": [
+      0.33974923985510475,
+      1.736999565631489
+     ],
+     "length_m": 9.279239882079114,
+     "z": [
+      0.0,
+      0.1184,
+      0.1703,
+      0.1835,
+      0.0018,
+      0.2015,
+      0.2172,
+      0.0022,
+      0.2296,
+      0.2448,
+      0.1337,
+      0.1848,
+      0.1971,
+      0.1184
+     ],
+     "clearance_m": [
+      1.882,
+      1.9,
+      1.2,
+      0.681,
+      0.5,
+      0.68,
+      1.2,
+      1.9,
+      1.22,
+      0.68,
+      0.52,
+      0.681,
+      1.22,
+      1.9
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.230535297141565,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.4531315210247353,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.33974923985510475,
+     "y": 1.736999565631489,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 25
+  },
+  {
+   "tile_id": "wedges_L6_v2",
+   "type": "wedges",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 40600,
+   "variant": 2,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     12.6667,
+     20.6667
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2167,
+    "wide_wedge_width_m": [
+     0.8,
+     1.2
+    ],
+    "brace_stand_probability": 0.6333
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "wedge": 8
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.476,
+     "length_m": 1.2,
+     "width_m": 1.599,
+     "rails": false
+    }
+   },
+   "n_boxes": 6,
+   "n_meshes": 8,
+   "floor_height_range_m": [
+    0.0,
+    0.4923
+   ],
+   "top_height_max_m": 1.1997,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.727,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 2.597613528287183,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 4.561,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 0.6557883740785588,
+     "y": 0.9983533000597511,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 3.861,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      2.597613528287183,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.7221058129607205,
+       2.597613528287183
+      ],
+      [
+       0.6557883740785588,
+       2.597613528287183
+      ],
+      [
+       0.6557883740785588,
+       0.9983533000597511
+      ]
+     ],
+     "target": [
+      0.6557883740785588,
+      0.9983533000597511
+     ],
+     "length_m": 6.105048602305991,
+     "z": [
+      0.0,
+      0.4756,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      4.561,
+      4.335,
+      5.116,
+      3.861
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      0.6557883740785588,
+      0.9983533000597511,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       0.6557883740785588,
+       2.597613528287183
+      ],
+      [
+       -3.85,
+       2.597613528287183
+      ]
+     ],
+     "target": [
+      -3.85,
+      2.597613528287183
+     ],
+     "length_m": 6.105048602305991,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      3.861,
+      5.116,
+      4.561
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 0.6557883740785588,
+     "y": 0.9983533000597511,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 2.597613528287183,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 26
+  },
+  {
+   "tile_id": "wedges_L6_v3",
+   "type": "wedges",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 40604,
+   "variant": 3,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     12.6667,
+     20.6667
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.2167,
+    "wide_wedge_width_m": [
+     0.8,
+     1.2
+    ],
+    "brace_stand_probability": 0.6333
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "wedge": 6
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.19,
+     "length_m": 1.2,
+     "width_m": 1.538,
+     "rails": false
+    }
+   },
+   "n_boxes": 6,
+   "n_meshes": 6,
+   "floor_height_range_m": [
+    0.0,
+    0.393
+   ],
+   "top_height_max_m": 1.2228,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.129,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 1.633490264012703,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.875,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.37003120741324236,
+     "y": 0.0645377484613,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 1.831,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      1.633490264012703,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -2.235015603706621,
+       1.633490264012703
+      ],
+      [
+       -0.37003120741324236,
+       1.633490264012703
+      ],
+      [
+       -0.37003120741324236,
+       0.0645377484613
+      ]
+     ],
+     "target": [
+      -0.37003120741324236,
+      0.0645377484613
+     ],
+     "length_m": 5.04892130813816,
+     "z": [
+      0.0,
+      0.19,
+      0.223,
+      0.0
+     ],
+     "clearance_m": [
+      2.875,
+      2.441,
+      2.994,
+      1.831
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -0.37003120741324236,
+      0.0645377484613,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -0.37003120741324236,
+       1.633490264012703
+      ],
+      [
+       -3.85,
+       1.633490264012703
+      ]
+     ],
+     "target": [
+      -3.85,
+      1.633490264012703
+     ],
+     "length_m": 5.04892130813816,
+     "z": [
+      0.0,
+      0.223,
+      0.0
+     ],
+     "clearance_m": [
+      1.831,
+      2.994,
+      2.875
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.37003120741324236,
+     "y": 0.0645377484613,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 1.633490264012703,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 27
+  },
+  {
+   "tile_id": "wedges_L7_v0",
+   "type": "wedges",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 40701,
+   "variant": 0,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     13.4444,
+     22.1111
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.1944,
+    "wide_wedge_width_m": [
+     0.7333,
+     1.2
+    ],
+    "brace_stand_probability": 0.6889
+   },
+   "realised": {
+    "primitive_counts": {
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 2,
+     "wedge": 10
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.681,
+     "cells": 4,
+     "crest_m": [
+      0.287,
+      0.254,
+      0.214,
+      0.282
+     ],
+     "slope_deg": [
+      18.86,
+      16.82,
+      14.31,
+      18.56
+     ],
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 9,
+   "n_meshes": 10,
+   "floor_height_range_m": [
+    0.0,
+    0.5651
+   ],
+   "top_height_max_m": 0.5651,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.206,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.26296805445028104,
+     "y": 1.4533384194515644,
+     "yaw": 0.0,
+     "z": 0.1568,
+     "clearance_m": 1.323,
+     "floor_range_r20_m": 0.153,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 1.68743467554113,
+     "y": -0.26296805445028104,
+     "yaw": 1.5707963267948966,
+     "z": 0.2114,
+     "clearance_m": 0.466,
+     "floor_range_r20_m": 0.148,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.26296805445028104,
+      1.4533384194515644,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.9185159727748595,
+       1.4533384194515644
+      ],
+      [
+       1.9185159727748595,
+       2.8924443078110422
+      ],
+      [
+       3.9,
+       2.8924443078110422
+      ]
+     ],
+     "target": [
+      3.9,
+      2.8924443078110422
+     ],
+     "length_m": 5.602073942809759,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.89))",
+     "z": [
+      0.1568,
+      0.0029,
+      0.1811,
+      0.0
+     ],
+     "clearance_m": [
+      1.323,
+      1.279,
+      0.74,
+      0.784
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      1.68743467554113,
+      -0.26296805445028104,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       1.9185159727748595,
+       1.9185159727748595
+      ],
+      [
+       1.42183712289778,
+       3.9
+      ]
+     ],
+     "target": [
+      1.42183712289778,
+      3.9
+     ],
+     "length_m": 4.236473508720823,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (1.42, 4.10))",
+     "z": [
+      0.2114,
+      0.0029,
+      0.0
+     ],
+     "clearance_m": [
+      0.466,
+      1.72,
+      0.2
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.8924443078110422,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.42183712289778,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.6574029523560041,
+     "y": 1.91851597277486,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 28
+  },
+  {
+   "tile_id": "wedges_L7_v1",
+   "type": "wedges",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 40702,
+   "variant": 1,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     13.4444,
+     22.1111
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.1944,
+    "wide_wedge_width_m": [
+     0.7333,
+     1.2
+    ],
+    "brace_stand_probability": 0.6889
+   },
+   "realised": {
+    "primitive_counts": {
+     "brace_stand:board": 2,
+     "brace_stand:brace": 4,
+     "brace_stand:post": 2,
+     "ground": 1,
+     "wedge": 6
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.939,
+     "cells": 4,
+     "crest_m": [
+      0.324,
+      0.372,
+      0.392,
+      0.247
+     ],
+     "slope_deg": [
+      18.48,
+      20.98,
+      22.03,
+      14.27
+     ],
+     "rails": false
+    }
+   },
+   "n_boxes": 9,
+   "n_meshes": 6,
+   "floor_height_range_m": [
+    0.0,
+    0.3921
+   ],
+   "top_height_max_m": 1.4049,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0962,
+     "clearance_m": 2.295,
+     "floor_range_r20_m": 0.134,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.7779145252419517,
+     "y": -0.7779145252419517,
+     "yaw": 0.7853981633974483,
+     "z": 0.0,
+     "clearance_m": 1.259,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 2,
+     "start": [
+      -0.7779145252419517,
+      -0.7779145252419517,
+      0.7853981633974483
+     ],
+     "waypoints": [
+      [
+       3.9,
+       3.9
+      ]
+     ],
+     "target": [
+      3.9,
+      3.9
+     ],
+     "length_m": 6.615570165219266,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.00, 4.00))",
+     "z": [
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.259,
+      7.757
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.454962620605525,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.187577861690857,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.20682479041329227,
+     "y": 1.6610427373790246,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 29
+  },
+  {
+   "tile_id": "wedges_L7_v2",
+   "type": "wedges",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 40700,
+   "variant": 2,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     13.4444,
+     22.1111
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.1944,
+    "wide_wedge_width_m": [
+     0.7333,
+     1.2
+    ],
+    "brace_stand_probability": 0.6889
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "wedge": 8
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.33,
+     "length_m": 1.2,
+     "width_m": 1.935,
+     "rails": false
+    }
+   },
+   "n_boxes": 5,
+   "n_meshes": 8,
+   "floor_height_range_m": [
+    0.0,
+    0.4681
+   ],
+   "top_height_max_m": 1.1264,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.165,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 2.1795087397626864,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 3.643,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.15713597228880416,
+     "y": 0.412130899668562,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 2.24,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      2.1795087397626864,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -2.128567986144402,
+       2.1795087397626864
+      ],
+      [
+       -0.15713597228880416,
+       2.1795087397626864
+      ],
+      [
+       -0.15713597228880416,
+       0.412130899668562
+      ]
+     ],
+     "target": [
+      -0.15713597228880416,
+      0.412130899668562
+     ],
+     "length_m": 5.460241867805321,
+     "z": [
+      0.0,
+      0.3302,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      3.643,
+      3.124,
+      3.592,
+      2.24
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -0.15713597228880416,
+      0.412130899668562,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -0.15713597228880416,
+       2.1795087397626864
+      ],
+      [
+       -3.85,
+       2.1795087397626864
+      ]
+     ],
+     "target": [
+      -3.85,
+      2.1795087397626864
+     ],
+     "length_m": 5.460241867805321,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      2.24,
+      3.592,
+      3.643
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.15713597228880416,
+     "y": 0.412130899668562,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 2.1795087397626864,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 30
+  },
+  {
+   "tile_id": "wedges_L7_v3",
+   "type": "wedges",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 40705,
+   "variant": 3,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     13.4444,
+     22.1111
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.1944,
+    "wide_wedge_width_m": [
+     0.7333,
+     1.2
+    ],
+    "brace_stand_probability": 0.6889
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 4,
+     "wedge": 7
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.444,
+     "length_m": 1.2,
+     "width_m": 1.638,
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 12,
+   "n_meshes": 7,
+   "floor_height_range_m": [
+    0.0,
+    0.4439
+   ],
+   "top_height_max_m": 0.7,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.021,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 1.9653039370748868,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.844,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 0.41256389488851686,
+     "y": 0.34634940869489106,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.81,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      1.9653039370748868,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.8437180525557415,
+       1.9653039370748868
+      ],
+      [
+       0.41256389488851686,
+       1.9653039370748868
+      ],
+      [
+       0.41256389488851686,
+       0.34634940869489106
+      ]
+     ],
+     "target": [
+      0.41256389488851686,
+      0.34634940869489106
+     ],
+     "length_m": 5.881518423268513,
+     "z": [
+      0.0,
+      0.4439,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.844,
+      0.82,
+      0.931,
+      0.81
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      0.41256389488851686,
+      0.34634940869489106,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       0.41256389488851686,
+       1.9653039370748868
+      ],
+      [
+       -3.85,
+       1.9653039370748868
+      ]
+     ],
+     "target": [
+      -3.85,
+      1.9653039370748868
+     ],
+     "length_m": 5.881518423268513,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.81,
+      0.931,
+      0.844
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 0.41256389488851686,
+     "y": 0.34634940869489106,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 1.9653039370748868,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 31
+  },
+  {
+   "tile_id": "wedges_L8_v0",
+   "type": "wedges",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 40800,
+   "variant": 0,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     14.2222,
+     23.5556
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.1722,
+    "wide_wedge_width_m": [
+     0.6667,
+     1.2
+    ],
+    "brace_stand_probability": 0.7444
+   },
+   "realised": {
+    "primitive_counts": {
+     "brace_stand:board": 2,
+     "brace_stand:brace": 4,
+     "brace_stand:post": 2,
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 4,
+     "wedge": 9
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.784,
+     "cells": 4,
+     "crest_m": [
+      0.335,
+      0.373,
+      0.307,
+      0.342
+     ],
+     "slope_deg": [
+      20.56,
+      22.67,
+      18.98,
+      20.96
+     ],
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 19,
+   "n_meshes": 9,
+   "floor_height_range_m": [
+    0.0,
+    0.4183
+   ],
+   "top_height_max_m": 1.2952,
+   "spawns": [],
+   "spawns_rejected": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.06,
+     "source": "generator",
+     "note": "tile centre, facing +x",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.7692885615790477,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.7174296625727477,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.4771413903263175,
+     "y": 1.8155093659007533,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 32
+  },
+  {
+   "tile_id": "wedges_L8_v1",
+   "type": "wedges",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 40801,
+   "variant": 1,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     14.2222,
+     23.5556
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.1722,
+    "wide_wedge_width_m": [
+     0.6667,
+     1.2
+    ],
+    "brace_stand_probability": 0.7444
+   },
+   "realised": {
+    "primitive_counts": {
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 2,
+     "wedge": 13
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.496,
+     "cells": 4,
+     "crest_m": [
+      0.314,
+      0.195,
+      0.24,
+      0.193
+     ],
+     "slope_deg": [
+      22.76,
+      14.64,
+      17.81,
+      14.46
+     ],
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 13,
+   "n_meshes": 13,
+   "floor_height_range_m": [
+    0.0,
+    0.5716
+   ],
+   "top_height_max_m": 1.392,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.709,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 0.10867149936582399,
+     "y": 1.2870299440658801,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.827,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 2.5388983848631588,
+     "y": 0.10867149936582399,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.38,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": 0.3825875619450959,
+     "y": 2.104335749682912,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.528,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      0.10867149936582399,
+      1.2870299440658801,
+      0.0
+     ],
+     "waypoints": [
+      [
+       2.104335749682912,
+       1.2870299440658801
+      ],
+      [
+       2.104335749682912,
+       2.9504954188066055
+      ],
+      [
+       3.9,
+       2.9504954188066055
+      ]
+     ],
+     "target": [
+      3.9,
+      2.9504954188066055
+     ],
+     "length_m": 5.454793975374901,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.95))",
+     "z": [
+      0.0,
+      0.178,
+      0.0015,
+      0.0
+     ],
+     "clearance_m": [
+      0.827,
+      0.7,
+      0.68,
+      0.728
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      2.5388983848631588,
+      0.10867149936582399,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       2.104335749682912,
+       2.104335749682912
+      ],
+      [
+       2.147580740685693,
+       3.9
+      ]
+     ],
+     "target": [
+      2.147580740685693,
+      3.9
+     ],
+     "length_m": 3.838614953317008,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (2.15, 4.10))",
+     "z": [
+      0.0,
+      0.0015,
+      0.0
+     ],
+     "clearance_m": [
+      0.38,
+      1.52,
+      0.18
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      0.3825875619450959,
+      2.104335749682912,
+      0.0
+     ],
+     "waypoints": [
+      [
+       0.9825875619450959,
+       2.104335749682912
+      ],
+      [
+       1.1328733224528074,
+       1.5434616558140042
+      ],
+      [
+       1.5434616558140035,
+       1.1328733224528078
+      ],
+      [
+       2.104335749682912,
+       0.9825875619450959
+      ],
+      [
+       2.6652098435518194,
+       1.1328733224528071
+      ],
+      [
+       3.0757981769130165,
+       1.5434616558140035
+      ],
+      [
+       3.226083937420728,
+       2.1043357496829116
+      ],
+      [
+       3.075798176913017,
+       2.6652098435518194
+      ],
+      [
+       2.665209843551821,
+       3.0757981769130165
+      ],
+      [
+       2.1043357496829125,
+       3.226083937420728
+      ],
+      [
+       1.5434616558140049,
+       3.0757981769130174
+      ],
+      [
+       1.1328733224528074,
+       2.66520984355182
+      ],
+      [
+       0.9825875619450959,
+       2.1043357496829125
+      ]
+     ],
+     "target": [
+      0.9825875619450959,
+      2.1043357496829125
+     ],
+     "length_m": 7.567915075098835,
+     "z": [
+      0.0,
+      0.0018,
+      0.2188,
+      0.2326,
+      0.0996,
+      0.1362,
+      0.1448,
+      0.0954,
+      0.1366,
+      0.1458,
+      0.0015,
+      0.1703,
+      0.1817,
+      0.0018
+     ],
+     "clearance_m": [
+      1.528,
+      1.54,
+      1.0,
+      0.58,
+      0.4,
+      0.58,
+      1.0,
+      1.54,
+      0.98,
+      0.58,
+      0.4,
+      0.58,
+      0.98,
+      1.54
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.9504954188066055,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.147580740685693,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.9825875619450959,
+     "y": 2.1043357496829125,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 33
+  },
+  {
+   "tile_id": "wedges_L8_v2",
+   "type": "wedges",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 40802,
+   "variant": 2,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     14.2222,
+     23.5556
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.1722,
+    "wide_wedge_width_m": [
+     0.6667,
+     1.2
+    ],
+    "brace_stand_probability": 0.7444
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "rail_fence:post": 8,
+     "rail_fence:rail": 2,
+     "wedge": 5
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.465,
+     "length_m": 1.2,
+     "width_m": 1.94,
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 16,
+   "n_meshes": 5,
+   "floor_height_range_m": [
+    0.0,
+    0.4695
+   ],
+   "top_height_max_m": 1.5386,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.14,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 2.202244304351524,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.981,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 0.8687885663481361,
+     "y": 0.43218632349441966,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.844,
+     "floor_range_r20_m": 0.004,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      2.202244304351524,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.615605716825932,
+       2.202244304351524
+      ],
+      [
+       0.8687885663481361,
+       2.202244304351524
+      ],
+      [
+       0.8687885663481361,
+       0.43218632349441966
+      ]
+     ],
+     "target": [
+      0.8687885663481361,
+      0.43218632349441966
+     ],
+     "length_m": 6.488846547205241,
+     "z": [
+      0.0,
+      0.4653,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.981,
+      1.0,
+      1.056,
+      0.844
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      0.8687885663481361,
+      0.43218632349441966,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       0.8687885663481361,
+       2.202244304351524
+      ],
+      [
+       -3.85,
+       2.202244304351524
+      ]
+     ],
+     "target": [
+      -3.85,
+      2.202244304351524
+     ],
+     "length_m": 6.488846547205241,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.844,
+      1.056,
+      0.981
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 0.8687885663481361,
+     "y": 0.43218632349441966,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 2.202244304351524,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 34
+  },
+  {
+   "tile_id": "wedges_L8_v3",
+   "type": "wedges",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 40805,
+   "variant": 3,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     14.2222,
+     23.5556
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.1722,
+    "wide_wedge_width_m": [
+     0.6667,
+     1.2
+    ],
+    "brace_stand_probability": 0.7444
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "brace_stand:board": 1,
+     "brace_stand:brace": 2,
+     "brace_stand:post": 1,
+     "ground": 1,
+     "rail_fence:post": 8,
+     "rail_fence:rail": 4,
+     "wedge": 6
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.366,
+     "length_m": 1.2,
+     "width_m": 1.363,
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 18,
+   "n_meshes": 6,
+   "floor_height_range_m": [
+    0.0,
+    0.53
+   ],
+   "top_height_max_m": 1.2789,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.6,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 1.380350411635572,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.709,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 0.7164896250561503,
+     "y": -0.1009367997600481,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 0.827,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      1.380350411635572,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.6917551874719248,
+       1.380350411635572
+      ],
+      [
+       0.7164896250561503,
+       1.380350411635572
+      ],
+      [
+       0.7164896250561503,
+       -0.1009367997600481
+      ]
+     ],
+     "target": [
+      0.7164896250561503,
+      -0.1009367997600481
+     ],
+     "length_m": 6.04777683645177,
+     "z": [
+      0.0,
+      0.3659,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.709,
+      0.7,
+      0.81,
+      0.827
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      0.7164896250561503,
+      -0.1009367997600481,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       0.7164896250561503,
+       1.380350411635572
+      ],
+      [
+       -3.85,
+       1.380350411635572
+      ]
+     ],
+     "target": [
+      -3.85,
+      1.380350411635572
+     ],
+     "length_m": 6.047776836451771,
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      0.827,
+      0.81,
+      0.709
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 0.7164896250561503,
+     "y": -0.1009367997600481,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 1.380350411635572,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 35
+  },
+  {
+   "tile_id": "wedges_L9_v0",
+   "type": "wedges",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 40900,
+   "variant": 0,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     15.0,
+     25.0
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.15,
+    "wide_wedge_width_m": [
+     0.6,
+     1.2
+    ],
+    "brace_stand_probability": 0.8
+   },
+   "realised": {
+    "primitive_counts": {
+     "brace_stand:board": 1,
+     "brace_stand:brace": 4,
+     "brace_stand:post": 2,
+     "ground": 1,
+     "wedge": 9
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.713,
+     "cells": 4,
+     "crest_m": [
+      0.304,
+      0.328,
+      0.269,
+      0.361
+     ],
+     "slope_deg": [
+      19.53,
+      20.96,
+      17.42,
+      22.83
+     ],
+     "rails": false
+    }
+   },
+   "n_boxes": 8,
+   "n_meshes": 9,
+   "floor_height_range_m": [
+    0.0,
+    0.4891
+   ],
+   "top_height_max_m": 1.2338,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.469,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -0.32599723934718394,
+     "y": 0.8611897614729557,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.321,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 2.296373317961554,
+     "y": -0.32599723934718394,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 2.237,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": -0.32599723934718394,
+     "y": -0.32599723934718394,
+     "yaw": 0.7853981633974483,
+     "z": 0.0,
+     "clearance_m": 1.123,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -0.32599723934718394,
+      0.8611897614729557,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.887001380326408,
+       0.8611897614729557
+      ],
+      [
+       1.887001380326408,
+       2.7313985586571694
+      ],
+      [
+       3.9,
+       2.7313985586571694
+      ]
+     ],
+     "target": [
+      3.9,
+      2.7313985586571694
+     ],
+     "length_m": 6.096206036531398,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.73))",
+     "z": [
+      0.0,
+      0.2666,
+      0.0013,
+      0.0
+     ],
+     "clearance_m": [
+      2.321,
+      2.868,
+      4.561,
+      5.55
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      2.296373317961554,
+      -0.32599723934718394,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       1.887001380326408,
+       1.887001380326408
+      ],
+      [
+       1.5064593326921216,
+       3.9
+      ]
+     ],
+     "target": [
+      1.5064593326921216,
+      3.9
+     ],
+     "length_m": 4.299196160045151,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (1.51, 4.10))",
+     "z": [
+      0.0,
+      0.0013,
+      0.0
+     ],
+     "clearance_m": [
+      2.237,
+      3.779,
+      5.593
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      -0.32599723934718394,
+      -0.32599723934718394,
+      0.7853981633974483
+     ],
+     "waypoints": [
+      [
+       3.9,
+       3.9
+      ]
+     ],
+     "target": [
+      3.9,
+      3.9
+     ],
+     "length_m": 5.976462610436045,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.00, 4.00))",
+     "z": [
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      1.123,
+      6.515
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.7313985586571694,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.5064593326921216,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 0.6022524155712141,
+     "y": 1.8870013803264085,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 36
+  },
+  {
+   "tile_id": "wedges_L9_v1",
+   "type": "wedges",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 40902,
+   "variant": 1,
+   "variant_kind": "pinwheel",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     15.0,
+     25.0
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.15,
+    "wide_wedge_width_m": [
+     0.6,
+     1.2
+    ],
+    "brace_stand_probability": 0.8
+   },
+   "realised": {
+    "primitive_counts": {
+     "brace_stand:board": 2,
+     "brace_stand:brace": 4,
+     "brace_stand:post": 2,
+     "ground": 1,
+     "wedge": 8
+    },
+    "main_feature": "pinwheel",
+    "pinwheel": {
+     "cell_m": 1.269,
+     "cells": 4,
+     "crest_m": [
+      0.269,
+      0.285,
+      0.205,
+      0.296
+     ],
+     "slope_deg": [
+      22.95,
+      24.22,
+      17.9,
+      24.99
+     ],
+     "rails": false
+    }
+   },
+   "n_boxes": 9,
+   "n_meshes": 8,
+   "floor_height_range_m": [
+    0.0,
+    0.4231
+   ],
+   "top_height_max_m": 1.3296,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.267,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": 0.562061856317559,
+     "y": 1.6903321628214087,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 3.873,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": 2.030207393453137,
+     "y": 0.562061856317559,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 4.169,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    },
+    {
+     "x": 0.562061856317559,
+     "y": 0.562061856317559,
+     "yaw": 0.7853981633974483,
+     "z": 0.0,
+     "clearance_m": 3.058,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 2"
+    },
+    {
+     "x": 0.7793041242778639,
+     "y": 2.3310309281587793,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 4.506,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 3"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      0.562061856317559,
+      1.6903321628214087,
+      0.0
+     ],
+     "waypoints": [
+      [
+       2.3310309281587793,
+       1.6903321628214087
+      ],
+      [
+       2.3310309281587793,
+       2.9222705371781927
+      ],
+      [
+       3.9,
+       2.9222705371781927
+      ]
+     ],
+     "target": [
+      3.9,
+      2.9222705371781927
+     ],
+     "length_m": 4.569876518039225,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.10, 2.92))",
+     "z": [
+      0.0,
+      0.0004,
+      0.1934,
+      0.0
+     ],
+     "clearance_m": [
+      3.873,
+      5.116,
+      5.969,
+      7.121
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      2.030207393453137,
+      0.562061856317559,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       2.3310309281587793,
+       2.3310309281587793
+      ],
+      [
+       2.0808459192299154,
+       3.9
+      ]
+     ],
+     "target": [
+      2.0808459192299154,
+      3.9
+     ],
+     "length_m": 3.383156061989504,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (2.08, 4.10))",
+     "z": [
+      0.0,
+      0.0004,
+      0.0
+     ],
+     "clearance_m": [
+      4.169,
+      5.546,
+      6.56
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      0.562061856317559,
+      0.562061856317559,
+      0.7853981633974483
+     ],
+     "waypoints": [
+      [
+       3.9,
+       3.9
+      ]
+     ],
+     "target": [
+      3.9,
+      3.9
+     ],
+     "length_m": 4.720557393158181,
+     "fixed": "points beyond +-3.9 m pulled back to the tile (generator gave (4.00, 4.00))",
+     "z": [
+      0.0,
+      0.0
+     ],
+     "clearance_m": [
+      3.058,
+      7.779
+     ]
+    },
+    {
+     "source_index": 3,
+     "start": [
+      0.7793041242778639,
+      2.3310309281587793,
+      0.0
+     ],
+     "waypoints": [
+      [
+       1.3793041242778639,
+       2.3310309281587793
+      ],
+      [
+       1.506811338535336,
+       1.8551675262183218
+      ],
+      [
+       1.8551675262183212,
+       1.5068113385353366
+      ],
+      [
+       2.3310309281587793,
+       1.3793041242778639
+      ],
+      [
+       2.8068943300992366,
+       1.5068113385353359
+      ],
+      [
+       3.155250517782222,
+       1.8551675262183212
+      ],
+      [
+       3.282757732039695,
+       2.331030928158779
+      ],
+      [
+       3.155250517782223,
+       2.8068943300992366
+      ],
+      [
+       2.8068943300992375,
+       3.155250517782222
+      ],
+      [
+       2.3310309281587798,
+       3.282757732039695
+      ],
+      [
+       1.8551675262183223,
+       3.155250517782223
+      ],
+      [
+       1.506811338535336,
+       2.8068943300992366
+      ],
+      [
+       1.3793041242778639,
+       2.3310309281587798
+      ]
+     ],
+     "target": [
+      1.3793041242778639,
+      2.3310309281587798
+     ],
+     "length_m": 6.511800541894381,
+     "z": [
+      0.0,
+      0.1304,
+      0.1897,
+      0.2037,
+      0.0004,
+      0.2015,
+      0.2164,
+      0.0005,
+      0.2097,
+      0.2233,
+      0.1001,
+      0.1453,
+      0.1547,
+      0.1304
+     ],
+     "clearance_m": [
+      4.506,
+      4.877,
+      4.624,
+      4.64,
+      4.903,
+      5.36,
+      5.839,
+      6.259,
+      6.474,
+      6.463,
+      6.232,
+      5.813,
+      5.335,
+      4.877
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": 4.1,
+     "y": 2.9222705371781927,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.0808459192299154,
+     "y": 4.1,
+     "label": "route end",
+     "inside_tile": false,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 4.0,
+     "y": 4.0,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.3793041242778639,
+     "y": 2.3310309281587798,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 37
+  },
+  {
+   "tile_id": "wedges_L9_v2",
+   "type": "wedges",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 40901,
+   "variant": 2,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     15.0,
+     25.0
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.15,
+    "wide_wedge_width_m": [
+     0.6,
+     1.2
+    ],
+    "brace_stand_probability": 0.8
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "brace_stand:board": 2,
+     "brace_stand:brace": 4,
+     "brace_stand:post": 2,
+     "ground": 1,
+     "wedge": 8
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.344,
+     "length_m": 1.2,
+     "width_m": 1.432,
+     "rails": false
+    }
+   },
+   "n_boxes": 10,
+   "n_meshes": 8,
+   "floor_height_range_m": [
+    0.0,
+    0.4958
+   ],
+   "top_height_max_m": 1.4388,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.106,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    },
+    {
+     "x": -3.85,
+     "y": 1.559174141051012,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 4.432,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 0"
+    },
+    {
+     "x": -0.08625111874991798,
+     "y": 0.04307433637398117,
+     "yaw": 1.5707963267948966,
+     "z": 0.0,
+     "clearance_m": 1.129,
+     "floor_range_r20_m": 0.0,
+     "source": "route",
+     "note": "start of route 1"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.85,
+      1.559174141051012,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -2.093125559374959,
+       1.559174141051012
+      ],
+      [
+       -0.08625111874991798,
+       1.559174141051012
+      ],
+      [
+       -0.08625111874991798,
+       0.04307433637398117
+      ]
+     ],
+     "target": [
+      -0.08625111874991798,
+      0.04307433637398117
+     ],
+     "length_m": 5.279848685927114,
+     "z": [
+      0.0,
+      0.344,
+      0.0042,
+      0.0
+     ],
+     "clearance_m": [
+      4.432,
+      3.19,
+      2.624,
+      1.129
+     ]
+    },
+    {
+     "source_index": 1,
+     "start": [
+      -0.08625111874991798,
+      0.04307433637398117,
+      1.5707963267948966
+     ],
+     "waypoints": [
+      [
+       -0.08625111874991798,
+       1.559174141051012
+      ],
+      [
+       -3.85,
+       1.559174141051012
+      ]
+     ],
+     "target": [
+      -3.85,
+      1.559174141051012
+     ],
+     "length_m": 5.279848685927114,
+     "z": [
+      0.0,
+      0.0042,
+      0.0
+     ],
+     "clearance_m": [
+      1.129,
+      2.624,
+      4.432
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.08625111874991798,
+     "y": 0.04307433637398117,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 1.559174141051012,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 38
+  },
+  {
+   "tile_id": "wedges_L9_v3",
+   "type": "wedges",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 40904,
+   "variant": 3,
+   "variant_kind": "long_ramp",
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "slope_deg": [
+     15.0,
+     25.0
+    ],
+    "pinwheel_cell_m": [
+     1.2,
+     2.0
+    ],
+    "long_ramp_length_m": [
+     1.5,
+     3.0
+    ],
+    "narrow_strip_width_m": 0.15,
+    "wide_wedge_width_m": [
+     0.6,
+     1.2
+    ],
+    "brace_stand_probability": 0.8
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 1,
+     "ground": 1,
+     "rail_fence:post": 6,
+     "rail_fence:rail": 4,
+     "wedge": 11
+    },
+    "main_feature": "long_ramp",
+    "long_ramp": {
+     "plateau_height_m": 0.49,
+     "length_m": 1.2,
+     "width_m": 1.974,
+     "rails": true
+    },
+    "rail_fences": 1
+   },
+   "n_boxes": 12,
+   "n_meshes": 11,
+   "floor_height_range_m": [
+    0.0,
+    0.5145
+   ],
+   "top_height_max_m": 1.0,
+   "spawns": [
+    {
+     "x": 0.0,
+     "y": 0.0,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 0.874,
+     "floor_range_r20_m": 0.0,
+     "source": "generator",
+     "note": "tile centre, facing +x"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [],
+   "targets": [
+    {
+     "x": 0.21699594507453157,
+     "y": 0.15729682897555408,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": -3.85,
+     "y": 1.9441783068457332,
+     "label": "route end",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "wedges.npz",
+   "index": 39
+  }
+ ]
+}

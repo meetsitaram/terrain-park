@@ -1,0 +1,10 @@
+map: FK check 20 poses, 32 bodies. Symmetrized model: max body position error 0.00e+00 mm, rotation 0.0e+00 -> PASS. Real model: max 3.20 mm (legs/pelvis/torso/head 0.58 mm), worst [('right_wrist_pitch_link', 3.202), ('right_wrist_roll_link', 3.202), ('left_wrist_pitch_link', 2.414), ('left_wrist_roll_link', 2.414)]
+gif 4x4_mir_112451_0.gif 769 kB
+gif 2x2_mir_211251_1.gif 1290 kB
+gif stairs1_mir_114515.gif 1232 kB
+gif stairs2_mir_114324.gif 1072 kB
+gif ramp_mir_120556.gif 1325 kB
+gif driveway_mir_121023.gif 1171 kB
+gif stairs1_side_approach_orig_vs_mir_113941.gif 2281 kB
+DONE gifs
+EXIT 0

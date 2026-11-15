@@ -1,0 +1,270 @@
+{
+ "name": "ours_mobility",
+ "apparatus": "ours",
+ "units": "m",
+ "frame": "apparatus frame of the CAD (x along the lane from the start end, y across, z up, deck top z = 0)",
+ "source": "loco-manip-apparatus sim/x2_route.py ROUTES['mobility'] (inches), copied in ssr-x2/ssr/route.py; holds 1 s as in the 2026-11-02 ACP 50-run eval. Changed here: waypoint 1 moved from x = 104 in to 107 in, and waypoints 2 and 6 from x = 107 / 108 in to 109 in, the middle of the 0.51 m slot between the door wall and the front 4x4 (0.20 / 0.23 m from the wall before, 0.25 m now); waypoints 7 and 8 (either side of the back 4x4) from (108, 60) and (129, 64) in to (2.80, 1.60) and (3.38, 1.78) m, so the straight leg between them crosses the beam 0.27 m from its end instead of 0.14 m, and stays 0.25 m from the sloping board west of it (user, 2026-11-11: it has to step over both 4x4s, not round their ends)",
+ "raster": "cad_20mm_walk.npz",
+ "raster_full": "cad_20mm.npz",
+ "walls": "cad_walls.json",
+ "floor": 0.0,
+ "spawn": [
+  0.762,
+  0.762,
+  0.0
+ ],
+ "sections": [
+  "door",
+  "4x4s",
+  "ramps",
+  "wall",
+  "stairs",
+  "landing"
+ ],
+ "beams": [
+  {
+   "name": "front 4x4",
+   "a": [
+    2.985,
+    0.257
+   ],
+   "b": [
+    3.098,
+    1.041
+   ]
+  },
+  {
+   "name": "back 4x4",
+   "a": [
+    3.097,
+    1.416
+   ],
+   "b": [
+    2.984,
+    2.183
+   ]
+  }
+ ],
+ "zones": [
+  {
+   "cls": "wedge",
+   "rect": [
+    3.44,
+    0.0,
+    6.32,
+    2.35
+   ]
+  },
+  {
+   "cls": "stair",
+   "rect": [
+    8.55,
+    -0.05,
+    9.8,
+    1.15
+   ]
+  }
+ ],
+ "door": {
+  "name": "door",
+  "plane_x": 2.45,
+  "span_y": [
+   0.3,
+   2.0
+  ],
+  "hinge": [
+   2.374,
+   1.651
+  ],
+  "open_deg": 90.0,
+  "leaf": [
+   [
+    2.374,
+    1.651
+   ],
+   [
+    1.452,
+    1.63
+   ]
+  ],
+  "leaf_in_walls": true
+ },
+ "waypoints": [
+  {
+   "name": "to the door",
+   "x": 2.1336,
+   "y": 1.1938,
+   "heading_deg": 0,
+   "hold_s": 0.0,
+   "section": "door"
+  },
+  {
+   "name": "through the door",
+   "x": 2.7178,
+   "y": 1.1684,
+   "heading_deg": 0,
+   "hold_s": 0.0,
+   "section": "door"
+  },
+  {
+   "name": "clear of the door wall",
+   "x": 2.7686,
+   "y": 0.6858,
+   "heading_deg": -70,
+   "hold_s": 0.0,
+   "section": "door"
+  },
+  {
+   "name": "over the front 4x4",
+   "x": 3.302,
+   "y": 0.6858,
+   "heading_deg": 0,
+   "hold_s": 0.0,
+   "section": "4x4s"
+  },
+  {
+   "name": "button 1",
+   "x": 3.302,
+   "y": 0.3302,
+   "heading_deg": -90,
+   "hold_s": 1.0,
+   "section": "4x4s"
+  },
+  {
+   "name": "square to the front 4x4",
+   "x": 3.302,
+   "y": 0.6858,
+   "heading_deg": 90,
+   "hold_s": 0.0,
+   "section": "4x4s"
+  },
+  {
+   "name": "back over the front 4x4",
+   "x": 2.7686,
+   "y": 0.6858,
+   "heading_deg": 180,
+   "hold_s": 0.0,
+   "section": "4x4s"
+  },
+  {
+   "name": "door side",
+   "x": 2.8001,
+   "y": 1.6002,
+   "heading_deg": 90,
+   "hold_s": 0.0,
+   "section": "4x4s"
+  },
+  {
+   "name": "over the back 4x4",
+   "x": 3.38,
+   "y": 1.78,
+   "heading_deg": 0,
+   "hold_s": 0.0,
+   "section": "4x4s"
+  },
+  {
+   "name": "button 2",
+   "x": 3.2766,
+   "y": 2.0066,
+   "heading_deg": 90,
+   "hold_s": 1.0,
+   "section": "4x4s"
+  },
+  {
+   "name": "ramps, back side",
+   "x": 3.81,
+   "y": 1.8288,
+   "heading_deg": 0,
+   "hold_s": 0.0,
+   "section": "ramps"
+  },
+  {
+   "name": "over the back hill",
+   "x": 4.9784,
+   "y": 1.8288,
+   "heading_deg": 0,
+   "hold_s": 0.0,
+   "section": "ramps"
+  },
+  {
+   "name": "button 3",
+   "x": 5.7404,
+   "y": 2.1082,
+   "heading_deg": 90,
+   "hold_s": 1.0,
+   "section": "ramps"
+  },
+  {
+   "name": "ramps, diagonal",
+   "x": 4.9784,
+   "y": 1.1684,
+   "heading_deg": -130,
+   "hold_s": 0.0,
+   "section": "ramps"
+  },
+  {
+   "name": "button 4",
+   "x": 4.1148,
+   "y": 0.3556,
+   "heading_deg": -90,
+   "hold_s": 1.0,
+   "section": "ramps"
+  },
+  {
+   "name": "ramps, front side",
+   "x": 5.4356,
+   "y": 0.6096,
+   "heading_deg": 0,
+   "hold_s": 0.0,
+   "section": "ramps"
+  },
+  {
+   "name": "around the wall",
+   "x": 7.0612,
+   "y": 1.3716,
+   "heading_deg": 0,
+   "hold_s": 0.0,
+   "section": "wall"
+  },
+  {
+   "name": "past the wall",
+   "x": 7.9248,
+   "y": 1.3716,
+   "heading_deg": 0,
+   "hold_s": 0.0,
+   "section": "wall"
+  },
+  {
+   "name": "foot of the stairs",
+   "x": 8.2804,
+   "y": 0.5334,
+   "heading_deg": 0,
+   "hold_s": 0.0,
+   "section": "stairs"
+  },
+  {
+   "name": "up the stairs",
+   "x": 9.652,
+   "y": 0.5334,
+   "heading_deg": 0,
+   "hold_s": 0.0,
+   "section": "stairs"
+  },
+  {
+   "name": "landing, turn left",
+   "x": 10.2616,
+   "y": 0.8636,
+   "heading_deg": 90,
+   "hold_s": 0.0,
+   "section": "landing"
+  },
+  {
+   "name": "button 5",
+   "x": 10.414,
+   "y": 2.1082,
+   "heading_deg": 90,
+   "hold_s": 1.0,
+   "section": "landing"
+  }
+ ]
+}

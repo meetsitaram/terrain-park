@@ -1,0 +1,43 @@
+{
+ "4x4_mir_112451_0.gif": {
+  "take": "tp_t4x4_112451_0_mir",
+  "prop": "4x4",
+  "bytes": 769917,
+  "frames": 48
+ },
+ "2x2_mir_211251_1.gif": {
+  "take": "pico_20261029_211251_1_2x2_mir",
+  "prop": "2x2",
+  "bytes": 1290793,
+  "frames": 75
+ },
+ "stairs1_mir_114515.gif": {
+  "take": "tp_stairs_114515_mir",
+  "prop": "stairs1",
+  "bytes": 1232701,
+  "frames": 75
+ },
+ "stairs2_mir_114324.gif": {
+  "take": "tp_stairs_114324_mir",
+  "prop": "stairs2",
+  "bytes": 1072290,
+  "frames": 64
+ },
+ "ramp_mir_120556.gif": {
+  "take": "tp_ramp_120556_mir",
+  "prop": "ramp",
+  "bytes": 1325416,
+  "frames": 75
+ },
+ "driveway_mir_121023.gif": {
+  "take": "tp_driveway_121023_mir",
+  "prop": "driveway",
+  "bytes": 1171533,
+  "frames": 75
+ },
+ "stairs1_side_approach_orig_vs_mir_113941.gif": {
+  "take": "tp_stairs_113941",
+  "bytes": 2281918,
+  "frames": 75
+ }
+}

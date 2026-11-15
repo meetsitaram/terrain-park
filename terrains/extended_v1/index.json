@@ -1,0 +1,375 @@
+{
+ "name": "extended_v1",
+ "made": "2026-11-11 21:47:34",
+ "units": "m, rad",
+ "tile_size_m": [
+  8.0,
+  8.0
+ ],
+ "resolution_m": 0.02,
+ "raster_shape": [
+  400,
+  400
+ ],
+ "cell0_center": [
+  -3.99,
+  -3.99
+ ],
+ "levels": 10,
+ "difficulty_of_level": [
+  0.0,
+  0.1111111111111111,
+  0.2222222222222222,
+  0.3333333333333333,
+  0.4444444444444444,
+  0.5555555555555556,
+  0.6666666666666666,
+  0.7777777777777778,
+  0.8888888888888888,
+  1.0
+ ],
+ "edge_clamp_m": 3.9,
+ "roles": {
+  "0": "floor",
+  "1": "low (<= 0.26 m above its support)",
+  "2": "tall"
+ },
+ "max_step_m": 0.26,
+ "obstacle_mask_band_m": [
+  0.05,
+  1.6
+ ],
+ "spawn_clearance_m": 0.12,
+ "quat_order": "wxyz",
+ "types": {
+  "single_beams": {
+   "npz": "single_beams.npz",
+   "json": "single_beams.json",
+   "n_tiles": 30,
+   "levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "variants_per_level": 3,
+   "variant_kinds": {},
+   "routes_defined": 30,
+   "routes_dropped": 1,
+   "routes_dropped_by_check_routes": 1,
+   "routes_kept": 29,
+   "routes_fixed_kept": 0,
+   "tiles_without_route": 1,
+   "spawns": 59,
+   "spawns_rejected": 0,
+   "tiles_without_spawn": 0,
+   "n_boxes": 316,
+   "n_meshes": 0
+  },
+  "beam_fields": {
+   "npz": "beam_fields.npz",
+   "json": "beam_fields.json",
+   "n_tiles": 30,
+   "levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "variants_per_level": 3,
+   "variant_kinds": {},
+   "routes_defined": 30,
+   "routes_dropped": 0,
+   "routes_dropped_by_check_routes": 0,
+   "routes_kept": 30,
+   "routes_fixed_kept": 0,
+   "tiles_without_route": 0,
+   "spawns": 60,
+   "spawns_rejected": 0,
+   "tiles_without_spawn": 0,
+   "n_boxes": 370,
+   "n_meshes": 0
+  },
+  "blocks": {
+   "npz": "blocks.npz",
+   "json": "blocks.json",
+   "n_tiles": 30,
+   "levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "variants_per_level": 3,
+   "variant_kinds": {},
+   "routes_defined": 30,
+   "routes_dropped": 0,
+   "routes_dropped_by_check_routes": 0,
+   "routes_kept": 30,
+   "routes_fixed_kept": 0,
+   "tiles_without_route": 0,
+   "spawns": 60,
+   "spawns_rejected": 0,
+   "tiles_without_spawn": 0,
+   "n_boxes": 681,
+   "n_meshes": 0
+  },
+  "wedges": {
+   "npz": "wedges.npz",
+   "json": "wedges.json",
+   "n_tiles": 40,
+   "levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "variants_per_level": 4,
+   "variant_kinds": {
+    "pinwheel": 20,
+    "long_ramp": 20
+   },
+   "routes_defined": 120,
+   "routes_dropped": 21,
+   "routes_dropped_by_check_routes": 21,
+   "routes_kept": 99,
+   "routes_fixed_kept": 45,
+   "tiles_without_route": 2,
+   "spawns": 137,
+   "spawns_rejected": 2,
+   "tiles_without_spawn": 1,
+   "n_boxes": 380,
+   "n_meshes": 350
+  },
+  "tight_spots": {
+   "npz": "tight_spots.npz",
+   "json": "tight_spots.json",
+   "n_tiles": 20,
+   "levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "variants_per_level": 2,
+   "variant_kinds": {},
+   "routes_defined": 40,
+   "routes_dropped": 0,
+   "routes_dropped_by_check_routes": 0,
+   "routes_kept": 40,
+   "routes_fixed_kept": 0,
+   "tiles_without_route": 0,
+   "spawns": 60,
+   "spawns_rejected": 0,
+   "tiles_without_spawn": 0,
+   "n_boxes": 260,
+   "n_meshes": 0
+  },
+  "log_corridors": {
+   "npz": "log_corridors.npz",
+   "json": "log_corridors.json",
+   "n_tiles": 40,
+   "levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "variants_per_level": 4,
+   "variant_kinds": {},
+   "routes_defined": 80,
+   "routes_dropped": 0,
+   "routes_dropped_by_check_routes": 0,
+   "routes_kept": 80,
+   "routes_fixed_kept": 0,
+   "tiles_without_route": 0,
+   "spawns": 80,
+   "spawns_rejected": 0,
+   "tiles_without_spawn": 0,
+   "n_boxes": 498,
+   "n_meshes": 0
+  },
+  "homes": {
+   "npz": "homes.npz",
+   "json": "homes.json",
+   "n_tiles": 30,
+   "levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "variants_per_level": 3,
+   "variant_kinds": {},
+   "routes_defined": 120,
+   "routes_dropped": 19,
+   "routes_dropped_by_check_routes": 19,
+   "routes_kept": 101,
+   "routes_fixed_kept": 0,
+   "tiles_without_route": 0,
+   "spawns": 186,
+   "spawns_rejected": 5,
+   "tiles_without_spawn": 0,
+   "n_boxes": 2143,
+   "n_meshes": 171
+  },
+  "street_front": {
+   "npz": "street_front.npz",
+   "json": "street_front.json",
+   "n_tiles": 30,
+   "levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "variants_per_level": 3,
+   "variant_kinds": {},
+   "routes_defined": 90,
+   "routes_dropped": 71,
+   "routes_dropped_by_check_routes": 71,
+   "routes_kept": 19,
+   "routes_fixed_kept": 0,
+   "tiles_without_route": 13,
+   "spawns": 95,
+   "spawns_rejected": 25,
+   "tiles_without_spawn": 0,
+   "n_boxes": 805,
+   "n_meshes": 2077
+  },
+  "stairs": {
+   "npz": "stairs.npz",
+   "json": "stairs.json",
+   "n_tiles": 80,
+   "levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "variants_per_level": 8,
+   "variant_kinds": {
+    "straight": 20,
+    "L": 20,
+    "U": 20,
+    "amphitheatre": 20
+   },
+   "routes_defined": 140,
+   "routes_dropped": 19,
+   "routes_dropped_by_check_routes": 19,
+   "routes_kept": 121,
+   "routes_fixed_kept": 6,
+   "tiles_without_route": 0,
+   "spawns": 121,
+   "spawns_rejected": 0,
+   "tiles_without_spawn": 0,
+   "n_boxes": 1942,
+   "n_meshes": 158
+  }
+ },
+ "layout": {
+  "note": "suggested field: tile (type, level, variant) at x = level * 8 m, y = (first_column + variant) * 8 m",
+  "columns": {
+   "single_beams": {
+    "first_column": 0,
+    "columns": 3
+   },
+   "beam_fields": {
+    "first_column": 3,
+    "columns": 3
+   },
+   "blocks": {
+    "first_column": 6,
+    "columns": 3
+   },
+   "wedges": {
+    "first_column": 9,
+    "columns": 4
+   },
+   "tight_spots": {
+    "first_column": 13,
+    "columns": 2
+   },
+   "log_corridors": {
+    "first_column": 15,
+    "columns": 4
+   },
+   "homes": {
+    "first_column": 19,
+    "columns": 3
+   },
+   "street_front": {
+    "first_column": 22,
+    "columns": 3
+   },
+   "stairs": {
+    "first_column": 25,
+    "columns": 8
+   }
+  },
+  "total_columns": 33
+ },
+ "totals": {
+  "tiles": 330,
+  "routes_defined": 680,
+  "routes_dropped": 131,
+  "routes_kept": 549,
+  "routes_fixed_kept": 51,
+  "spawns": 858
+ },
+ "command": "PYTHONDONTWRITEBYTECODE=1 python -B export_extended_terrains.py --out OUT/extended_v1 --workers 6"
+}

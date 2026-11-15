@@ -1,0 +1,5013 @@
+{
+ "type": "street_front",
+ "npz": "street_front.npz",
+ "n_tiles": 30,
+ "labels": [
+  "block",
+  "car",
+  "cylinder",
+  "door_header",
+  "ground",
+  "lawn",
+  "paving_slab",
+  "plant",
+  "rock",
+  "slab",
+  "tyre",
+  "wall"
+ ],
+ "tiles": [
+  {
+   "tile_id": "street_front_L0_v0",
+   "type": "street_front",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 80000,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1,
+    "slab_heave_m": 0.0,
+    "porch_step_m": 0.12,
+    "driveway_rise_m": 0.1,
+    "garage_threshold_m": 0.02,
+    "n_turf_bumps": 4,
+    "n_stones": 25,
+    "car_probability": 0.4
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 5,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 26,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 26,
+   "n_meshes": 38,
+   "floor_height_range_m": [
+    0.0,
+    0.3006
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.832,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.04,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.24,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.12,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.2005,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.01,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      1.5,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.5,
+       1.5
+      ],
+      [
+       1.0,
+       1.5
+      ],
+      [
+       2.4,
+       2.3
+      ],
+      [
+       3.2,
+       2.6
+      ]
+     ],
+     "target": [
+      3.2,
+      2.6
+     ],
+     "length_m": 6.666851924191463,
+     "z": [
+      0.0,
+      0.1,
+      0.12,
+      0.13,
+      0.24
+     ],
+     "clearance_m": [
+      1.832,
+      0.342,
+      1.608,
+      0.787,
+      0.388
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      3.1,
+      2.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       2.6,
+       2.0
+      ],
+      [
+       2.6,
+       -0.4
+      ],
+      [
+       -1.5,
+       -0.4
+      ],
+      [
+       -3.0,
+       -0.4
+      ]
+     ],
+     "target": [
+      -3.0,
+      -0.4
+     ],
+     "length_m": 8.781024967590664,
+     "z": [
+      0.24,
+      0.13,
+      0.13,
+      0.1,
+      0.0
+     ],
+     "clearance_m": [
+      0.453,
+      0.429,
+      0.82,
+      1.146,
+      2.06
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 0
+  },
+  {
+   "tile_id": "street_front_L0_v1",
+   "type": "street_front",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 80001,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1,
+    "slab_heave_m": 0.0,
+    "porch_step_m": 0.12,
+    "driveway_rise_m": 0.1,
+    "garage_threshold_m": 0.02,
+    "n_turf_bumps": 4,
+    "n_stones": 25,
+    "car_probability": 0.4
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 5,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 26,
+     "slab": 1,
+     "wall": 3
+    }
+   },
+   "n_boxes": 25,
+   "n_meshes": 34,
+   "floor_height_range_m": [
+    0.0,
+    0.3279
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.052,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.759,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.24,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.12,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.2005,
+     "clearance_m": 1.382,
+     "floor_range_r20_m": 0.01,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 1,
+     "start": [
+      -3.2,
+      -2.1,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.9,
+       -2.1
+      ],
+      [
+       -0.5,
+       -0.9
+      ],
+      [
+       2.9,
+       -0.9
+      ],
+      [
+       2.9,
+       -2.1
+      ]
+     ],
+     "target": [
+      2.9,
+      -2.1
+     ],
+     "length_m": 7.743908891458578,
+     "z": [
+      0.0,
+      0.0517,
+      0.1176,
+      0.2005,
+      0.2005
+     ],
+     "clearance_m": [
+      2.759,
+      2.096,
+      1.03,
+      0.526,
+      1.382
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 1
+  },
+  {
+   "tile_id": "street_front_L0_v2",
+   "type": "street_front",
+   "level": 0,
+   "difficulty": 0.0,
+   "seed": 80002,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1,
+    "slab_heave_m": 0.0,
+    "porch_step_m": 0.12,
+    "driveway_rise_m": 0.1,
+    "garage_threshold_m": 0.02,
+    "n_turf_bumps": 4,
+    "n_stones": 25,
+    "car_probability": 0.4
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 5,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 26,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 26,
+   "n_meshes": 38,
+   "floor_height_range_m": [
+    0.0,
+    0.3824
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.042,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.16,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.24,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.12,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.2005,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.01,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 2
+  },
+  {
+   "tile_id": "street_front_L1_v0",
+   "type": "street_front",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 80100,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1089,
+    "slab_heave_m": 0.0033,
+    "porch_step_m": 0.1289,
+    "driveway_rise_m": 0.1222,
+    "garage_threshold_m": 0.0244,
+    "n_turf_bumps": 5,
+    "n_stones": 31,
+    "car_probability": 0.4556
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 6,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 32,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 23,
+   "n_meshes": 48,
+   "floor_height_range_m": [
+    0.0,
+    0.2711
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.874,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.14,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.2578,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.129,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.2295,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.012,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 3
+  },
+  {
+   "tile_id": "street_front_L1_v1",
+   "type": "street_front",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 80101,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1089,
+    "slab_heave_m": 0.0033,
+    "porch_step_m": 0.1289,
+    "driveway_rise_m": 0.1222,
+    "garage_threshold_m": 0.0244,
+    "n_turf_bumps": 5,
+    "n_stones": 31,
+    "car_probability": 0.4556
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 6,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 32,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 23,
+   "n_meshes": 48,
+   "floor_height_range_m": [
+    0.0,
+    0.2711
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.897,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.92,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.2578,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.129,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.2295,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.012,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 2,
+     "start": [
+      3.1,
+      2.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       2.6,
+       2.0
+      ],
+      [
+       2.6,
+       -0.4
+      ],
+      [
+       -1.5,
+       -0.4
+      ],
+      [
+       -3.0,
+       -0.4
+      ]
+     ],
+     "target": [
+      -3.0,
+      -0.4
+     ],
+     "length_m": 8.781024967590664,
+     "z": [
+      0.2578,
+      0.1389,
+      0.1389,
+      0.1074,
+      0.0
+     ],
+     "clearance_m": [
+      0.453,
+      0.02,
+      0.82,
+      0.993,
+      1.928
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 4
+  },
+  {
+   "tile_id": "street_front_L1_v2",
+   "type": "street_front",
+   "level": 1,
+   "difficulty": 0.1111111111111111,
+   "seed": 80102,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1089,
+    "slab_heave_m": 0.0033,
+    "porch_step_m": 0.1289,
+    "driveway_rise_m": 0.1222,
+    "garage_threshold_m": 0.0244,
+    "n_turf_bumps": 5,
+    "n_stones": 31,
+    "car_probability": 0.4556
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 6,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 32,
+     "slab": 1,
+     "wall": 3
+    }
+   },
+   "n_boxes": 22,
+   "n_meshes": 44,
+   "floor_height_range_m": [
+    0.0,
+    0.2711
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.04,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.971,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.2578,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.129,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.2295,
+     "clearance_m": 1.382,
+     "floor_range_r20_m": 0.012,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 1,
+     "start": [
+      -3.2,
+      -2.1,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.9,
+       -2.1
+      ],
+      [
+       -0.5,
+       -0.9
+      ],
+      [
+       2.9,
+       -0.9
+      ],
+      [
+       2.9,
+       -2.1
+      ]
+     ],
+     "target": [
+      2.9,
+      -2.1
+     ],
+     "length_m": 7.743908891458578,
+     "z": [
+      0.0,
+      0.0563,
+      0.1281,
+      0.2295,
+      0.2295
+     ],
+     "clearance_m": [
+      2.971,
+      2.367,
+      1.298,
+      0.526,
+      1.382
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 5
+  },
+  {
+   "tile_id": "street_front_L2_v0",
+   "type": "street_front",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 80200,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1178,
+    "slab_heave_m": 0.0067,
+    "porch_step_m": 0.1378,
+    "driveway_rise_m": 0.1444,
+    "garage_threshold_m": 0.0289,
+    "n_turf_bumps": 6,
+    "n_stones": 37,
+    "car_probability": 0.5111
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 7,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 38,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 24,
+   "n_meshes": 54,
+   "floor_height_range_m": [
+    0.0,
+    0.3398
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.858,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.74,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.2756,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.138,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.2585,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.014,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      1.5,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.5,
+       1.5
+      ],
+      [
+       1.0,
+       1.5
+      ],
+      [
+       2.4,
+       2.3
+      ],
+      [
+       3.2,
+       2.6
+      ]
+     ],
+     "target": [
+      3.2,
+      2.6
+     ],
+     "length_m": 6.666851924191463,
+     "z": [
+      0.0,
+      0.1193,
+      0.1378,
+      0.1478,
+      0.2756
+     ],
+     "clearance_m": [
+      1.858,
+      0.256,
+      1.404,
+      0.358,
+      0.388
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 6
+  },
+  {
+   "tile_id": "street_front_L2_v1",
+   "type": "street_front",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 80201,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1178,
+    "slab_heave_m": 0.0067,
+    "porch_step_m": 0.1378,
+    "driveway_rise_m": 0.1444,
+    "garage_threshold_m": 0.0289,
+    "n_turf_bumps": 6,
+    "n_stones": 37,
+    "car_probability": 0.5111
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 7,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 38,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 24,
+   "n_meshes": 54,
+   "floor_height_range_m": [
+    0.0,
+    0.3929
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.978,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.08,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.2756,
+     "clearance_m": 0.295,
+     "floor_range_r20_m": 0.138,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.2585,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.014,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 7
+  },
+  {
+   "tile_id": "street_front_L2_v2",
+   "type": "street_front",
+   "level": 2,
+   "difficulty": 0.2222222222222222,
+   "seed": 80202,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1178,
+    "slab_heave_m": 0.0067,
+    "porch_step_m": 0.1378,
+    "driveway_rise_m": 0.1444,
+    "garage_threshold_m": 0.0289,
+    "n_turf_bumps": 6,
+    "n_stones": 37,
+    "car_probability": 0.5111
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 7,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 38,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 24,
+   "n_meshes": 54,
+   "floor_height_range_m": [
+    0.0,
+    0.3482
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.031,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.18,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.2756,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.138,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.2585,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.014,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 8
+  },
+  {
+   "tile_id": "street_front_L3_v0",
+   "type": "street_front",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 80300,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1267,
+    "slab_heave_m": 0.01,
+    "porch_step_m": 0.1467,
+    "driveway_rise_m": 0.1667,
+    "garage_threshold_m": 0.0333,
+    "n_turf_bumps": 7,
+    "n_stones": 43,
+    "car_probability": 0.5667
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 8,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 44,
+     "slab": 1,
+     "wall": 3
+    }
+   },
+   "n_boxes": 24,
+   "n_meshes": 56,
+   "floor_height_range_m": [
+    0.0,
+    0.3367
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.04,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.971,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.2933,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.147,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.2875,
+     "clearance_m": 1.382,
+     "floor_range_r20_m": 0.016,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 1,
+     "start": [
+      -3.2,
+      -2.1,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.9,
+       -2.1
+      ],
+      [
+       -0.5,
+       -0.9
+      ],
+      [
+       2.9,
+       -0.9
+      ],
+      [
+       2.9,
+       -2.1
+      ]
+     ],
+     "target": [
+      2.9,
+      -2.1
+     ],
+     "length_m": 7.743908891458578,
+     "z": [
+      0.0,
+      0.0654,
+      0.1493,
+      0.2875,
+      0.2875
+     ],
+     "clearance_m": [
+      2.971,
+      2.367,
+      1.28,
+      0.526,
+      1.382
+     ]
+    },
+    {
+     "source_index": 2,
+     "start": [
+      3.1,
+      2.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       2.6,
+       2.0
+      ],
+      [
+       2.6,
+       -0.4
+      ],
+      [
+       -1.5,
+       -0.4
+      ],
+      [
+       -3.0,
+       -0.4
+      ]
+     ],
+     "target": [
+      -3.0,
+      -0.4
+     ],
+     "length_m": 8.781024967590664,
+     "z": [
+      0.2933,
+      0.1567,
+      0.1567,
+      0.1193,
+      0.0
+     ],
+     "clearance_m": [
+      0.453,
+      0.533,
+      0.82,
+      0.621,
+      1.765
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 9
+  },
+  {
+   "tile_id": "street_front_L3_v1",
+   "type": "street_front",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 80301,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1267,
+    "slab_heave_m": 0.01,
+    "porch_step_m": 0.1467,
+    "driveway_rise_m": 0.1667,
+    "garage_threshold_m": 0.0333,
+    "n_turf_bumps": 7,
+    "n_stones": 43,
+    "car_probability": 0.5667
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 8,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 44,
+     "slab": 1,
+     "wall": 3
+    }
+   },
+   "n_boxes": 24,
+   "n_meshes": 56,
+   "floor_height_range_m": [
+    0.0,
+    0.4074
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.04,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.955,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.2933,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.147,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.2875,
+     "clearance_m": 1.382,
+     "floor_range_r20_m": 0.016,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 1,
+     "start": [
+      -3.2,
+      -2.1,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.9,
+       -2.1
+      ],
+      [
+       -0.5,
+       -0.9
+      ],
+      [
+       2.9,
+       -0.9
+      ],
+      [
+       2.9,
+       -2.1
+      ]
+     ],
+     "target": [
+      2.9,
+      -2.1
+     ],
+     "length_m": 7.743908891458578,
+     "z": [
+      0.0,
+      0.0654,
+      0.1493,
+      0.2875,
+      0.2875
+     ],
+     "clearance_m": [
+      2.955,
+      2.348,
+      1.263,
+      0.526,
+      1.382
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 10
+  },
+  {
+   "tile_id": "street_front_L3_v2",
+   "type": "street_front",
+   "level": 3,
+   "difficulty": 0.3333333333333333,
+   "seed": 80302,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1267,
+    "slab_heave_m": 0.01,
+    "porch_step_m": 0.1467,
+    "driveway_rise_m": 0.1667,
+    "garage_threshold_m": 0.0333,
+    "n_turf_bumps": 7,
+    "n_stones": 43,
+    "car_probability": 0.5667
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 8,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 44,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 25,
+   "n_meshes": 60,
+   "floor_height_range_m": [
+    0.0,
+    0.3667
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.844,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.18,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.2933,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.147,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.2875,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.016,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 2,
+     "start": [
+      3.1,
+      2.6,
+      0.0
+     ],
+     "waypoints": [
+      [
+       2.6,
+       2.0
+      ],
+      [
+       2.6,
+       -0.4
+      ],
+      [
+       -1.5,
+       -0.4
+      ],
+      [
+       -3.0,
+       -0.4
+      ]
+     ],
+     "target": [
+      -3.0,
+      -0.4
+     ],
+     "length_m": 8.781024967590664,
+     "z": [
+      0.2933,
+      0.1567,
+      0.1567,
+      0.1295,
+      0.0
+     ],
+     "clearance_m": [
+      0.453,
+      0.584,
+      0.82,
+      1.171,
+      2.025
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 11
+  },
+  {
+   "tile_id": "street_front_L4_v0",
+   "type": "street_front",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 80400,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1356,
+    "slab_heave_m": 0.0133,
+    "porch_step_m": 0.1556,
+    "driveway_rise_m": 0.1889,
+    "garage_threshold_m": 0.0378,
+    "n_turf_bumps": 8,
+    "n_stones": 49,
+    "car_probability": 0.6222
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 9,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 50,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 26,
+   "n_meshes": 66,
+   "floor_height_range_m": [
+    0.0,
+    0.3722
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.8,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.82,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3111,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.156,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.3165,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.018,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      1.5,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.5,
+       1.5
+      ],
+      [
+       1.0,
+       1.5
+      ],
+      [
+       2.4,
+       2.3
+      ],
+      [
+       3.2,
+       2.6
+      ]
+     ],
+     "target": [
+      3.2,
+      2.6
+     ],
+     "length_m": 6.666851924191463,
+     "z": [
+      0.0,
+      0.1436,
+      0.1556,
+      0.1656,
+      0.3111
+     ],
+     "clearance_m": [
+      1.8,
+      0.089,
+      1.081,
+      0.416,
+      0.388
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 12
+  },
+  {
+   "tile_id": "street_front_L4_v1",
+   "type": "street_front",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 80401,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1356,
+    "slab_heave_m": 0.0133,
+    "porch_step_m": 0.1556,
+    "driveway_rise_m": 0.1889,
+    "garage_threshold_m": 0.0378,
+    "n_turf_bumps": 8,
+    "n_stones": 49,
+    "car_probability": 0.6222
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 9,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 50,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 26,
+   "n_meshes": 66,
+   "floor_height_range_m": [
+    0.0,
+    0.3722
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.072,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.78,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3111,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.156,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.3165,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.018,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      1.5,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.5,
+       1.5
+      ],
+      [
+       1.0,
+       1.5
+      ],
+      [
+       2.4,
+       2.3
+      ],
+      [
+       3.2,
+       2.6
+      ]
+     ],
+     "target": [
+      3.2,
+      2.6
+     ],
+     "length_m": 6.666851924191463,
+     "z": [
+      0.0,
+      0.1453,
+      0.1556,
+      0.1656,
+      0.3111
+     ],
+     "clearance_m": [
+      2.072,
+      0.444,
+      1.489,
+      0.53,
+      0.388
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 13
+  },
+  {
+   "tile_id": "street_front_L4_v2",
+   "type": "street_front",
+   "level": 4,
+   "difficulty": 0.4444444444444444,
+   "seed": 80402,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1356,
+    "slab_heave_m": 0.0133,
+    "porch_step_m": 0.1556,
+    "driveway_rise_m": 0.1889,
+    "garage_threshold_m": 0.0378,
+    "n_turf_bumps": 8,
+    "n_stones": 49,
+    "car_probability": 0.6222
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 9,
+     "paving_slab": 11,
+     "plant": 1,
+     "rock": 50,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 26,
+   "n_meshes": 66,
+   "floor_height_range_m": [
+    0.0,
+    0.4195
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.042,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.1,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3111,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.156,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.3165,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.018,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 14
+  },
+  {
+   "tile_id": "street_front_L5_v0",
+   "type": "street_front",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 80500,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1444,
+    "slab_heave_m": 0.0167,
+    "porch_step_m": 0.1644,
+    "driveway_rise_m": 0.2111,
+    "garage_threshold_m": 0.0422,
+    "n_turf_bumps": 9,
+    "n_stones": 55,
+    "car_probability": 0.6778
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 10,
+     "paving_slab": 11,
+     "plant": 2,
+     "rock": 57,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 27,
+   "n_meshes": 74,
+   "floor_height_range_m": [
+    0.0,
+    0.4089
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.04,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.4,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3289,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.164,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.3455,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.021,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 15
+  },
+  {
+   "tile_id": "street_front_L5_v1",
+   "type": "street_front",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 80501,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1444,
+    "slab_heave_m": 0.0167,
+    "porch_step_m": 0.1644,
+    "driveway_rise_m": 0.2111,
+    "garage_threshold_m": 0.0422,
+    "n_turf_bumps": 9,
+    "n_stones": 55,
+    "car_probability": 0.6778
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 10,
+     "paving_slab": 11,
+     "plant": 2,
+     "rock": 57,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 27,
+   "n_meshes": 74,
+   "floor_height_range_m": [
+    0.0,
+    0.4078
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.059,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.74,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3289,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.164,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.3455,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.021,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      1.5,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.5,
+       1.5
+      ],
+      [
+       1.0,
+       1.5
+      ],
+      [
+       2.4,
+       2.3
+      ],
+      [
+       3.2,
+       2.6
+      ]
+     ],
+     "target": [
+      3.2,
+      2.6
+     ],
+     "length_m": 6.666851924191463,
+     "z": [
+      0.0,
+      0.1304,
+      0.1644,
+      0.1744,
+      0.3289
+     ],
+     "clearance_m": [
+      2.059,
+      0.394,
+      1.056,
+      0.447,
+      0.388
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 16
+  },
+  {
+   "tile_id": "street_front_L5_v2",
+   "type": "street_front",
+   "level": 5,
+   "difficulty": 0.5555555555555556,
+   "seed": 80502,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1444,
+    "slab_heave_m": 0.0167,
+    "porch_step_m": 0.1644,
+    "driveway_rise_m": 0.2111,
+    "garage_threshold_m": 0.0422,
+    "n_turf_bumps": 9,
+    "n_stones": 55,
+    "car_probability": 0.6778
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 10,
+     "paving_slab": 11,
+     "plant": 2,
+     "rock": 57,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 27,
+   "n_meshes": 74,
+   "floor_height_range_m": [
+    0.0,
+    0.4078
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.954,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.34,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3289,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.164,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.3455,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.021,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 17
+  },
+  {
+   "tile_id": "street_front_L6_v0",
+   "type": "street_front",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 80600,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1533,
+    "slab_heave_m": 0.02,
+    "porch_step_m": 0.1733,
+    "driveway_rise_m": 0.2333,
+    "garage_threshold_m": 0.0467,
+    "n_turf_bumps": 10,
+    "n_stones": 61,
+    "car_probability": 0.7333
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 11,
+     "paving_slab": 11,
+     "plant": 2,
+     "rock": 63,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 28,
+   "n_meshes": 80,
+   "floor_height_range_m": [
+    0.0,
+    0.4433
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.004,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.18,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3467,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.173,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.3745,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.023,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 18
+  },
+  {
+   "tile_id": "street_front_L6_v1",
+   "type": "street_front",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 80601,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1533,
+    "slab_heave_m": 0.02,
+    "porch_step_m": 0.1733,
+    "driveway_rise_m": 0.2333,
+    "garage_threshold_m": 0.0467,
+    "n_turf_bumps": 10,
+    "n_stones": 61,
+    "car_probability": 0.7333
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 11,
+     "paving_slab": 11,
+     "plant": 2,
+     "rock": 63,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 28,
+   "n_meshes": 80,
+   "floor_height_range_m": [
+    0.0,
+    0.4433
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.046,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.38,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3467,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.173,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.3745,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.023,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 19
+  },
+  {
+   "tile_id": "street_front_L6_v2",
+   "type": "street_front",
+   "level": 6,
+   "difficulty": 0.6666666666666666,
+   "seed": 80602,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1533,
+    "slab_heave_m": 0.02,
+    "porch_step_m": 0.1733,
+    "driveway_rise_m": 0.2333,
+    "garage_threshold_m": 0.0467,
+    "n_turf_bumps": 10,
+    "n_stones": 61,
+    "car_probability": 0.7333
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 11,
+     "paving_slab": 11,
+     "plant": 2,
+     "rock": 63,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 28,
+   "n_meshes": 80,
+   "floor_height_range_m": [
+    0.0,
+    0.4433
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.84,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.9,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3467,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.173,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.3745,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.023,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 20
+  },
+  {
+   "tile_id": "street_front_L7_v0",
+   "type": "street_front",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 80700,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1622,
+    "slab_heave_m": 0.0233,
+    "porch_step_m": 0.1822,
+    "driveway_rise_m": 0.2556,
+    "garage_threshold_m": 0.0511,
+    "n_turf_bumps": 11,
+    "n_stones": 67,
+    "car_probability": 0.7889
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 12,
+     "paving_slab": 11,
+     "plant": 2,
+     "rock": 69,
+     "slab": 1,
+     "wall": 3
+    }
+   },
+   "n_boxes": 28,
+   "n_meshes": 82,
+   "floor_height_range_m": [
+    0.0,
+    0.4789
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.822,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 3.523,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3644,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.182,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.4035,
+     "clearance_m": 0.52,
+     "floor_range_r20_m": 0.025,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car"
+    }
+   ],
+   "spawns_rejected": [],
+   "routes": [
+    {
+     "source_index": 1,
+     "start": [
+      -3.2,
+      -2.1,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.9,
+       -2.1
+      ],
+      [
+       -0.5,
+       -0.9
+      ],
+      [
+       2.9,
+       -0.9
+      ],
+      [
+       2.9,
+       -2.1
+      ]
+     ],
+     "target": [
+      2.9,
+      -2.1
+     ],
+     "length_m": 7.743908891458578,
+     "z": [
+      0.0,
+      0.0838,
+      0.1915,
+      0.4035,
+      0.4035
+     ],
+     "clearance_m": [
+      3.523,
+      3.032,
+      1.923,
+      0.52,
+      0.52
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 21
+  },
+  {
+   "tile_id": "street_front_L7_v1",
+   "type": "street_front",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 80701,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1622,
+    "slab_heave_m": 0.0233,
+    "porch_step_m": 0.1822,
+    "driveway_rise_m": 0.2556,
+    "garage_threshold_m": 0.0511,
+    "n_turf_bumps": 11,
+    "n_stones": 67,
+    "car_probability": 0.7889
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 12,
+     "paving_slab": 11,
+     "plant": 2,
+     "rock": 69,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 29,
+   "n_meshes": 86,
+   "floor_height_range_m": [
+    0.0,
+    0.4789
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.04,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.06,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3644,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.182,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.4035,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.025,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 22
+  },
+  {
+   "tile_id": "street_front_L7_v2",
+   "type": "street_front",
+   "level": 7,
+   "difficulty": 0.7777777777777778,
+   "seed": 80702,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1622,
+    "slab_heave_m": 0.0233,
+    "porch_step_m": 0.1822,
+    "driveway_rise_m": 0.2556,
+    "garage_threshold_m": 0.0511,
+    "n_turf_bumps": 11,
+    "n_stones": 67,
+    "car_probability": 0.7889
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 12,
+     "paving_slab": 11,
+     "plant": 2,
+     "rock": 69,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 29,
+   "n_meshes": 86,
+   "floor_height_range_m": [
+    0.0,
+    0.4789
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.948,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.28,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3644,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.182,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.4035,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.025,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      1.5,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.5,
+       1.5
+      ],
+      [
+       1.0,
+       1.5
+      ],
+      [
+       2.4,
+       2.3
+      ],
+      [
+       3.2,
+       2.6
+      ]
+     ],
+     "target": [
+      3.2,
+      2.6
+     ],
+     "length_m": 6.666851924191463,
+     "z": [
+      0.0,
+      0.1453,
+      0.1822,
+      0.1922,
+      0.3644
+     ],
+     "clearance_m": [
+      1.948,
+      0.544,
+      1.404,
+      0.564,
+      0.388
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 23
+  },
+  {
+   "tile_id": "street_front_L8_v0",
+   "type": "street_front",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 80800,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1711,
+    "slab_heave_m": 0.0267,
+    "porch_step_m": 0.1911,
+    "driveway_rise_m": 0.2778,
+    "garage_threshold_m": 0.0556,
+    "n_turf_bumps": 12,
+    "n_stones": 73,
+    "car_probability": 0.8444
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 13,
+     "paving_slab": 11,
+     "plant": 2,
+     "rock": 75,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 30,
+   "n_meshes": 92,
+   "floor_height_range_m": [
+    0.0,
+    0.5144
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.046,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.24,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3822,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.191,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.4325,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.027,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 24
+  },
+  {
+   "tile_id": "street_front_L8_v1",
+   "type": "street_front",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 80801,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1711,
+    "slab_heave_m": 0.0267,
+    "porch_step_m": 0.1911,
+    "driveway_rise_m": 0.2778,
+    "garage_threshold_m": 0.0556,
+    "n_turf_bumps": 12,
+    "n_stones": 73,
+    "car_probability": 0.8444
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 13,
+     "paving_slab": 11,
+     "plant": 2,
+     "rock": 75,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 30,
+   "n_meshes": 92,
+   "floor_height_range_m": [
+    0.0,
+    0.5144
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.858,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.82,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3822,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.191,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.4325,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.027,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      1.5,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.5,
+       1.5
+      ],
+      [
+       1.0,
+       1.5
+      ],
+      [
+       2.4,
+       2.3
+      ],
+      [
+       3.2,
+       2.6
+      ]
+     ],
+     "target": [
+      3.2,
+      2.6
+     ],
+     "length_m": 6.666851924191463,
+     "z": [
+      0.0,
+      0.1638,
+      0.1911,
+      0.2011,
+      0.3822
+     ],
+     "clearance_m": [
+      1.858,
+      0.462,
+      1.28,
+      0.386,
+      0.388
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 25
+  },
+  {
+   "tile_id": "street_front_L8_v2",
+   "type": "street_front",
+   "level": 8,
+   "difficulty": 0.8888888888888888,
+   "seed": 80802,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.1711,
+    "slab_heave_m": 0.0267,
+    "porch_step_m": 0.1911,
+    "driveway_rise_m": 0.2778,
+    "garage_threshold_m": 0.0556,
+    "n_turf_bumps": 12,
+    "n_stones": 73,
+    "car_probability": 0.8444
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 13,
+     "paving_slab": 11,
+     "plant": 2,
+     "rock": 75,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 30,
+   "n_meshes": 92,
+   "floor_height_range_m": [
+    0.0,
+    0.5144
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.84,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.08,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.3822,
+     "clearance_m": 0.453,
+     "floor_range_r20_m": 0.191,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.4325,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.027,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      1.5,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.5,
+       1.5
+      ],
+      [
+       1.0,
+       1.5
+      ],
+      [
+       2.4,
+       2.3
+      ],
+      [
+       3.2,
+       2.6
+      ]
+     ],
+     "target": [
+      3.2,
+      2.6
+     ],
+     "length_m": 6.666851924191463,
+     "z": [
+      0.0,
+      0.1738,
+      0.1911,
+      0.2011,
+      0.3822
+     ],
+     "clearance_m": [
+      1.84,
+      0.2,
+      1.118,
+      0.583,
+      0.388
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 26
+  },
+  {
+   "tile_id": "street_front_L9_v0",
+   "type": "street_front",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 80900,
+   "variant": 0,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.18,
+    "slab_heave_m": 0.03,
+    "porch_step_m": 0.2,
+    "driveway_rise_m": 0.3,
+    "garage_threshold_m": 0.06,
+    "n_turf_bumps": 14,
+    "n_stones": 80,
+    "car_probability": 0.9
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 15,
+     "paving_slab": 11,
+     "plant": 3,
+     "rock": 83,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 32,
+   "n_meshes": 101,
+   "floor_height_range_m": [
+    0.0,
+    0.55
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.868,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 2.2,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.4,
+     "clearance_m": 0.32,
+     "floor_range_r20_m": 0.2,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.4615,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.029,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      1.5,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.5,
+       1.5
+      ],
+      [
+       1.0,
+       1.5
+      ],
+      [
+       2.4,
+       2.3
+      ],
+      [
+       3.2,
+       2.6
+      ]
+     ],
+     "target": [
+      3.2,
+      2.6
+     ],
+     "length_m": 6.666851924191463,
+     "z": [
+      0.0,
+      0.1481,
+      0.2209,
+      0.21,
+      0.4
+     ],
+     "clearance_m": [
+      1.868,
+      0.288,
+      1.021,
+      0.34,
+      0.22
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 27
+  },
+  {
+   "tile_id": "street_front_L9_v1",
+   "type": "street_front",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 80901,
+   "variant": 1,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.18,
+    "slab_heave_m": 0.03,
+    "porch_step_m": 0.2,
+    "driveway_rise_m": 0.3,
+    "garage_threshold_m": 0.06,
+    "n_turf_bumps": 14,
+    "n_stones": 80,
+    "car_probability": 0.9
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 15,
+     "paving_slab": 11,
+     "plant": 3,
+     "rock": 83,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 32,
+   "n_meshes": 101,
+   "floor_height_range_m": [
+    0.0,
+    0.55
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.91,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.76,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.4,
+     "clearance_m": 0.32,
+     "floor_range_r20_m": 0.2,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.4615,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.029,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [
+    {
+     "source_index": 0,
+     "start": [
+      -3.2,
+      1.5,
+      0.0
+     ],
+     "waypoints": [
+      [
+       -1.5,
+       1.5
+      ],
+      [
+       1.0,
+       1.5
+      ],
+      [
+       2.4,
+       2.3
+      ],
+      [
+       3.2,
+       2.6
+      ]
+     ],
+     "target": [
+      3.2,
+      2.6
+     ],
+     "length_m": 6.666851924191463,
+     "z": [
+      0.0,
+      0.1804,
+      0.2489,
+      0.21,
+      0.4
+     ],
+     "clearance_m": [
+      1.91,
+      0.394,
+      1.12,
+      0.263,
+      0.22
+     ]
+    }
+   ],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 28
+  },
+  {
+   "tile_id": "street_front_L9_v2",
+   "type": "street_front",
+   "level": 9,
+   "difficulty": 1.0,
+   "seed": 80902,
+   "variant": 2,
+   "variant_kind": null,
+   "size_m": [
+    8.0,
+    8.0
+   ],
+   "resolution_m": 0.02,
+   "shape": [
+    400,
+    400
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cell0_center": [
+    -3.99,
+    -3.99
+   ],
+   "params": {
+    "curb_m": 0.18,
+    "slab_heave_m": 0.03,
+    "porch_step_m": 0.2,
+    "driveway_rise_m": 0.3,
+    "garage_threshold_m": 0.06,
+    "n_turf_bumps": 14,
+    "n_stones": 80,
+    "car_probability": 0.9
+   },
+   "realised": {
+    "primitive_counts": {
+     "block": 6,
+     "car": 1,
+     "cylinder": 3,
+     "door_header": 2,
+     "ground": 1,
+     "lawn": 15,
+     "paving_slab": 11,
+     "plant": 3,
+     "rock": 83,
+     "slab": 1,
+     "tyre": 4,
+     "wall": 3
+    }
+   },
+   "n_boxes": 32,
+   "n_meshes": 101,
+   "floor_height_range_m": [
+    0.0,
+    0.55
+   ],
+   "top_height_max_m": 2.44,
+   "spawns": [
+    {
+     "x": -3.2,
+     "y": 1.5,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.809,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street, facing the curb: step up"
+    },
+    {
+     "x": -3.2,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.0,
+     "clearance_m": 1.76,
+     "floor_range_r20_m": 0.0,
+     "source": "street_spawns",
+     "note": "street at the driveway: up the apron"
+    },
+    {
+     "x": 3.1,
+     "y": 2.6,
+     "yaw": 0.0,
+     "z": 0.4,
+     "clearance_m": 0.32,
+     "floor_range_r20_m": 0.2,
+     "source": "street_spawns",
+     "note": "porch, facing the door: turn round and step down"
+    }
+   ],
+   "spawns_rejected": [
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "yaw": 0.0,
+     "z": 0.4615,
+     "clearance_m": 0.0,
+     "floor_range_r20_m": 0.029,
+     "source": "street_spawns",
+     "note": "garage threshold, facing in: turn round, walk down beside the car",
+     "rejected": "closer than 0.12 m to an obstacle cell"
+    }
+   ],
+   "routes": [],
+   "targets": [
+    {
+     "x": -0.3,
+     "y": 1.5,
+     "label": "up the curb onto the sidewalk",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 2.9,
+     "y": -2.1,
+     "label": "up the driveway into the garage",
+     "inside_tile": true,
+     "on_obstacle_cell": true
+    },
+    {
+     "x": 3.2,
+     "y": 2.6,
+     "label": "onto the porch",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    },
+    {
+     "x": 1.0,
+     "y": 3.3,
+     "label": "across the rock bed",
+     "inside_tile": true,
+     "on_obstacle_cell": false
+    }
+   ],
+   "npz": "street_front.npz",
+   "index": 29
+  }
+ ]
+}
