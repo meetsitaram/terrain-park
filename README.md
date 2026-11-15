@@ -12,6 +12,31 @@ IEEE Humanoids 2026 loco-manipulation apparatus with its eval route.
 **Status: first version (2026-10-30); training terrain and apparatus added 2026-11-15.** The captures and X2 motions are
 complete; the props and the contact quality are being iterated (see Known issues).
 
+## Pictures
+
+**Pico captures** (a person on real props, retargeted to the X2; more in [`catalog/`](catalog/)):
+
+| Two-step stairs, down | Turn, then cross a 2x2 |
+|---|---|
+| ![stairs](catalog/gifs/stairs1_straight_down_2_114037.gif) | ![2x2](catalog/gifs/2x2_turn_then_cross_1_211811_0.gif) |
+
+**Extended training map** ([`terrains/`](terrains/)): 8 x 8 m tiles of everyday props, each type in easy, medium and hard rows.
+
+| Whole map | New section (homes, street, stairs) |
+|---|---|
+| ![map](docs/images/map_whole_field.jpg) | ![section](docs/images/map_new_section.jpg) |
+| **Stairs (straight, L, U, spiral)** | **Homes** |
+| ![stairs](docs/images/terrain_stairs.jpg) | ![homes](docs/images/terrain_homes.jpg) |
+| **Street** | **Wedges and ramps** |
+| ![street](docs/images/terrain_street.jpg) | ![wedges](docs/images/terrain_wedges.jpg) |
+| **Beams and blocks** | **Log corridors** |
+| ![beams](docs/images/terrain_beams_blocks.jpg) | ![logs](docs/images/terrain_log_corridors.jpg) |
+
+**Our apparatus** ([`apparatus/ours/`](apparatus/ours/)): our build of the IEEE Humanoids 2026 loco-manipulation course, in MuJoCo.
+
+![apparatus](docs/images/apparatus_ours.jpg)
+![apparatus, top](docs/images/apparatus_ours_top.jpg)
+
 ## What is here
 
 | Folder | What | Load |
